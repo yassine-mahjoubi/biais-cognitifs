@@ -1,54 +1,84 @@
-# biais-cognitifs
+# Biais Cognitifs - L'Explorateur
 
-This template should help get you started developing with Vue 3 in Vite.
+Une application web simple et élégante pour découvrir et comprendre les biais cognitifs qui influencent notre pensée au quotidien.
 
-## Recommended IDE Setup
+## 🎯 Le Concept
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Le but de ce projet est de vulgariser la notion de biais cognitif. Chaque jour, nous sommes sujets à des dizaines de biais sans même nous en rendre compte. Cette application permet d'en explorer un au hasard, de lire une description claire et concise, et d'approfondir le sujet grâce à un lien direct vers la source (Wikipedia).
 
-## Recommended Browser Setup
+## ✨ Fonctionnalités
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- **Génération Aléatoire** : Découvrez un nouveau biais cognitif à chaque visite.
+- **Description Simple** : Comprenez l'essentiel du biais en quelques phrases.
+- **Lien d'Approfondissement** : Un lien direct vers la page Wikipedia pour ceux qui veulent en savoir plus.
+- **Interface Épurée** : Une expérience utilisateur sans distraction, conçue avec Tailwind CSS.
+- **Responsive** : Parfaitement consultable sur mobile, tablette et ordinateur.
 
-## Type Support for `.vue` Imports in TS
+## 🛠️ Technologies Utilisées
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+Ce projet est construit avec un stack moderne et performant :
 
-## Customize configuration
+- **Frontend** : [Vue 3](https://vuejs.org/) (utilisant la Composition API)
+- **Langage** : [TypeScript](https://www.typescriptlang.org/)
+- **Styling** : [Tailwind CSS](https://tailwindcss.com/)
+- **Backend & Données** : [Supabase](https://supabase.io/) (pour l'API et la base de données des biais)
+- **Assistance au Développement** : [Gemini AI](https://gemini.google.com/)
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 🚀 Démarrage Rapide
 
-## Project Setup
+Suivez ces étapes pour lancer le projet en local.
 
-```sh
+### 1. Prérequis
+
+- [Node.js](https://nodejs.org/) (version 18.x ou supérieure recommandée)
+- Un gestionnaire de paquets comme `npm` ou `yarn`.
+
+### 2. Installation
+
+```bash
+# 1. Clonez le projet (remplacez avec votre URL de dépôt)
+git clone https://github.com/yassine-mahjoubi/biais-cognitifs.git
+
+# 2. Accédez au répertoire du projet
+cd biais-cognitifs
+
+# 3. Installez les dépendances
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### 3. Configuration de l'environnement
 
-```sh
+Pour que l'application puisse communiquer avec votre base de données Supabase, vous devez configurer les variables d'environnement.
+
+1.  Créez un fichier `.env` à la racine du projet.
+2.  Copiez le contenu du fichier `.env.example`
+
+```env
+# .env
+
+# URL de votre projet Supabase (disponible dans les paramètres API de votre projet Supabase)
+VITE_SUPABASE_URL="https://"
+
+# Clé anonyme (anon key) de votre projet Supabase (disponible dans les paramètres API)
+VITE_SUPABASE_ANON_KEY="votre-cle-anon"
+```
+
+### 4. Lancement du serveur de développement
+
+```bash
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+## 📦 Build pour la Production
 
-```sh
+```bash
 npm run build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+## Source des données
 
-```sh
-npm run test:unit
-```
+La liste des biais cognitifs a été initialement constituée en utilisant un script JavaScript (`back/subabase_fill_from_wiki.js`). Ce script a effectué les étapes suivantes :
 
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+1.  **Scraping** : Extraction des informations depuis une page Wikipédia dédiée aux biais cognitifs.
+2.  **Injection** : Remplissage d'une table dans une base de données Supabase avec les données scrappées.
+3.  **API** : L'application utilise ensuite l'API auto-générée par Supabase pour récupérer et afficher la liste des biais.
