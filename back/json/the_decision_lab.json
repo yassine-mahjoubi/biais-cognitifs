@@ -1,0 +1,753 @@
+{
+  "metadata": {
+    "total_biases": 105,
+    "categories_count": 4,
+    "source": "the decision lab",
+    "last_updated": "2024-01-15",
+    "url_base": "https://thedecisionlab.com"
+  },
+  "biases": [
+    {
+      "title": "Actualisation hyperbolique",
+      "text": "Pourquoi accordons-nous plus d'importance aux récompenses immédiates qu'aux récompenses à long terme ?",
+      "uid": "hyperbolic-discounting",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/hyperbolic-discounting"
+    },
+    {
+      "title": "Allocation naïve",
+      "text": "Pourquoi nous avons tendance à préférer répartir des ressources limitées de manière égale entre les différentes options.",
+      "uid": "naive-allocation",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/naive-allocation"
+    },
+    {
+      "title": "Amorçage",
+      "text": "Pourquoi certaines idées en suscitent-elles d'autres plus tard, sans que nous en soyons conscients ?",
+      "uid": "priming",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/priming"
+    },
+    {
+      "title": "Aversion pour les pertes",
+      "text": "Pourquoi souscrire une assurance ?",
+      "uid": "loss-aversion",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/loss-aversion"
+    },
+    {
+      "title": "Biais attentionnel",
+      "text": "Pourquoi nous concentrons-nous plus sur certaines choses que sur d'autres ?",
+      "uid": "attentional-bias",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/attentional-bias"
+    },
+    {
+      "title": "Biais au sein du groupe",
+      "text": "Pourquoi traitons-nous mieux notre groupe d'appartenance que notre groupe d'exclusion ?",
+      "uid": "in-group-bias",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/in-group-bias"
+    },
+    {
+      "title": "Biais d'action",
+      "text": "Pourquoi préférons-nous faire quelque chose plutôt que de ne rien faire ?",
+      "uid": "action-bias",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/action-bias"
+    },
+    {
+      "title": "Biais d'ancrage",
+      "text": "Pourquoi nous avons tendance à nous fier à la première information que nous recevons",
+      "uid": "anchoring-bias",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/anchoring-bias"
+    },
+    {
+      "title": "Biais d'engagement",
+      "text": "Pourquoi les gens soutiennent-ils leurs idées passées, même lorsqu'on leur présente des preuves qu'elles sont erronées ?",
+      "uid": "commitment-bias",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/commitment-bias"
+    },
+    {
+      "title": "Biais d'impact",
+      "text": "Pourquoi surestimons-nous nos réactions émotionnelles face à des événements futurs ?",
+      "uid": "impact-bias",
+      "category": "Ambiguïté",
+      "url": "https://thedecisionlab.com/fr/biases/impact-bias"
+    },
+    {
+      "title": "Biais d'incitation extrinsèque",
+      "text": "Pourquoi pensons-nous que les autres sont là pour l'argent, alors que nous sommes là pour l'expérience ?",
+      "uid": "extrinsic-incentive-bias",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/extrinsic-incentive-bias"
+    },
+    {
+      "title": "Biais d'omission",
+      "text": "Pourquoi ne pas tirer le levier du chariot ?",
+      "uid": "omission-bias",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/omission-bias"
+    },
+    {
+      "title": "Biais d'optimisme",
+      "text": "Pourquoi surestimons-nous la probabilité de réussite ?",
+      "uid": "optimism-bias",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/optimism-bias"
+    },
+    {
+      "title": "Biais de confirmation",
+      "text": "Pourquoi privilégions-nous nos croyances actuelles ?",
+      "uid": "confirmation-bias",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/confirmation-bias"
+    },
+    {
+      "title": "Biais de contrainte",
+      "text": "Pourquoi surestimons-nous notre maîtrise de soi ?",
+      "uid": "restraint-bias",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/restraint-bias"
+    },
+    {
+      "title": "Biais de distinction",
+      "text": "Pourquoi nous avons tendance à considérer deux options comme plus distinctes lorsque nous les évaluons simultanément plutôt que séparément.",
+      "uid": "distinction-bias",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/distinction-bias"
+    },
+    {
+      "title": "Biais de normalité",
+      "text": "Pourquoi croyons-nous que rien de mal n'arrivera ?",
+      "uid": "normalcy-bias",
+      "category": "Ambiguïté",
+      "url": "https://thedecisionlab.com/fr/biases/normalcy-bias"
+    },
+    {
+      "title": "Biais de négativité",
+      "text": "Pourquoi les nouvelles sont-elles toujours aussi déprimantes ?",
+      "uid": "negativity-bias",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/negativity-bias"
+    },
+    {
+      "title": "Biais de pessimisme",
+      "text": "Pourquoi pensons-nous que nous sommes voués à l'échec ?",
+      "uid": "pessimism-bias",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/pessimism-bias"
+    },
+    {
+      "title": "Biais de projection",
+      "text": "Pourquoi pensons-nous que nos préférences actuelles resteront les mêmes à l'avenir ?",
+      "uid": "projection-bias",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/projection-bias"
+    },
+    {
+      "title": "Biais de regroupement",
+      "text": "Pourquoi accordons-nous moins de valeur aux articles achetés en lot qu'à ceux achetés individuellement ?",
+      "uid": "bundling-bias",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/bundling-bias"
+    },
+    {
+      "title": "Biais de réponse",
+      "text": "Pourquoi les réponses à une enquête ou à une expérience peuvent-elles être inexactes en raison de la nature de l'enquête ou de l'expérience ?",
+      "uid": "response-bias",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/response-bias"
+    },
+    {
+      "title": "Biais de surperception sexuelle",
+      "text": "Pourquoi les hommes pensent-ils que les femmes flirtent toujours avec eux ?",
+      "uid": "sexual-overperception-bias",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/sexual-overperception-bias"
+    },
+    {
+      "title": "Biais de survie",
+      "text": "Pourquoi portons-nous un jugement erroné sur les groupes en ne considérant que certains de leurs membres ?",
+      "uid": "survivorship-bias",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/survivorship-bias"
+    },
+    {
+      "title": "Biais lié à la taille de la catégorie",
+      "text": "Pourquoi pensons-nous avoir plus de chances de gagner dans un grand casino que dans un petit ?",
+      "uid": "category-size-bias",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/category-size-bias"
+    },
+    {
+      "title": "Biais rétrospectif",
+      "text": "Pourquoi considérons-nous les événements imprévisibles comme prévisibles une fois qu'ils se sont produits ?",
+      "uid": "hindsight-bias",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/hindsight-bias"
+    },
+    {
+      "title": "Bicyclettes",
+      "text": "Pourquoi nous concentrons-nous sur des choses insignifiantes ?",
+      "uid": "bikeshedding",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/bikeshedding"
+    },
+    {
+      "title": "Bye-Now Effect",
+      "text": "Pourquoi sommes-nous susceptibles de dépenser plus après avoir lu le mot \"bye\" ?",
+      "uid": "bye-now-effect",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/bye-now-effect"
+    },
+    {
+      "title": "Comptabilité mentale",
+      "text": "Pourquoi pensons-nous moins à certains achats qu'à d'autres ?",
+      "uid": "mental-accounting",
+      "category": "Ambiguïté",
+      "url": "https://thedecisionlab.com/fr/biases/mental-accounting"
+    },
+    {
+      "title": "Confusion des sources",
+      "text": "Pourquoi nous oublions l'origine de nos souvenirs et perdons ainsi notre capacité à distinguer la réalité ou la vraisemblance de chaque souvenir.",
+      "uid": "source-confusion",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/source-confusion"
+    },
+    {
+      "title": "Corrélation illusoire",
+      "text": "Pourquoi pensons-nous que certaines choses sont liées alors qu'elles ne le sont pas ?",
+      "uid": "illusory-correlation",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/illusory-correlation"
+    },
+    {
+      "title": "Disposition Effect",
+      "text": "Pourquoi avons-nous tendance à nous accrocher à des investissements perdants ?",
+      "uid": "disposition-effect",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/disposition-effect"
+    },
+    {
+      "title": "Dissonance cognitive",
+      "text": "Pourquoi est-il si difficile de changer les croyances de quelqu'un ?",
+      "uid": "cognitive-dissonance",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/cognitive-dissonance"
+    },
+    {
+      "title": "Droit de l'instrument",
+      "text": "Pourquoi utilisons-nous les mêmes compétences partout ?",
+      "uid": "law-of-the-instrument",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/law-of-the-instrument"
+    },
+    {
+      "title": "Déclinisme",
+      "text": "Pourquoi nous pensons que le passé est meilleur par rapport à ce que l'avenir nous réserve",
+      "uid": "declinism",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/declinism"
+    },
+    {
+      "title": "Dévaluation réactive",
+      "text": "Pourquoi la négociation est-elle si difficile ?",
+      "uid": "reactive-devaluation",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/reactive-devaluation"
+    },
+    {
+      "title": "Effet Barnum",
+      "text": "Pourquoi croyons-nous aux horoscopes ?",
+      "uid": "barnum-effect",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/barnum-effect"
+    },
+    {
+      "title": "Effet Benjamin Franklin",
+      "text": "Pourquoi aimons-nous davantage quelqu'un après lui avoir rendu service ?",
+      "uid": "benjamin-franklin-effect",
+      "category": "Ambiguïté",
+      "url": "https://thedecisionlab.com/fr/biases/benjamin-franklin-effect"
+    },
+    {
+      "title": "Effet Dunning-Kruger",
+      "text": "Pourquoi ne pouvons-nous pas percevoir nos propres capacités ?",
+      "uid": "dunning-kruger-effect",
+      "category": "Ambiguïté",
+      "url": "https://thedecisionlab.com/fr/biases/dunning-kruger-effect"
+    },
+    {
+      "title": "Effet IKEA",
+      "text": "Pourquoi accordons-nous une valeur disproportionnée aux choses que nous avons contribué à créer ?",
+      "uid": "ikea-effect",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/ikea-effect"
+    },
+    {
+      "title": "Effet Less-is-Better",
+      "text": "Pourquoi nos préférences changent-elles selon que nous évaluons nos options ensemble ou séparément ?",
+      "uid": "less-is-better-effect",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/less-is-better-effect"
+    },
+    {
+      "title": "Effet Noble Edge",
+      "text": "Pourquoi avons-nous tendance à privilégier les marques qui se préoccupent de questions sociétales ?",
+      "uid": "noble-edge-effect",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/noble-edge-effect"
+    },
+    {
+      "title": "Effet Spotlight",
+      "text": "Pourquoi avons-nous l'impression de nous démarquer plus que nous ne le faisons réellement ?",
+      "uid": "spotlight-effect",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/spotlight-effect"
+    },
+    {
+      "title": "Effet cashless",
+      "text": "Pourquoi le fait de payer sans argent liquide augmente-t-il la probabilité d'acheter quelque chose ?",
+      "uid": "cashless-effect",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/cashless-effect"
+    },
+    {
+      "title": "Effet d'ambiguïté",
+      "text": "Pourquoi préférons-nous les options que nous connaissons ?",
+      "uid": "ambiguity-effect",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/ambiguity-effect"
+    },
+    {
+      "title": "Effet d'attente de l'observateur",
+      "text": "Pourquoi changeons-nous de comportement lorsque nous sommes observés ?",
+      "uid": "observer-expectancy-effect",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/observer-expectancy-effect"
+    },
+    {
+      "title": "Effet d'aubaine",
+      "text": "Pourquoi transférons-nous des émotions négatives liées au fait d'être fauché sur les articles que nous achetons ?",
+      "uid": "bottom-dollar-effect",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/bottom-dollar-effect"
+    },
+    {
+      "title": "Effet d'espacement",
+      "text": "Pourquoi retenons-nous mieux les informations lorsque nous les apprenons sur une longue période ?",
+      "uid": "spacing-effect",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/spacing-effect"
+    },
+    {
+      "title": "Effet d'identification de la victime",
+      "text": "Pourquoi sommes-nous plus enclins à offrir de l'aide à un individu spécifique qu'à un groupe vague ?",
+      "uid": "identifiable-victim-effect",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/identifiable-victim-effect"
+    },
+    {
+      "title": "Effet d'incertitude motivant",
+      "text": "Pourquoi les récompenses de taille inconnue ont tendance à nous motiver davantage que les récompenses nommées ?",
+      "uid": "motivating-uncertainty-effect",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/motivating-uncertainty-effect"
+    },
+    {
+      "title": "Effet de cadrage",
+      "text": "Pourquoi nos décisions dépendent-elles de la manière dont les options nous sont présentées ?",
+      "uid": "framing-effect",
+      "category": "Surcharge d'informations",
+      "url": "https://thedecisionlab.com/fr/biases/framing-effect"
+    },
+    {
+      "title": "Effet de dotation",
+      "text": "Pourquoi accordons-nous plus de valeur aux objets qui nous appartiennent ?",
+      "uid": "endowment-effect",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/endowment-effect"
+    },
+    {
+      "title": "Effet de décalage",
+      "text": "Pourquoi le fait d'espacer la répétition d'une information permet-il de mieux s'en souvenir ?",
+      "uid": "lag-effect",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/lag-effect"
+    },
+    {
+      "title": "Effet de halo",
+      "text": "Pourquoi les impressions positives produites dans un domaine influencent-elles positivement nos opinions dans un autre domaine ?",
+      "uid": "halo-effect",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/halo-effect"
+    },
+    {
+      "title": "Effet de la verge",
+      "text": "Pourquoi préférons-nous ignorer les informations négatives ?",
+      "uid": "ostrich-effect",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/ostrich-effect"
+    },
+    {
+      "title": "Effet de leurre",
+      "text": "Pourquoi nous sentons-nous plus concernés par une option après l'ajout d'une troisième ?",
+      "uid": "decoy-effect",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/decoy-effect"
+    },
+    {
+      "title": "Effet de nostalgie",
+      "text": "Comment nos sentiments pour le passé influencent-ils nos actions dans le présent ?",
+      "uid": "nostalgia-effect",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/nostalgia-effect"
+    },
+    {
+      "title": "Effet de position sérielle",
+      "text": "Pourquoi se souvient-on mieux des éléments situés au début ou à la fin d'une liste ?",
+      "uid": "serial-position-effect",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/serial-position-effect"
+    },
+    {
+      "title": "Effet de primauté",
+      "text": "Pourquoi ne nous souvenons-nous que des premiers éléments de notre liste de courses ?",
+      "uid": "primacy-effect",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/primacy-effect"
+    },
+    {
+      "title": "Effet de récence",
+      "text": "Pourquoi se souvient-on mieux des éléments situés à la fin d'une liste ?",
+      "uid": "recency-effect",
+      "category": "Mémoire",
+      "url": "https://thedecisionlab.com/fr/biases/recency-effect"
+    },
+    {
+      "title": "Effet de surjustification",
+      "text": "Pourquoi nous désintéressons-nous d'une activité après avoir été récompensés ?",
+      "uid": "overjustification-effect",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/overjustification-effect"
+    },
+    {
+      "title": "Effet de vérité illusoire",
+      "text": "Pourquoi croyons-nous plus facilement les informations erronées lorsqu'elles sont répétées plusieurs fois ?",
+      "uid": "illusory-truth-effect",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/illusory-truth-effect"
+    },
+    {
+      "title": "Effet de wagon à bandes",
+      "text": "Pourquoi soutenons-nous des opinions qui deviennent de plus en plus populaires ?",
+      "uid": "bandwagon-effect",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/bandwagon-effect"
+    },
+    {
+      "title": "Effet dur-facile",
+      "text": "Pourquoi notre confiance est-elle disproportionnée par rapport à la difficulté d'une tâche ?",
+      "uid": "hard-easy-effect",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/hard-easy-effect"
+    },
+    {
+      "title": "Effet télescopique",
+      "text": "Pourquoi certaines choses \"semblent être arrivées hier\" ?",
+      "uid": "telescoping-effect",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/telescoping-effect"
+    },
+    {
+      "title": "Erreur d'attribution fondamentale",
+      "text": "Pourquoi sous-estimons-nous l'influence de la situation sur le comportement des gens ?",
+      "uid": "fundamental-attribution-error",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/fundamental-attribution-error"
+    },
+    {
+      "title": "Erreur de taux de base",
+      "text": "Pourquoi privilégions-nous les informations spécifiques aux statistiques ?",
+      "uid": "base-rate-fallacy",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/base-rate-fallacy"
+    },
+    {
+      "title": "Fatigue de décision",
+      "text": "Pourquoi prenons-nous les pires décisions à la fin de la journée ?",
+      "uid": "decision-fatigue",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/decision-fatigue"
+    },
+    {
+      "title": "Fixité fonctionnelle",
+      "text": "Pourquoi avons-nous du mal à sortir des sentiers battus ?",
+      "uid": "functional-fixedness",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/functional-fixedness"
+    },
+    {
+      "title": "Google Effect",
+      "text": "Pourquoi oublions-nous des informations que nous venons de consulter ?",
+      "uid": "google-effect",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/google-effect"
+    },
+    {
+      "title": "Heuristique",
+      "text": "Pourquoi prenons-nous des raccourcis mentaux ?",
+      "uid": "heuristics",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/heuristics"
+    },
+    {
+      "title": "Heuristique de disponibilité",
+      "text": "Pourquoi avons-nous tendance à penser que les choses qui se sont produites récemment sont plus susceptibles de se reproduire ?",
+      "uid": "availability-heuristic",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/availability-heuristic"
+    },
+    {
+      "title": "Heuristique de l'affect",
+      "text": "Pourquoi nous fions-nous à nos émotions du moment lorsque nous prenons des décisions rapides ?",
+      "uid": "affect-heuristic",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/affect-heuristic"
+    },
+    {
+      "title": "Heuristique de la meilleure solution",
+      "text": "Pourquoi nous concentrons-nous sur une caractéristique à comparer lorsque nous choisissons entre plusieurs options ?",
+      "uid": "take-the-best-heuristic",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/take-the-best-heuristic"
+    },
+    {
+      "title": "Heuristique de représentativité",
+      "text": "Pourquoi utilise-t-on la similitude pour évaluer la probabilité statistique ?",
+      "uid": "representativeness-heuristic",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/representativeness-heuristic"
+    },
+    {
+      "title": "Hypothèse du monde juste",
+      "text": "Pourquoi croyons-nous que nous avons ce que nous méritons ?",
+      "uid": "just-world-hypothesis",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/just-world-hypothesis"
+    },
+    {
+      "title": "Incitation",
+      "text": "Pourquoi travaillons-nous plus dur lorsqu'on nous promet une récompense ?",
+      "uid": "incentivization",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/incentivization"
+    },
+    {
+      "title": "L'aversion au regret",
+      "text": "Pourquoi anticipons-nous les regrets avant de prendre une décision ?",
+      "uid": "regret-aversion",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/regret-aversion"
+    },
+    {
+      "title": "L'effet \"regard ailleurs",
+      "text": "Pourquoi les scientifiques continuent-ils à chercher un résultat statistiquement significatif alors qu'ils n'en ont pas trouvé au départ ?",
+      "uid": "look-elsewhere-effect",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/look-elsewhere-effect"
+    },
+    {
+      "title": "L'effet Pygmalion",
+      "text": "Pourquoi sommes-nous plus performants lorsque quelqu'un attend beaucoup de nous ?",
+      "uid": "the-pygmalion-effect",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/the-pygmalion-effect"
+    },
+    {
+      "title": "L'erreur de la main chaude",
+      "text": "Pourquoi s'attend-on à ce que des performances antérieures réussies conduisent à des performances futures réussies ?",
+      "uid": "hot-hand-fallacy",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/hot-hand-fallacy"
+    },
+    {
+      "title": "L'erreur de planification",
+      "text": "Pourquoi sous-estimons-nous le temps nécessaire à la réalisation d'une tâche ?",
+      "uid": "planning-fallacy",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/planning-fallacy"
+    },
+    {
+      "title": "L'erreur des coûts irrécupérables",
+      "text": "Pourquoi sommes-nous susceptibles de poursuivre un investissement alors qu'il serait rationnel de l'abandonner ?",
+      "uid": "the-sunk-cost-fallacy",
+      "category": "Vitesse",
+      "url": "https://thedecisionlab.com/fr/biases/the-sunk-cost-fallacy"
+    },
+    {
+      "title": "L'erreur du joueur",
+      "text": "Pourquoi pensons-nous qu'un événement aléatoire a plus ou moins de chances de se produire s'il s'est produit plusieurs fois dans le passé ?",
+      "uid": "gamblers-fallacy",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/gamblers-fallacy"
+    },
+    {
+      "title": "L'ignorance pluraliste",
+      "text": "Pourquoi pensons-nous que nos convictions sont différentes de celles de la majorité ?",
+      "uid": "pluralistic-ignorance",
+      "category": "Ambiguïté",
+      "url": "https://thedecisionlab.com/fr/biases/pluralistic-ignorance"
+    },
+    {
+      "title": "L'illusion de la profondeur explicative",
+      "text": "Pourquoi pensons-nous mieux comprendre le monde qu'en réalité ?",
+      "uid": "the-illusion-of-explanatory-depth",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/the-illusion-of-explanatory-depth"
+    },
+    {
+      "title": "L'illusion de la transparence",
+      "text": "Pourquoi avons-nous l'impression que les autres peuvent lire dans nos pensées ?",
+      "uid": "illusion-of-transparency",
+      "category": "Ambiguïté",
+      "url": "https://thedecisionlab.com/fr/biases/illusion-of-transparency"
+    },
+    {
+      "title": "L'illusion de la validité",
+      "text": "Pourquoi sommes-nous trop confiants dans nos prévisions ?",
+      "uid": "illusion-of-validity",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/illusion-of-validity"
+    },
+    {
+      "title": "L'illusion du contrôle",
+      "text": "Pourquoi nous croyons avoir plus de contrôle sur le monde que nous n'en avons en réalité",
+      "uid": "illusion-of-control",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/illusion-of-control"
+    },
+    {
+      "title": "Le déficit d'empathie",
+      "text": "Pourquoi nous trompons-nous sur l'influence de nos émotions sur notre comportement ?",
+      "uid": "empathy-gap",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/empathy-gap"
+    },
+    {
+      "title": "Mise à niveau et affûtage",
+      "text": "Pourquoi exagérons-nous certains détails d'une histoire et en minimisons-nous d'autres ?",
+      "uid": "leveling-and-sharpening",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/leveling-and-sharpening"
+    },
+    {
+      "title": "Niveaux de traitement",
+      "text": "Pourquoi se souvient-on mieux des informations auxquelles on attache de l'importance que des informations que l'on répète ?",
+      "uid": "levels-of-processing-effect",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/levels-of-processing-effect"
+    },
+    {
+      "title": "Normes sociales",
+      "text": "Pourquoi suivons-nous le comportement des autres ?",
+      "uid": "social-norms",
+      "category": "Vitesse",
+      "url": "https://thedecisionlab.com/fr/biases/social-norms"
+    },
+    {
+      "title": "Parti pris de l'autorité",
+      "text": "Pourquoi faisons-nous toujours confiance au médecin, même s'il peut se tromper ?",
+      "uid": "authority-bias",
+      "category": "Vitesse",
+      "url": "https://thedecisionlab.com/fr/biases/authority-bias"
+    },
+    {
+      "title": "Parti pris du statu quo",
+      "text": "Pourquoi avons-nous tendance à laisser les choses en l'état ?",
+      "uid": "status-quo-bias",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/status-quo-bias"
+    },
+    {
+      "title": "Parti pris égocentrique",
+      "text": "Pourquoi rejetons-nous la responsabilité de nos propres erreurs sur des facteurs externes ?",
+      "uid": "self-serving-bias",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/self-serving-bias"
+    },
+    {
+      "title": "Persévérance des croyances (l'effet de retour)",
+      "text": "Pourquoi conservons-nous les mêmes croyances, même lorsqu'on nous prouve que nous avons tort ?",
+      "uid": "belief-perseverance",
+      "category": "Mémoire",
+      "url": "https://thedecisionlab.com/fr/biases/belief-perseverance"
+    },
+    {
+      "title": "Rationalité limitée",
+      "text": "Pourquoi sommes-nous satisfaits de ce qui est \"suffisant\" ?",
+      "uid": "bounded-rationality",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/bounded-rationality"
+    },
+    {
+      "title": "Risque zéro",
+      "text": "Pourquoi recherchons-nous la certitude dans les situations à risque ?",
+      "uid": "zero-risk-bias",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/zero-risk-bias"
+    },
+    {
+      "title": "Règle de l'apogée",
+      "text": "En quoi nos souvenirs diffèrent-ils de nos expériences ?",
+      "uid": "peak-end-rule",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/peak-end-rule"
+    },
+    {
+      "title": "Réalisme naïf",
+      "text": "Pourquoi croyons-nous avoir une compréhension objective du monde ?",
+      "uid": "naive-realism",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/naive-realism"
+    },
+    {
+      "title": "Rétrospection rosée",
+      "text": "Pourquoi pensons-nous que le bon vieux temps était si bon ?",
+      "uid": "rosy-retrospection",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/rosy-retrospection"
+    },
+    {
+      "title": "Salience Bias",
+      "text": "Pourquoi nous concentrons-nous sur les éléments ou les informations les plus marquants et ignorons-nous ceux qui ne le sont pas ?",
+      "uid": "salience-bias",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/salience-bias"
+    },
+    {
+      "title": "Simple effet d'exposition",
+      "text": "Pourquoi préférons-nous les choses qui nous sont familières ?",
+      "uid": "mere-exposure-effect",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/mere-exposure-effect"
+    },
+    {
+      "title": "Suggestibilité",
+      "text": "Pourquoi le bâillement est-il contagieux ?",
+      "uid": "suggestibility",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/suggestibility"
+    },
+    {
+      "title": "Surcharge de choix",
+      "text": "Pourquoi avons-nous plus de mal à choisir lorsque nous avons plus d'options ?",
+      "uid": "choice-overload-bias",
+      "category": null,
+      "url": "https://thedecisionlab.com/fr/biases/choice-overload-bias"
+    }
+  ]
+}
