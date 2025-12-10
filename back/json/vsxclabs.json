@@ -1,0 +1,1562 @@
+{
+  "metadata": {
+    "total_biases": 167,
+    "categories_count": 4,
+    "source": "Cognitive Bias Codex",
+    "last_updated": "2024-01-15",
+    "url_base": "https://cognition.vsxlabs.com"
+  },
+  "categories": [
+    {
+      "id": "what_to_remember",
+      "name": "What to remember",
+      "description": "Biases related to memory encoding, storage and retrieval",
+      "count": 23
+    },
+    {
+      "id": "need_for_speed",
+      "name": "Need for speed",
+      "description": "Biases from quick decisions and cognitive shortcuts",
+      "count": 44
+    },
+    {
+      "id": "information_overload",
+      "name": "Information overload",
+      "description": "Biases from filtering and processing too much information",
+      "count": 29
+    },
+    {
+      "id": "lack_of_meaning",
+      "name": "Lack of meaning",
+      "description": "Biases from filling gaps and creating stories",
+      "count": 36
+    }
+  ],
+  "biases": [
+    {
+      "id": "absent_mindedness",
+      "name": "Absent-mindedness",
+      "description": "Absent-mindedness is a cognitive bias that refers to instances where a lack of attention results in forgetfulness or lapses in memory, which often affects the retention and recall of information. This phenomenon is typically categorized under 'What to remember,' and is further understood through how memories can be stored differently based on experience.",
+      "category_id": "what_to_remember",
+      "category_name": "What to remember",
+      "slug": "absent-mindedness",
+      "url": "https://cognition.vsxlabs.com/bias/absent-mindedness"
+    },
+    {
+      "id": "ambiguity_bias",
+      "name": "Ambiguity bias",
+      "description": "Ambiguity bias, also known as the ambiguity effect, is a cognitive bias where individuals tend to favor options with known probabilities over those where the probabilities are unknown or ambiguous. This bias stems from a human inclination toward certainty and aversion to unknown risks. When faced with choices, people often prefer what they can understand and predict, even if the predictable choice offers a lesser benefit than an ambiguous one.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "ambiguity-bias",
+      "url": "https://cognition.vsxlabs.com/bias/ambiguity-bias"
+    },
+    {
+      "id": "anchoring",
+      "name": "Anchoring",
+      "description": "Anchoring cognitive bias refers to the human tendency to rely heavily on the first piece of information encountered (the 'anchor') when making decisions. This bias impacts judgment and decision-making processes by disproportionately influencing subsequent thoughts and choices based on the initial anchor point.",
+      "category_id": "information_overload",
+      "category_name": "Information overload",
+      "slug": "anchoring",
+      "url": "https://cognition.vsxlabs.com/bias/anchoring"
+    },
+    {
+      "id": "anecdotal_fallacy",
+      "name": "Anecdotal fallacy",
+      "description": "The anecdotal fallacy is a cognitive bias where a person relies on personal stories or isolated examples instead of sound arguments or statistical evidence. This fallacy occurs when anecdotal evidence is used in an attempt to prove a point, even when it's not representative of a typical experience. It often disregards broader statistical realities, leading to erroneous conclusions based on sparse data.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "anecdotal-fallacy",
+      "url": "https://cognition.vsxlabs.com/bias/anecdotal-fallacy"
+    },
+    {
+      "id": "anthropomorphism",
+      "name": "Anthropomorphism",
+      "description": "Anthropomorphism refers to the cognitive bias where humans attribute human-like characteristics, emotions, and intentions to non-human entities, whether they are animals, objects, or abstract concepts. This bias stems from our inherent need to understand and relate to entities around us, often using human traits as a means to interpret vague or minimal information.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "anthropomorphism",
+      "url": "https://cognition.vsxlabs.com/bias/anthropomorphism"
+    },
+    {
+      "id": "appeal_to_novelty",
+      "name": "Appeal to novelty",
+      "description": "The appeal to novelty is a cognitive bias where people tend to prefer newer ideas, technologies, or products over older ones, regardless of their actual utility or value. It operates under the assumption that because something is new, it is inherently better or more desirable than the old. This bias is often involved in marketing and innovation-driven fields, where the promise of something being the 'latest and greatest' can heavily influence consumer behavior and decision making.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "appeal-to-novelty",
+      "url": "https://cognition.vsxlabs.com/bias/appeal-to-novelty"
+    },
+    {
+      "id": "appeal_to_probability_fallacy",
+      "name": "Appeal to probability fallacy",
+      "description": "The Appeal to Probability fallacy occurs when it is assumed that because something could happen, it will happen. This logical fallacy simplifies complex probabilities into certainties, overlooking other possibilities and uncertainties. It often leads to misleading conclusions and decisions.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "appeal-to-probability-fallacy",
+      "url": "https://cognition.vsxlabs.com/bias/appeal-to-probability-fallacy"
+    },
+    {
+      "id": "argument_from_fallacy",
+      "name": "Argument from fallacy",
+      "description": "The Argument from Fallacy, also known as the fallacy fallacy, is a logical fallacy that assumes that just because an argument contains a fallacy, its conclusion must necessarily be false. This cognitive bias is a form of misinterpretation where individuals erroneously conclude that the presence of flawed reasoning invalidates a proposition's truth.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "argument-from-fallacy",
+      "url": "https://cognition.vsxlabs.com/bias/argument-from-fallacy"
+    },
+    {
+      "id": "attentional_bias",
+      "name": "Attentional bias",
+      "description": "Attentional bias is a cognitive bias that describes the tendency for people's perception to be affected by their recurring thoughts at the time. It occurs when individuals give disproportionate attention to certain stimuli while ignoring others, often leading to distorted or incomplete perspectives.",
+      "category_id": "information_overload",
+      "category_name": "Information overload",
+      "slug": "attentional-bias",
+      "url": "https://cognition.vsxlabs.com/bias/attentional-bias"
+    },
+    {
+      "id": "authority_bias",
+      "name": "Authority bias",
+      "description": "Authority bias is a cognitive bias that leads individuals to attribute greater accuracy and truthfulness to the opinion of an authority figure and to be more influenced by their perspective. This bias stems from a natural human tendency to trust and follow the guidance of those who are perceived as experts or leaders.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "authority-bias",
+      "url": "https://cognition.vsxlabs.com/bias/authority-bias"
+    },
+    {
+      "id": "automation_bias",
+      "name": "Automation bias",
+      "description": "Automation bias is a specific cognitive bias where humans disproportionately favor information or suggestions output by automated systems, sometimes to the detriment of other important data or their own judgment. This bias can lead individuals to overlook errors or incorrect recommendations made by machines. It is particularly prevalent in situations where automated systems are designed to aid decision-making processes.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "automation-bias",
+      "url": "https://cognition.vsxlabs.com/bias/automation-bias"
+    },
+    {
+      "id": "availability_heuristic",
+      "name": "Availability heuristic",
+      "description": "The availability heuristic is a cognitive bias that occurs when individuals rely on immediate examples that come to mind while evaluating a situation, idea, or decision. This bias arises from our tendency to give undue weight to information that is readily retrievable from memory, often due to recent exposure or repeated emphasis, rather than considering broader data sets or statistical realities.",
+      "category_id": "information_overload",
+      "category_name": "Information overload",
+      "slug": "availability-heuristic",
+      "url": "https://cognition.vsxlabs.com/bias/availability-heuristic"
+    },
+    {
+      "id": "backfire_effect",
+      "name": "Backfire effect",
+      "description": "The backfire effect is a cognitive bias that manifests when individuals faced with evidence contradicting their beliefs not only resist changing their perspective but may also strengthen their original belief. This anomaly highlights the complexity of human cognition where reason and rational evidence do not always align with changing deeply rooted convictions.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "backfire-effect",
+      "url": "https://cognition.vsxlabs.com/bias/backfire-effect"
+    },
+    {
+      "id": "bandwagon_effect",
+      "name": "Bandwagon effect",
+      "description": "The bandwagon effect is a psychological phenomenon where individuals adopt certain behaviors, styles, or attitudes simply because others are doing so. This type of cognitive bias under the 'Lack of Meaning' category occurs when people follow the actions or beliefs of others based on the assumption that if numerous people are doing something, it must be correct or beneficial. It is often seen in social, political, and economic contexts.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "bandwagon-effect",
+      "url": "https://cognition.vsxlabs.com/bias/bandwagon-effect"
+    },
+    {
+      "id": "barnum_effect",
+      "name": "Barnum effect",
+      "description": "The Barnum effect, also known as the Forer effect, is a psychological phenomenon where individuals believe that vague, general statements about personality are highly accurate for them personally. It is named after P.T. Barnum, a showman known for his use of generic statements that seemed personalized.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "barnum-effect",
+      "url": "https://cognition.vsxlabs.com/bias/barnum-effect"
+    },
+    {
+      "id": "base_rate_fallacy",
+      "name": "Base rate fallacy",
+      "description": "The base rate fallacy is a cognitive bias that occurs when people ignore the base rate (statistical prevalence) of an event or characteristic in favor of specific, anecdotal, or vivid information. This often leads individuals to make erroneous judgments by overlooking the underlying probabilities.",
+      "category_id": "information_overload",
+      "category_name": "Information overload",
+      "slug": "base-rate-fallacy",
+      "url": "https://cognition.vsxlabs.com/bias/base-rate-fallacy"
+    },
+    {
+      "id": "belief_bias",
+      "name": "Belief bias",
+      "description": "Belief bias is a type of cognitive bias that occurs when an individual's evaluation of the logical validity of an argument is influenced by the believability of the conclusion. People tend to accept conclusions that align with their existing beliefs and reject those that do not, regardless of the soundness of the supporting premises.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "belief-bias",
+      "url": "https://cognition.vsxlabs.com/bias/belief-bias"
+    },
+    {
+      "id": "bias_blind_spot",
+      "name": "Bias blind spot",
+      "description": "The bias blind spot is a cognitive bias where individuals are unable to detect the impact of biases on their own judgment, but easily notice them in others. It is a part of the broader category of cognitive biases that cause individuals to process information in a flawed manner, particularly when dealing with information overload. This bias affects how people perceive their own objectivity.",
+      "category_id": "information_overload",
+      "category_name": "Information overload",
+      "slug": "bias-blind-spot",
+      "url": "https://cognition.vsxlabs.com/bias/bias-blind-spot"
+    },
+    {
+      "id": "bizarreness_effect",
+      "name": "Bizarreness effect",
+      "description": "The bizarreness effect is a cognitive bias that refers to the tendency for bizarre or unusual information to be more easily remembered than common or mundane information. This phenomenon falls under the category of information overload, as bizarre things have a greater chance of standing out and being noticed amidst a flood of information.",
+      "category_id": "information_overload",
+      "category_name": "Information overload",
+      "slug": "bizarreness-effect",
+      "url": "https://cognition.vsxlabs.com/bias/bizarreness-effect"
+    },
+    {
+      "id": "cheerleader_effect",
+      "name": "Cheerleader effect",
+      "description": "The Cheerleader Effect, also known as the group attractiveness effect, is a cognitive bias where people perceive individuals as more attractive when they are in a group compared to when they are alone. This phenomenon gained popular attention partly due to its mention in popular media but is backed by scientific observations.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "cheerleader-effect",
+      "url": "https://cognition.vsxlabs.com/bias/cheerleader-effect"
+    },
+    {
+      "id": "choice_supportive_bias",
+      "name": "Choice-supportive bias",
+      "description": "Choice-supportive bias is a cognitive bias that leads individuals to remember their choices as better than they actually were, often highlighting the positives of the options they've chosen and downplaying the negatives. This bias can influence decision-making and memory by warping the perception of past choices.",
+      "category_id": "information_overload",
+      "category_name": "Information overload",
+      "slug": "choice-supportive-bias",
+      "url": "https://cognition.vsxlabs.com/bias/choice-supportive-bias"
+    },
+    {
+      "id": "clustering_illusion",
+      "name": "Clustering illusion",
+      "description": "The clustering illusion is a cognitive bias where people perceive patterns in random or sparse data. This is categorized under 'Lack of meaning' and specifically within 'Stories in sparse data'. The human brain has a tendency to see clusters where none exist due to its pattern-recognition capabilities, often leading to misinterpretations of randomness.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "clustering-illusion",
+      "url": "https://cognition.vsxlabs.com/bias/clustering-illusion"
+    },
+    {
+      "id": "confabulation",
+      "name": "Confabulation",
+      "description": "Confabulation is a cognitive bias characterized by the creation and presentation of false or distorted memories without any intent to deceive. This phenomenon is particularly noteworthy because the person producing the confabulated accounts believes them to be genuine. Often, this bias emerges when an individual attempts to fill in gaps in their memory with details that make a coherent and plausible story, even if those details do not reflect reality.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "confabulation",
+      "url": "https://cognition.vsxlabs.com/bias/confabulation"
+    },
+    {
+      "id": "confirmation_bias",
+      "name": "Confirmation bias",
+      "description": "Confirmation bias is a type of cognitive bias that involves favoring information that confirms previously existing beliefs or biases. This phenomenon occurs when people prefer information or interpret evidence in a way that is consistent with their own preconceptions, often ignoring or undervaluing contradictory data.",
+      "category_id": "information_overload",
+      "category_name": "Information overload",
+      "slug": "confirmation-bias",
+      "url": "https://cognition.vsxlabs.com/bias/confirmation-bias"
+    },
+    {
+      "id": "congruence_bias",
+      "name": "Congruence bias",
+      "description": "Congruence bias is a type of cognitive bias which occurs when individuals test a hypothesis by focusing primarily on evidence that directly supports it, rather than seeking out information which might disprove or challenge it. This bias emerges notably in environments where information is plentiful, prompting a preference for data that aligns with current beliefs, rather than a holistic examination.",
+      "category_id": "information_overload",
+      "category_name": "Information overload",
+      "slug": "congruence-bias",
+      "url": "https://cognition.vsxlabs.com/bias/congruence-bias"
+    },
+    {
+      "id": "conjunction_fallacy",
+      "name": "Conjunction fallacy",
+      "description": "The conjunction fallacy is a cognitive bias where individuals assume specific conditions are more probable than a single general one. This often occurs when people mistake the conjunction of two events as more likely than one of the events alone, violating the basic rule of probability.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "conjunction-fallacy",
+      "url": "https://cognition.vsxlabs.com/bias/conjunction-fallacy"
+    },
+    {
+      "id": "conservatism",
+      "name": "Conservatism",
+      "description": "Conservatism cognitive bias refers to the tendency of individuals to insufficiently revise their beliefs when presented with new evidence. This bias falls under the broader category of information overload, as people tend to give disproportionate weight to their prior knowledge or beliefs and do not adequately adjust them with fresh information. The phenomenon is closely associated with the psychological difficulty of abandoning previously held concepts and the innate preference for consistency.",
+      "category_id": "information_overload",
+      "category_name": "Information overload",
+      "slug": "conservatism",
+      "url": "https://cognition.vsxlabs.com/bias/conservatism"
+    },
+    {
+      "id": "context_effect",
+      "name": "Context effect",
+      "description": "The context effect cognitive bias refers to the influence that environmental factors can have on a person's perception and memory retrieval. When information is repeated in varied contexts, it can have an impactful influence on how effectively memory is encoded, stored, and later retrieved. Under the subcategory of repetition and memory is noticed, it highlights how external cues from the environment can either aid or hinder memory recall. Often associated with cue-dependent forgetting, the presence or absence of specific associative cues can determine the accessibility of memories.",
+      "category_id": "information_overload",
+      "category_name": "Information overload",
+      "slug": "context-effect",
+      "url": "https://cognition.vsxlabs.com/bias/context-effect"
+    },
+    {
+      "id": "continued_influence_effect",
+      "name": "Continued influence effect",
+      "description": "The continued influence effect is a cognitive bias where people continue to maintain beliefs based on misinformation, even after it has been debunked. Despite corrections and factual information being presented, the initial misinformation persists in influencing beliefs and decisions.",
+      "category_id": "information_overload",
+      "category_name": "Information overload",
+      "slug": "continued-influence-effect",
+      "url": "https://cognition.vsxlabs.com/bias/continued-influence-effect"
+    },
+    {
+      "id": "cross_race_effect",
+      "name": "Cross-race effect",
+      "description": "The cross-race effect, also known as own-race bias, refers to the tendency for people to more easily recognize faces of their own race compared to faces of other races. This cognitive bias is prevalent in facial recognition tasks and has significant implications in various fields, such as criminal justice, psychological research, and social interactions.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "cross-race-effect",
+      "url": "https://cognition.vsxlabs.com/bias/cross-race-effect"
+    },
+    {
+      "id": "cryptomnesia",
+      "name": "Cryptomnesia",
+      "description": "Cryptomnesia is a cognitive bias wherein a person mistakenly believes that a thought, idea, or piece of information they remember is original, when, in fact, it has been unconsciously retrieved from memory. This phenomenon occurs when the source of the remembered information is forgotten, leading to the misattribution of its origin. Cryptomnesia is often linked to the reinforcement of memories after the fact, where the distinction between self-generated ideas and memories sourced from others or previous experiences blurs.",
+      "category_id": "what_to_remember",
+      "category_name": "What to remember",
+      "slug": "cryptomnesia",
+      "url": "https://cognition.vsxlabs.com/bias/cryptomnesia"
+    },
+    {
+      "id": "curse_of_knowledge",
+      "name": "Curse of knowledge",
+      "description": "The curse of knowledge is a cognitive bias that occurs when an individual, who is well-informed about a subject, finds it challenging to think about the subject from the perspective of someone who lacks that knowledge.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "curse-of-knowledge",
+      "url": "https://cognition.vsxlabs.com/bias/curse-of-knowledge"
+    },
+    {
+      "id": "declinism",
+      "name": "Declinism",
+      "description": "Declinism is a cognitive bias characterized by a pessimistic belief that a society or an institution is inexorably declining or worsening. This perception often overlooks positive change and growth, focusing instead on nostalgia for a perceived better past. Declinism influences how individuals assess both current conditions and future prospects, often leading to an irrational emphasis on negative aspects over positive developments.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "declinism",
+      "url": "https://cognition.vsxlabs.com/bias/declinism"
+    },
+    {
+      "id": "decoy_effect",
+      "name": "Decoy effect",
+      "description": "The decoy effect, also known as the asymmetric dominance effect, is a cognitive bias where the presence of a third option, the 'decoy', influences the choice between two primary options. This decoy is designed to make one of the primary options appear more attractive, guiding the decision-maker to favor it.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "decoy-effect",
+      "url": "https://cognition.vsxlabs.com/bias/decoy-effect"
+    },
+    {
+      "id": "defensive_attribution_hypothesis",
+      "name": "Defensive attribution hypothesis",
+      "description": "The Defensive Attribution Hypothesis is a cognitive bias where individuals attribute blame to others in a way that preserves their own sense of safety and self-esteem.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "defensive-attribution-hypothesis",
+      "url": "https://cognition.vsxlabs.com/bias/defensive-attribution-hypothesis"
+    },
+    {
+      "id": "delmore_effect",
+      "name": "Delmore effect",
+      "description": "The Delmore effect is a cognitive bias where people prefer simple, complete solutions over complex ones.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "delmore-effect",
+      "url": "https://cognition.vsxlabs.com/bias/delmore-effect"
+    },
+    {
+      "id": "denomination_effect",
+      "name": "Denomination effect",
+      "description": "The Denomination Effect is a cognitive bias that entails the tendency for individuals to prefer spending money offered in smaller denominations rather than larger ones. This psychological phenomenon demonstrates how the form in which money is presented can influence financial decision-making and spending behaviors.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "denomination-effect",
+      "url": "https://cognition.vsxlabs.com/bias/denomination-effect"
+    },
+    {
+      "id": "disposition_effect",
+      "name": "Disposition effect",
+      "description": "The Disposition Effect is a cognitive bias that refers to an investor's tendency to sell assets that have increased in value while keeping assets that have decreased in value. This behavior occurs even when there are no rational grounds for such decisions, often driven by the emotional responses associated with gains and losses.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "disposition-effect",
+      "url": "https://cognition.vsxlabs.com/bias/disposition-effect"
+    },
+    {
+      "id": "distinction_bias",
+      "name": "Distinction bias",
+      "description": "Distinction bias is a cognitive bias that occurs when people perceive two options as more dissimilar when evaluating them simultaneously than when evaluating them separately. This bias leads individuals to overemphasize minor differences while neglecting overall similarities.",
+      "category_id": "information_overload",
+      "category_name": "Information overload",
+      "slug": "distinction-bias",
+      "url": "https://cognition.vsxlabs.com/bias/distinction-bias"
+    },
+    {
+      "id": "dunning_kruger_effect",
+      "name": "Dunning-Kruger effect",
+      "description": "The Dunning-Kruger effect is a cognitive bias wherein individuals with low ability, expertise, or experience in a particular domain overestimate their ability or knowledge. Conversely, experts often underestimate their competence. This bias was first identified by social psychologists David Dunning and Justin Kruger, based on their research published in 1999.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "dunning-kruger-effect",
+      "url": "https://cognition.vsxlabs.com/bias/dunning-kruger-effect"
+    },
+    {
+      "id": "duration_neglect",
+      "name": "Duration neglect",
+      "description": "Duration neglect is a cognitive bias where the duration of an emotional experience has little impact on the overall retrospective evaluation of the event. Instead, the evaluation is disproportionately influenced by the peak (most extreme moment) and the end (final moment) of the experience.",
+      "category_id": "what_to_remember",
+      "category_name": "What to remember",
+      "slug": "duration-neglect",
+      "url": "https://cognition.vsxlabs.com/bias/duration-neglect"
+    },
+    {
+      "id": "effort_justification",
+      "name": "Effort justification",
+      "description": "Effort justification is a cognitive bias where people tend to assign greater value to an outcome they worked hard to achieve, regardless of the objective worth of the outcome. This bias stems from cognitive dissonance, where individuals experience discomfort when their actions do not align with their beliefs or attitudes, prompting them to justify their effort to maintain internal consistency.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "effort-justification",
+      "url": "https://cognition.vsxlabs.com/bias/effort-justification"
+    },
+    {
+      "id": "egocentric_bias",
+      "name": "Egocentric bias",
+      "description": "Egocentric bias is a cognitive bias that leads individuals to rely heavily on their own perspective and experience when interpreting events and interactions with others. This bias can result in an overestimation of one's contributions, influence, or knowledge in various situations.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "egocentric-bias",
+      "url": "https://cognition.vsxlabs.com/bias/egocentric-bias"
+    },
+    {
+      "id": "empathy_gap",
+      "name": "Empathy gap",
+      "description": "Empathy gap is a cognitive bias where individuals tend to underestimate the influence of emotional states on their own and others' decision-making and behavior. This bias highlights the difficulty humans face in predicting behaviors and preferences in different states of mind, most notably between emotional and rational states.",
+      "category_id": "information_overload",
+      "category_name": "Information overload",
+      "slug": "empathy-gap",
+      "url": "https://cognition.vsxlabs.com/bias/empathy-gap"
+    },
+    {
+      "id": "endowment_effect",
+      "name": "Endowment effect",
+      "description": "The Endowment Effect is a cognitive bias wherein people ascribe more value to things merely because they own them. This phenomenon suggests an emotional attachment and often an irrational overvaluation of such items.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "endowment-effect",
+      "url": "https://cognition.vsxlabs.com/bias/endowment-effect"
+    },
+    {
+      "id": "escalation_of_commitment",
+      "name": "Escalation of commitment",
+      "description": "Escalation of commitment refers to a cognitive bias where individuals or organizations continue to invest in a decision despite clear evidence that it may be failing or no longer viable. This phenomenon occurs when those involved irrationally persist in a course of action due to prior investments of time, money, or resources.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "escalation-of-commitment",
+      "url": "https://cognition.vsxlabs.com/bias/escalation-of-commitment"
+    },
+    {
+      "id": "essentialism",
+      "name": "Essentialism",
+      "description": "Essentialism is a cognitive bias where individuals believe that certain categories, such as people, animals, or objects, have an inherent essence that gives them their identity. This bias often leads to overgeneralization and stereotyping, as individuals attribute fixed traits to members of these categories.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "essentialism",
+      "url": "https://cognition.vsxlabs.com/bias/essentialism"
+    },
+    {
+      "id": "extrinsic_incentive_error",
+      "name": "Extrinsic incentive error",
+      "description": "Extrinsic incentive error is a cognitive bias where people tend to overestimate the influence of extrinsic incentives (such as money or rewards) on others' behaviors, while undervaluing intrinsic motivations (like personal satisfaction or enjoyment). It can lead to a misunderstanding of why people perform certain actions or participate in activities.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "extrinsic-incentive-error",
+      "url": "https://cognition.vsxlabs.com/bias/extrinsic-incentive-error"
+    },
+    {
+      "id": "fading_affect_bias",
+      "name": "Fading affect bias",
+      "description": "Fading affect bias (FAB) is a cognitive bias whereby the emotional intensity associated with negative memories diminishes more rapidly than the emotional intensity of positive memories. This phenomenon suggests that over time, people are more likely to remember the past in a more positive light, allowing them to maintain a more favorable self-image and psychological well-being.",
+      "category_id": "what_to_remember",
+      "category_name": "What to remember",
+      "slug": "fading-affect-bias",
+      "url": "https://cognition.vsxlabs.com/bias/fading-affect-bias"
+    },
+    {
+      "id": "false_consensus_effect",
+      "name": "False consensus effect",
+      "description": "The false consensus effect is a cognitive bias where people overestimate the degree to which their beliefs, attitudes, and opinions are shared by others. This bias leads to an inflated sense of one's own norms and opinions, often overgeneralizing them as common or typical among a larger group or population.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "false-consensus-effect",
+      "url": "https://cognition.vsxlabs.com/bias/false-consensus-effect"
+    },
+    {
+      "id": "false_memory",
+      "name": "False memory",
+      "description": "False memory cognitive bias refers to the phenomenon where a person's recollection of an event or information is distorted or entirely fabricated, often due to influential post-event information, suggestions, or external factors. This bias underscores how memories can be malleable and subject to change over time, driven by our interpretation and adaptation to new experiences or details.",
+      "category_id": "what_to_remember",
+      "category_name": "What to remember",
+      "slug": "false-memory",
+      "url": "https://cognition.vsxlabs.com/bias/false-memory"
+    },
+    {
+      "id": "framing_effect",
+      "name": "Framing effect",
+      "description": "The framing effect is a cognitive bias where individuals react differently depending on how information is presented, rather than the information itself. This bias is classified under information overload, particularly in the 'change is noticed' subcategory, which addresses how alterations in information presentation can lead to different perceptions and decisions.",
+      "category_id": "information_overload",
+      "category_name": "Information overload",
+      "slug": "framing-effect",
+      "url": "https://cognition.vsxlabs.com/bias/framing-effect"
+    },
+    {
+      "id": "frequency_illusion",
+      "name": "Frequency illusion",
+      "description": "The frequency illusion, also known as the Baader-Meinhof phenomenon, is a cognitive bias where after noticing something for the first time, there is a tendency to notice it more frequently, leading to a false belief that its frequency has increased. This bias is a component of information overload, specifically in the realm of repetition and memory recognition.",
+      "category_id": "information_overload",
+      "category_name": "Information overload",
+      "slug": "frequency-illusion",
+      "url": "https://cognition.vsxlabs.com/bias/frequency-illusion"
+    },
+    {
+      "id": "functional_fixedness",
+      "name": "Functional fixedness",
+      "description": "Functional fixedness is a cognitive bias that limits a person to using an object only in the way it is traditionally used. This bias restricts the scope of problem-solving and innovation by preventing individuals from recognizing alternative uses for an object or concept.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "functional-fixedness",
+      "url": "https://cognition.vsxlabs.com/bias/functional-fixedness"
+    },
+    {
+      "id": "fundamental_attribution_error",
+      "name": "Fundamental attribution error",
+      "description": "The fundamental attribution error is a cognitive bias that refers to the tendency of individuals to overemphasize personal characteristics and ignore situational factors in judging others' behavior. This bias often leads people to attribute others' actions to their inherent personalities while overlooking the influence of external circumstances.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "fundamental-attribution-error",
+      "url": "https://cognition.vsxlabs.com/bias/fundamental-attribution-error"
+    },
+    {
+      "id": "gamblers_fallacy",
+      "name": "Gamblers fallacy",
+      "description": "The Gambler's Fallacy is a cognitive bias that leads individuals to believe that future probabilities are altered by past events, despite the events being independent. It is the mistaken belief that if something happens more frequently than normal during a given period, it will happen less frequently in the future, or vice versa.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "gamblers-fallacy",
+      "url": "https://cognition.vsxlabs.com/bias/gamblers-fallacy"
+    },
+    {
+      "id": "generation_effect",
+      "name": "Generation effect",
+      "description": "The Generation Effect is a cognitive bias that suggests individuals tend to remember information better when they actively generate it themselves rather than passively consume it. This effect highlights the importance of active engagement in the learning process, especially when it comes to memory retention.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "generation-effect",
+      "url": "https://cognition.vsxlabs.com/bias/generation-effect"
+    },
+    {
+      "id": "google_effect",
+      "name": "Google effect",
+      "description": "The Google effect, also known as digital amnesia, is a cognitive bias where people tend to forget information that can easily be found online. Instead of remembering the information itself, individuals are more likely to remember where to find it, such as through search engines like Google. This shift in memory storage and reliance on digital retrieval has transformed the way individuals process information in the digital era.",
+      "category_id": "what_to_remember",
+      "category_name": "What to remember",
+      "slug": "google-effect",
+      "url": "https://cognition.vsxlabs.com/bias/google-effect"
+    },
+    {
+      "id": "group_attribution_error",
+      "name": "Group attribution error",
+      "description": "Group attribution error is a cognitive bias in which individuals erroneously attribute the behaviors or characteristics of a group to all of its members, or vice versa. This bias stems from a tendency to generalize based on limited information, leading to misconceptions and stereotypes.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "group-attribution-error",
+      "url": "https://cognition.vsxlabs.com/bias/group-attribution-error"
+    },
+    {
+      "id": "halo_effect",
+      "name": "Halo effect",
+      "description": "The Halo Effect is a cognitive bias where our overall impression of a person, brand, or product influences our feelings and thoughts about their specific traits. If we perceive someone or something positively in one area, we are likely to have a positive bias for their other characteristics as well.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "halo-effect",
+      "url": "https://cognition.vsxlabs.com/bias/halo-effect"
+    },
+    {
+      "id": "hard_easy_effect",
+      "name": "Hard-easy effect",
+      "description": "The Hard-easy effect is a cognitive bias in which individuals tend to overestimate their ability to perform complex tasks while underestimating their proficiency in simpler tasks. This phenomenon affects decision-making and self-assessment across various domains.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "hard-easy-effect",
+      "url": "https://cognition.vsxlabs.com/bias/hard-easy-effect"
+    },
+    {
+      "id": "hindsight_bias",
+      "name": "Hindsight bias",
+      "description": "Hindsight bias, also known as the 'knew-it-all-along' phenomenon, is a cognitive bias in which people perceive past events as having been more predictable than they actually were. After an event has occurred, individuals often believe they could have predicted or even foreseen the outcome, leading to an illusion of inevitability. This bias can affect memory and perception, resulting in a distorted understanding of the past.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "hindsight-bias",
+      "url": "https://cognition.vsxlabs.com/bias/hindsight-bias"
+    },
+    {
+      "id": "hot_hand_fallacy",
+      "name": "Hot-hand fallacy",
+      "description": "The hot-hand fallacy is a cognitive bias where individuals perceive a series of successes in a sequence of independent events as evidence of a 'hot streak.' Despite each event being random and independent of previous outcomes, people often believe that future success is more likely if one is 'on a roll.' This belief is prevalent in areas such as sports, gambling, and financial investing.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "hot-hand-fallacy",
+      "url": "https://cognition.vsxlabs.com/bias/hot-hand-fallacy"
+    },
+    {
+      "id": "hyperbolic_discounting",
+      "name": "Hyperbolic discounting",
+      "description": "Hyperbolic discounting is a cognitive bias where individuals tend to prefer smaller, immediate rewards over larger, delayed rewards. This bias reflects the human tendency to reduce the perceived value of delayed outcomes, often leading to choices that contradict long-term interests.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "hyperbolic-discounting",
+      "url": "https://cognition.vsxlabs.com/bias/hyperbolic-discounting"
+    },
+    {
+      "id": "identifiable_victim_effect",
+      "name": "Identifiable victim effect",
+      "description": "The Identifiable Victim Effect is a cognitive bias that refers to the tendency of individuals to offer greater aid when a specific, identifiable individual is observed under hardship, as opposed to a large, vaguely explained group with the same need. This bias demonstrates how humans are more emotionally moved and compelled to act when faced with a particular person's plight rather than statistical information or a broader context.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "identifiable-victim-effect",
+      "url": "https://cognition.vsxlabs.com/bias/identifiable-victim-effect"
+    },
+    {
+      "id": "ikea_effect",
+      "name": "IKEA effect",
+      "description": "The IKEA effect is a cognitive bias that causes people to place a disproportionately high value on products they partially created. Named after the popular Swedish furniture retailer, which sells products needing assembly, the effect highlights how the act of building or assembling something can lead to an increased valuation of the end product.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "ikea-effect",
+      "url": "https://cognition.vsxlabs.com/bias/ikea-effect"
+    },
+    {
+      "id": "illusion_of_asymmetric_insight",
+      "name": "Illusion of asymmetric insight",
+      "description": "The illusion of asymmetric insight is a cognitive bias whereby individuals believe they can understand others more deeply than others can understand them. This bias reflects a perception that one's knowledge about another person is more insightful and superior compared to the reversed scenario. Essentially, people tend to think that their insights into the thoughts, feelings, and intentions of others are more profound, while simultaneously underestimating others' insight into their own inner world.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "illusion-of-asymmetric-insight",
+      "url": "https://cognition.vsxlabs.com/bias/illusion-of-asymmetric-insight"
+    },
+    {
+      "id": "illusion_of_control",
+      "name": "Illusion of control",
+      "description": "The illusion of control is a cognitive bias wherein individuals overestimate their influence over external events. This bias leads them to believe that they have the power to control outcomes that are largely determined by external factors or chance.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "illusion-of-control",
+      "url": "https://cognition.vsxlabs.com/bias/illusion-of-control"
+    },
+    {
+      "id": "illusion_of_external_agency",
+      "name": "Illusion of external agency",
+      "description": "The illusion of external agency is a cognitive bias where individuals attribute their own thoughts, actions, or experiences to an external source. This bias often manifests when people perceive that their thoughts or feelings are influenced or controlled by an outside entity, rather than originating from within themselves.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "illusion-of-external-agency",
+      "url": "https://cognition.vsxlabs.com/bias/illusion-of-external-agency"
+    },
+    {
+      "id": "illusion_of_transparency",
+      "name": "Illusion of transparency",
+      "description": "The illusion of transparency is a cognitive bias that leads individuals to believe that their thoughts, feelings, and emotions are more apparent to others than they actually are. This bias causes people to overestimate the degree to which their internal states are visible to those around them.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "illusion-of-transparency",
+      "url": "https://cognition.vsxlabs.com/bias/illusion-of-transparency"
+    },
+    {
+      "id": "illusion_of_validity",
+      "name": "Illusion of validity",
+      "description": "The illusion of validity is a cognitive bias that occurs when people overestimate their ability to interpret and predict outcomes in situations based on limited information. It is part of the broader category of cognitive biases related to our need for meaning, specifically within storytelling scenarios wherein sparse data is available. This bias leads individuals to have unwarranted confidence in their predictions or judgments, often overlooking the foundational issues of insufficient data or the complexity of the situations.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "illusion-of-validity",
+      "url": "https://cognition.vsxlabs.com/bias/illusion-of-validity"
+    },
+    {
+      "id": "illusory_correlation",
+      "name": "Illusory correlation",
+      "description": "Illusory correlation is a cognitive bias that describes the tendency to perceive a relationship between two variables even when no such relationship exists. This bias is particularly likely to occur with low-frequency variables or when the data is sparse. It often leads individuals to form and maintain specific beliefs or stereotypes based on misleading or insufficient information.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "illusory-correlation",
+      "url": "https://cognition.vsxlabs.com/bias/illusory-correlation"
+    },
+    {
+      "id": "illusory_superiority",
+      "name": "Illusory superiority",
+      "description": "Illusory superiority, often referred to as the above-average effect, is a cognitive bias whereby individuals overestimate their own qualities and abilities relative to others. This phenomena leads people to believe they are better than average in various domains, including intelligence, performance, and other competencies.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "illusory-superiority",
+      "url": "https://cognition.vsxlabs.com/bias/illusory-superiority"
+    },
+    {
+      "id": "illusory_truth_effect",
+      "name": "Illusory truth effect",
+      "description": "The illusory truth effect is a cognitive bias that describes how repeated exposure to information can lead to its perception as more truthful or accurate, regardless of its veracity. This phenomenon occurs because repetition makes statements easier to process, and this ease is often misattributed to truthfulness.",
+      "category_id": "information_overload",
+      "category_name": "Information overload",
+      "slug": "illusory-truth-effect",
+      "url": "https://cognition.vsxlabs.com/bias/illusory-truth-effect"
+    },
+    {
+      "id": "impact_bias",
+      "name": "Impact bias",
+      "description": "Impact bias is a cognitive bias that refers to the tendency for people to overestimate the intensity and duration of their emotional reactions to future events. This often leads individuals to predict that they will experience greater impacts, both positive and negative, from future events than they actually do.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "impact-bias",
+      "url": "https://cognition.vsxlabs.com/bias/impact-bias"
+    },
+    {
+      "id": "implicit_associations",
+      "name": "Implicit associations",
+      "description": "The implicit associations cognitive bias refers to the automatic associations some individuals hold about groups of people, ingrained at an unconscious level. These associations can influence attitudes, judgments, and behaviors, often without the individual being aware of them. This bias falls under the broader category of implicit stereotypes, which are the unconscious beliefs and attitudes toward particular groups based on race, gender, age, or other factors.",
+      "category_id": "what_to_remember",
+      "category_name": "What to remember",
+      "slug": "implicit-associations",
+      "url": "https://cognition.vsxlabs.com/bias/implicit-associations"
+    },
+    {
+      "id": "in_group_bias",
+      "name": "In-group bias",
+      "description": "In-group bias, also known as in-group favoritism, is a cognitive bias where individuals tend to favor, support, and give preferential treatment to members of their own group over those in other groups. This bias is a fundamental aspect of human social interaction where familiar things and familiarity with the in-group lead to implicit positive associations, often regardless of objective evidence or actual differences among groups.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "in-group-bias",
+      "url": "https://cognition.vsxlabs.com/bias/in-group-bias"
+    },
+    {
+      "id": "information_bias",
+      "name": "Information bias",
+      "description": "Information bias is a cognitive bias that compels individuals to seek more information in situations where it may be irrelevant or redundant. This bias stems from the need for speed in decision-making, preferring simple and complete narratives over complex and ambiguous ones. Despite the illusion of informed action it provides, it often leads to inefficiencies and poor decision-making.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "information-bias",
+      "url": "https://cognition.vsxlabs.com/bias/information-bias"
+    },
+    {
+      "id": "insensitivity_to_sample_size",
+      "name": "Insensitivity to sample size",
+      "description": "Insensitivity to sample size is a cognitive bias where individuals, when evaluating statistical evidence, tend to disregard the size of the sample from which the evidence originates. This bias leads to overgeneralization from small samples and underestimation of variability based on sample size.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "insensitivity-to-sample-size",
+      "url": "https://cognition.vsxlabs.com/bias/insensitivity-to-sample-size"
+    },
+    {
+      "id": "just_world_hypothesis",
+      "name": "Just-world hypothesis",
+      "description": "The Just-world hypothesis is a cognitive bias that leads individuals to believe that the world is inherently fair and that people ultimately get what they deserve. This belief can shape the way individuals perceive events and the behavior of others, often leading to a skewed interpretation of reality.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "just-world-hypothesis",
+      "url": "https://cognition.vsxlabs.com/bias/just-world-hypothesis"
+    },
+    {
+      "id": "lake_wobegone_effect",
+      "name": "Lake Wobegone effect",
+      "description": "The Lake Wobegon effect is a cognitive bias wherein individuals overestimate their own capabilities, believing they are above average in various domains such as intelligence, skills, or knowledge. This name is derived from the fictional town of Lake Wobegon, created by Garrison Keillor, where 'all the children are above average'.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "lake-wobegone-effect",
+      "url": "https://cognition.vsxlabs.com/bias/lake-wobegone-effect"
+    },
+    {
+      "id": "law_of_triviality",
+      "name": "Law of Triviality",
+      "description": "The Law of Triviality, also known as Parkinson's Law of Triviality, describes a phenomenon where people give disproportionate weight and time to trivial issues while neglecting more complex and critical matters. This cognitive bias leads to decision-makers focusing on simple tasks that are easy to understand and discuss, rather than tackling the more significant issues that require deeper analysis.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "law-of-triviality",
+      "url": "https://cognition.vsxlabs.com/bias/law-of-triviality"
+    },
+    {
+      "id": "less_is_better_effect",
+      "name": "Less-is-better effect",
+      "description": "The less-is-better effect is a cognitive bias where individuals may prefer fewer or simpler options over more abundant or complex ones, even if the latter offer a greater value or reward. This preference arises because the simpler option is perceived as more desirable when evaluated in isolation rather than in comparison to a set.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "less-is-better-effect",
+      "url": "https://cognition.vsxlabs.com/bias/less-is-better-effect"
+    },
+    {
+      "id": "leveling_and_sharpening",
+      "name": "Leveling and sharpening",
+      "description": "Leveling and sharpening cognitive biases refer to the processes by which individuals simplify complex information and emphasize certain elements over others. These biases illustrate how people tend to minimize or exaggerate details when recalling events or experiences, often leading to misrepresentation or distortion of the original information.",
+      "category_id": "what_to_remember",
+      "category_name": "What to remember",
+      "slug": "leveling-and-sharpening",
+      "url": "https://cognition.vsxlabs.com/bias/leveling-and-sharpening"
+    },
+    {
+      "id": "levels_of_processing_effect",
+      "name": "Levels of processing effect",
+      "description": "The levels of processing effect is a cognitive bias that suggests the depth at which information is processed affects how well it is remembered. This theory posits that deeper, more meaningful processing leads to better recall than shallow processing, such as focusing on surface-level details.",
+      "category_id": "what_to_remember",
+      "category_name": "What to remember",
+      "slug": "levels-of-processing-effect",
+      "url": "https://cognition.vsxlabs.com/bias/levels-of-processing-effect"
+    },
+    {
+      "id": "loss_aversion",
+      "name": "Loss aversion",
+      "description": "Loss aversion is a cognitive bias that refers to the tendency for individuals to prefer avoiding losses rather than acquiring equivalent gains. This phenomenon implies that the pain of losing is psychologically about twice as powerful as the pleasure of gaining. As such, people are typically more motivated to try to avoid losses than to try to achieve gains.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "loss-aversion",
+      "url": "https://cognition.vsxlabs.com/bias/loss-aversion"
+    },
+    {
+      "id": "magic_number_7_2",
+      "name": "Magic number 7+-2",
+      "description": "The Magic Number 7±2 cognitive bias refers to the idea that the average human's working memory can hold around seven items (plus or minus two). This concept originates from a famous paper by psychologist George A. Miller in 1956, suggesting the limitations of human cognitive capacity, particularly regarding processing and remembering information.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "magic-number-7-2",
+      "url": "https://cognition.vsxlabs.com/bias/magic-number-7-2"
+    },
+    {
+      "id": "masked_man_fallacy",
+      "name": "Masked man fallacy",
+      "description": "The Masked man fallacy, also known as the intensional fallacy or epistemic fallacy, is a form of logical fallacy that arises when one substitutes co-referential names in a statement within an intensional (context-sensitive) context. The substitution leads to faulty reasoning. This fallacy stems from the misunderstanding or misapplication of the identity of items or individuals due to a lack of detailed information or understanding about them.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "masked-man-fallacy",
+      "url": "https://cognition.vsxlabs.com/bias/masked-man-fallacy"
+    },
+    {
+      "id": "memory_inhibition",
+      "name": "Memory inhibition",
+      "description": "Memory inhibition is a cognitive bias involving the ability to keep irrelevant or redundant information from interfering with other cognitive processes, particularly recall. This form of selective forgetting allows individuals to focus on the most pertinent details by suppressing unnecessary or distracting data.",
+      "category_id": "what_to_remember",
+      "category_name": "What to remember",
+      "slug": "memory-inhibition",
+      "url": "https://cognition.vsxlabs.com/bias/memory-inhibition"
+    },
+    {
+      "id": "mental_accounting",
+      "name": "Mental accounting",
+      "description": "Mental accounting is a cognitive bias that refers to the tendency for people to categorize and treat money differently based on arbitrary categories, like the source of the money or its intended use. It often involves simplifying the probabilities and impacts of financial decisions, impacting economic behavior and individual decision-making.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "mental-accounting",
+      "url": "https://cognition.vsxlabs.com/bias/mental-accounting"
+    },
+    {
+      "id": "mere_exposure_effect",
+      "name": "Mere exposure effect",
+      "description": "The mere exposure effect is a psychological phenomenon where people tend to develop a preference for things they are repeatedly exposed to. This cognitive bias suggests that familiarity with something can lead to affection, even if it was initially neutral or disinterested.",
+      "category_id": "information_overload",
+      "category_name": "Information overload",
+      "slug": "mere-exposure-effect",
+      "url": "https://cognition.vsxlabs.com/bias/mere-exposure-effect"
+    },
+    {
+      "id": "misattribution_of_memory",
+      "name": "Misattribution of memory",
+      "description": "The misattribution of memory is a cognitive bias that involves incorrectly recalling the source or context of a particular memory. It occurs when a person attributes a memory or idea to the wrong source, leading to distortions and inaccuracies in recollection. This bias can cause individuals to believe they remember something that never actually happened or confuse the details of separate events.",
+      "category_id": "what_to_remember",
+      "category_name": "What to remember",
+      "slug": "misattribution-of-memory",
+      "url": "https://cognition.vsxlabs.com/bias/misattribution-of-memory"
+    },
+    {
+      "id": "misinformation_effect",
+      "name": "Misinformation effect",
+      "description": "The misinformation effect is a cognitive bias that occurs when a person's memory of an event becomes less accurate due to the influence of post-event information. This phenomenon often leads to the creation of false memories and impacts an individual's ability to recall events as they actually occurred.",
+      "category_id": "what_to_remember",
+      "category_name": "What to remember",
+      "slug": "misinformation-effect",
+      "url": "https://cognition.vsxlabs.com/bias/misinformation-effect"
+    },
+    {
+      "id": "modality_effect",
+      "name": "Modality effect",
+      "description": "The modality effect is a cognitive bias that describes the differences in learning and memory retention based on the mode of information presentation. It often refers to the phenomenon where individuals remember information better when it is presented in an auditory rather than visual format, especially for short-term retention of sequences or lists.",
+      "category_id": "what_to_remember",
+      "category_name": "What to remember",
+      "slug": "modality-effect",
+      "url": "https://cognition.vsxlabs.com/bias/modality-effect"
+    },
+    {
+      "id": "money_illusion",
+      "name": "Money illusion",
+      "description": "Money illusion is a cognitive bias where people tend to think of currency in nominal rather than real terms, ignoring inflation or deflation's impact on purchasing power. This illusion can mislead people's understanding of personal finances, wages, and economic policies by focusing on the face value of money instead of its actual purchasing influence.",
+      "category_id": "information_overload",
+      "category_name": "Information overload",
+      "slug": "money-illusion",
+      "url": "https://cognition.vsxlabs.com/bias/money-illusion"
+    },
+    {
+      "id": "moral_credential_effect",
+      "name": "Moral credential effect",
+      "description": "The Moral Credential Effect is a cognitive bias where an individual's prior ethical behavior gives them a license to engage in potentially unethical actions without feeling guilty or damaging their self-image. It occurs when having previously made a moral choice allows someone to feel less compelled to act morally in subsequent situations.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "moral-credential-effect",
+      "url": "https://cognition.vsxlabs.com/bias/moral-credential-effect"
+    },
+    {
+      "id": "moral_luck",
+      "name": "Moral luck",
+      "description": "Moral luck is a cognitive bias where individuals unfairly judge the moral value of an action based on its outcome rather than the intent behind it. This bias challenges the traditional notion of morality, which usually aims to assess actions based solely on the agent's intentions and ethical principles.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "moral-luck",
+      "url": "https://cognition.vsxlabs.com/bias/moral-luck"
+    },
+    {
+      "id": "murphys_law",
+      "name": "Murphys Law",
+      "description": "Murphy's Law is a popular adage that states, 'Anything that can go wrong, will go wrong.' Although initially considered just a humorous observation about life, it reveals cognitive biases in how humans perceive and interpret unlikely and unfavorable events.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "murphys-law",
+      "url": "https://cognition.vsxlabs.com/bias/murphys-law"
+    },
+    {
+      "id": "naive_cynicism",
+      "name": "Naive cynicism",
+      "description": "Naïve cynicism is a cognitive bias where individuals tend to assume that others are more egocentric, biased, or motivated by self-interest than themselves. This bias reflects a skepticism towards others' intentions and a belief that their actions are driven by self-serving motives.",
+      "category_id": "information_overload",
+      "category_name": "Information overload",
+      "slug": "naive-cynicism",
+      "url": "https://cognition.vsxlabs.com/bias/naive-cynicism"
+    },
+    {
+      "id": "naive_realism",
+      "name": "Naive realism",
+      "description": "Naïve realism is a cognitive bias where individuals believe that they perceive the world objectively and that others who perceive it differently are uninformed, irrational, or biased. This bias leads to the assumption that one's own interpretation of reality is the accurate one, while differing perspectives are flawed.",
+      "category_id": "information_overload",
+      "category_name": "Information overload",
+      "slug": "naive-realism",
+      "url": "https://cognition.vsxlabs.com/bias/naive-realism"
+    },
+    {
+      "id": "negativity_bias",
+      "name": "Negativity bias",
+      "description": "Negativity bias is a cognitive bias that leads individuals to give more significance and weight to negative experiences or information over positive or neutral ones. This bias manifests itself by disproportionately impacting decision-making and perception, often making negative experiences more influential than positive ones.",
+      "category_id": "what_to_remember",
+      "category_name": "What to remember",
+      "slug": "negativity-bias",
+      "url": "https://cognition.vsxlabs.com/bias/negativity-bias"
+    },
+    {
+      "id": "neglect_of_probability",
+      "name": "Neglect of probability",
+      "description": "Neglect of probability is a cognitive bias where individuals disregard the probability of an event occurring and focus instead on the potential outcomes. This bias often leads to irrational decision-making because it prioritizes the emotional impact of potential outcomes over rational analysis of their likelihood. It is categorized under 'Lack of meaning' and is a subcategory of 'Stories in sparse data.'",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "neglect-of-probability",
+      "url": "https://cognition.vsxlabs.com/bias/neglect-of-probability"
+    },
+    {
+      "id": "next_in_line_effect",
+      "name": "Next-in-line effect",
+      "description": "The Next-in-line effect is a cognitive bias where individuals have a diminished ability to remember information presented immediately before their turn to perform or speak, such as when they are in line to give a presentation or speak in a meeting.",
+      "category_id": "what_to_remember",
+      "category_name": "What to remember",
+      "slug": "next-in-line-effect",
+      "url": "https://cognition.vsxlabs.com/bias/next-in-line-effect"
+    },
+    {
+      "id": "normalcy_bias",
+      "name": "Normalcy bias",
+      "description": "Normalcy bias is a cognitive bias characterized by the refusal to plan for or react to a disaster which has never happened before. This bias leads individuals to underestimate both the likelihood of a disaster occurring and its potential impact, reinforcing a false sense of security.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "normalcy-bias",
+      "url": "https://cognition.vsxlabs.com/bias/normalcy-bias"
+    },
+    {
+      "id": "not_invented_here",
+      "name": "Not invented here",
+      "description": "The 'Not Invented Here' (NIH) bias refers to a cultural or psychological stance where individuals or organizations resist using, acquiring, or even acknowledging external knowledge, ideas, or solutions, simply because these innovations originate outside their own environment. This bias is characterized by the preference for internally developed products or ideas, often leading to skepticism and dismissal of externally sourced solutions.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "not-invented-here",
+      "url": "https://cognition.vsxlabs.com/bias/not-invented-here"
+    },
+    {
+      "id": "observer_expectancy_effect",
+      "name": "Observer-expectancy effect",
+      "description": "The observer-expectancy effect, also known as the experimenter-expectancy effect, refers to a cognitive bias where a researcher's expectations or beliefs about the outcome of a study subconsciously influence the participants of the study or the interpretation of results. This can lead to skewed outcomes that conform to the observer's preconceived notions.",
+      "category_id": "information_overload",
+      "category_name": "Information overload",
+      "slug": "observer-expectancy-effect",
+      "url": "https://cognition.vsxlabs.com/bias/observer-expectancy-effect"
+    },
+    {
+      "id": "occams_razor",
+      "name": "Occams razor",
+      "description": "Occam's Razor is a cognitive bias and philosophical principle that suggests that, among competing hypotheses that predict equally well, the one with the fewest assumptions should be selected. It promotes simplicity in decision-making and problem-solving, suggesting that simpler ideas with less complexity are often more likely to be correct.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "occams-razor",
+      "url": "https://cognition.vsxlabs.com/bias/occams-razor"
+    },
+    {
+      "id": "omission_bias",
+      "name": "Omission bias",
+      "description": "Omission bias is a cognitive bias where individuals tend to judge harmful actions as worse or less morally acceptable than equally harmful omissions (inactions). In simple terms, people often believe that doing something harmful is worse than failing to prevent harm. This bias is a significant concern within the realm of decision-making and ethics, as it can lead to skewed perceptions and judgments.",
+      "category_id": "information_overload",
+      "category_name": "Information overload",
+      "slug": "omission-bias",
+      "url": "https://cognition.vsxlabs.com/bias/omission-bias"
+    },
+    {
+      "id": "optimism_bias",
+      "name": "Optimism bias",
+      "description": "Optimism bias is a cognitive bias that causes individuals to believe that they are less likely to experience negative events and more likely to experience positive ones compared to others. It's an inherent part of human psychology that can influence a wide range of decisions and behaviors, often leading to overly positive evaluations of future outcomes.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "optimism-bias",
+      "url": "https://cognition.vsxlabs.com/bias/optimism-bias"
+    },
+    {
+      "id": "ostrich_effect",
+      "name": "Ostrich effect",
+      "description": "The Ostrich Effect is a cognitive bias that describes the tendency of individuals to avoid negative or threatening information by metaphorically burying their heads in the sand, akin to the behavior of an ostrich. The bias is named after the common (though incorrect) belief that ostriches hide from danger by burying their heads in the sand.",
+      "category_id": "information_overload",
+      "category_name": "Information overload",
+      "slug": "ostrich-effect",
+      "url": "https://cognition.vsxlabs.com/bias/ostrich-effect"
+    },
+    {
+      "id": "out_group_homogeneity_bias",
+      "name": "Out-group homogeneity bias",
+      "description": "Out-group homogeneity bias is a cognitive phenomenon where people perceive members of a group to which they don't belong (the out-group) as more similar to one another than members of their own group (the in-group). This bias leads to the perception that 'they' are alike, while 'we' are diverse and varied.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "out-group-homogeneity-bias",
+      "url": "https://cognition.vsxlabs.com/bias/out-group-homogeneity-bias"
+    },
+    {
+      "id": "outcome_bias",
+      "name": "Outcome bias",
+      "description": "Outcome bias is a cognitive bias that occurs when people judge the quality of a decision based on its outcome rather than the quality of the decision at the time it was made. This bias can lead to an inaccurate assessment of the decision-making process as it disregards the information available when the decision was made, focusing instead on the result.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "outcome-bias",
+      "url": "https://cognition.vsxlabs.com/bias/outcome-bias"
+    },
+    {
+      "id": "overconfidence_effect",
+      "name": "Overconfidence effect",
+      "description": "The overconfidence effect is a well-documented cognitive bias in which a person's subjective confidence in their judgments is greater than the objective accuracy of those judgments. This phenomenon is prevalent across various domains of decision-making and has significant implications in both personal and professional settings.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "overconfidence-effect",
+      "url": "https://cognition.vsxlabs.com/bias/overconfidence-effect"
+    },
+    {
+      "id": "pareidolia",
+      "name": "Pareidolia",
+      "description": "Pareidolia is a cognitive bias where individuals perceive familiar patterns, such as faces or objects, in random stimuli. This tendency to find meaning where none exists is a form of apophenia, making us see stories in sparse data.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "pareidolia",
+      "url": "https://cognition.vsxlabs.com/bias/pareidolia"
+    },
+    {
+      "id": "peak_end_rule",
+      "name": "Peak-end rule",
+      "description": "The peak-end rule is a cognitive bias that impacts how people retrospectively evaluate experiences. According to this rule, individuals tend to judge experiences based largely on how they felt at the most intense point (the peak) and at the end, rather than on the total sum or average of every moment of the experience.",
+      "category_id": "what_to_remember",
+      "category_name": "What to remember",
+      "slug": "peak-end-rule",
+      "url": "https://cognition.vsxlabs.com/bias/peak-end-rule"
+    },
+    {
+      "id": "pessimism_bias",
+      "name": "Pessimism bias",
+      "description": "Pessimism bias is a cognitive bias that leads individuals to overestimate the likelihood of negative outcomes, often projecting a more dire picture of future events than is warranted. This bias causes people to focus on potential drawbacks or harmful future scenarios while discounting positive ones, resulting in a skewed perception that influences decision-making and emotional resilience.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "pessimism-bias",
+      "url": "https://cognition.vsxlabs.com/bias/pessimism-bias"
+    },
+    {
+      "id": "picture_superiority_effect",
+      "name": "Picture superiority effect",
+      "description": "The picture superiority effect is a cognitive bias that suggests images and pictures are more likely to be remembered than words. This phenomenon indicates that when information is presented as both pictures and text, the visual representation tends to be retained more effectively in our memory.",
+      "category_id": "information_overload",
+      "category_name": "Information overload",
+      "slug": "picture-superiority-effect",
+      "url": "https://cognition.vsxlabs.com/bias/picture-superiority-effect"
+    },
+    {
+      "id": "placebo_effect",
+      "name": "Placebo effect",
+      "description": "The placebo effect cognitive bias refers to the phenomenon where individuals experience a perceived improvement in a condition due to their belief in the efficacy of a treatment, which in reality is inert. This bias falls under the category of lack of meaning and specifically under the subcategory where information gaps are generalized. It highlights how human cognition can convert expectations into actual physiological and psychological changes.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "placebo-effect",
+      "url": "https://cognition.vsxlabs.com/bias/placebo-effect"
+    },
+    {
+      "id": "planning_fallacy",
+      "name": "Planning fallacy",
+      "description": "The planning fallacy is a cognitive bias that leads people to underestimate the time, costs, and risks of future actions while overestimating the benefits of those same actions. This bias often results in unrealistic timelines and budgets, leading to projects and plans that fall short of expectations.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "planning-fallacy",
+      "url": "https://cognition.vsxlabs.com/bias/planning-fallacy"
+    },
+    {
+      "id": "positivity_effect",
+      "name": "Positivity effect",
+      "description": "The positivity effect is a cognitive bias that entails an increased focus on positive information while minimizing negative information. It suggests that individuals, especially as they age, are more likely to remember positive events over negative ones, contributing to an overall more optimistic worldview. This bias is often linked to emotional regulation strategies that prioritize well-being and happiness.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "positivity-effect",
+      "url": "https://cognition.vsxlabs.com/bias/positivity-effect"
+    },
+    {
+      "id": "post_purchase_rationalization",
+      "name": "Post-purchase rationalization",
+      "description": "Post-purchase rationalization, also known as choice-supportive bias, is a cognitive bias where individuals tend to retroactively justify their past purchases and decisions, often distorting the value or quality of their choices. This psychological phenomenon occurs as a way to alleviate cognitive dissonance, which is the mental discomfort experienced when a person holds contradictory beliefs or values.",
+      "category_id": "information_overload",
+      "category_name": "Information overload",
+      "slug": "post-purchase-rationalization",
+      "url": "https://cognition.vsxlabs.com/bias/post-purchase-rationalization"
+    },
+    {
+      "id": "prejudice",
+      "name": "Prejudice",
+      "description": "Prejudice is a cognitive bias that involves forming an opinion or assumption about an individual or group based on generalizing characteristics, often discarding specific details in the process. This bias relies heavily on stereotypes and oversimplified beliefs about a group, resulting in assumptions that don't account for individual variations.",
+      "category_id": "what_to_remember",
+      "category_name": "What to remember",
+      "slug": "prejudice",
+      "url": "https://cognition.vsxlabs.com/bias/prejudice"
+    },
+    {
+      "id": "primacy_effect",
+      "name": "Primacy effect",
+      "description": "The primacy effect is a cognitive bias that results in a person recalling the first items in a series more strongly than the subsequent items. This effect is a part of the broader concept known as the 'serial position effect,' which examines how the position of an item in a list affects how well it is remembered.",
+      "category_id": "what_to_remember",
+      "category_name": "What to remember",
+      "slug": "primacy-effect",
+      "url": "https://cognition.vsxlabs.com/bias/primacy-effect"
+    },
+    {
+      "id": "pro_innovation_bias",
+      "name": "Pro-innovation bias",
+      "description": "Pro-innovation bias is a cognitive bias that occurs when an individual or group overvalues the benefits of a new product or innovation while underestimating its limitations and challenges. It leads people to favor new ideas and technologies, often without thoroughly examining their impact or potential drawbacks.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "pro-innovation-bias",
+      "url": "https://cognition.vsxlabs.com/bias/pro-innovation-bias"
+    },
+    {
+      "id": "projection_bias",
+      "name": "Projection bias",
+      "description": "Projection bias is a cognitive bias that describes the human tendency to overestimate the degree to which their future preferences and tastes will align with their current preferences and tastes. This bias is a type of misforecasting that occurs when individuals assume that their emotional states and desires will remain unchanged over time.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "projection-bias",
+      "url": "https://cognition.vsxlabs.com/bias/projection-bias"
+    },
+    {
+      "id": "pseudocertainty_effect",
+      "name": "Pseudocertainty effect",
+      "description": "The pseudocertainty effect is a cognitive bias that refers to individuals' tendency to make risk-averse choices when outcomes are framed as gains, and risk-seeking choices when they are framed as losses. This occurs despite the objective probabilities and outcomes remaining the same. The bias highlights how problem framing can significantly influence decision-making, particularly under conditions of uncertainty.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "pseudocertainty-effect",
+      "url": "https://cognition.vsxlabs.com/bias/pseudocertainty-effect"
+    },
+    {
+      "id": "reactance",
+      "name": "Reactance",
+      "description": "Reactance is a cognitive bias referring to the emotional reaction individuals have when they perceive their autonomy to be threatened or their range of options to be limited. This psychological response often leads to behavior that is contrary to what is being imposed, as an attempt to regain control or freedom. When people perceive their freedoms are being infringed upon, they may be motivated to restore those freedoms, even at the cost of making irrational decisions. This bias falls under the category 'Need for Speed' due to the immediate and instinctive nature of the response and the subcategory 'Motivated to preserve autonomy and status.'",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "reactance",
+      "url": "https://cognition.vsxlabs.com/bias/reactance"
+    },
+    {
+      "id": "reactive_devaluation",
+      "name": "Reactive devaluation",
+      "description": "Reactive devaluation is a cognitive bias where an individual devalues or dismisses proposals or ideas if they originate from an adversary or an opposing party, even if these ideas could be beneficial. This bias often stems from an emotional response, leading people to focus more on the source than the content, thereby affecting negotiations, decision-making, and conflict resolution.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "reactive-devaluation",
+      "url": "https://cognition.vsxlabs.com/bias/reactive-devaluation"
+    },
+    {
+      "id": "recency_effect",
+      "name": "Recency effect",
+      "description": "The recency effect is a cognitive bias that refers to the tendency of individuals to better remember the most recently presented items or experiences. This bias is commonly observed when recalling items from a list or events that have just occurred, demonstrating that the most recent information tends to be more impactful on memory recall compared to earlier information.",
+      "category_id": "what_to_remember",
+      "category_name": "What to remember",
+      "slug": "recency-effect",
+      "url": "https://cognition.vsxlabs.com/bias/recency-effect"
+    },
+    {
+      "id": "recency_illusion",
+      "name": "Recency illusion",
+      "description": "The recency illusion is a cognitive bias where an individual perceives a linguistic phenomenon as new or recent, even though it has been present for a longer period. This is often due to a person's initial awareness or freshly encountered information, leading to the false belief that it is a recent development.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "recency-illusion",
+      "url": "https://cognition.vsxlabs.com/bias/recency-illusion"
+    },
+    {
+      "id": "restraint_bias",
+      "name": "Restraint bias",
+      "description": "Restraint bias is a cognitive bias wherein individuals overestimate their ability to control impulses or resist temptations. This often results in exposing oneself to situations with higher risk of succumbing to temptation, as the perceived self-control is mistakenly assumed to be sufficient to handle it.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "restraint-bias",
+      "url": "https://cognition.vsxlabs.com/bias/restraint-bias"
+    },
+    {
+      "id": "reverse_psychology",
+      "name": "Reverse psychology",
+      "description": "Reverse psychology is a persuasion technique that involves advocating for a behavior or outcome that is the opposite of what is desired, with the expectation that the recipient of the communication will be motivated to assert their autonomy and choose the original desired outcome. This technique often exploits the cognitive bias where individuals are motivated to preserve their sense of autonomy and status.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "reverse-psychology",
+      "url": "https://cognition.vsxlabs.com/bias/reverse-psychology"
+    },
+    {
+      "id": "rhyme_as_reason_effect",
+      "name": "Rhyme as reason effect",
+      "description": "The Rhyme as reason effect, also known as the 'Eaton-Rosen phenomenon,' is a cognitive bias where people perceive rhyming statements as more truthful or accurate compared to non-rhyming equivalents. This effect capitalizes on the human inclination towards simple, complete phrases over complex or ambiguous ones, suggesting that a statement's form can significantly influence its perceived truthfulness.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "rhyme-as-reason-effect",
+      "url": "https://cognition.vsxlabs.com/bias/rhyme-as-reason-effect"
+    },
+    {
+      "id": "risk_compensation",
+      "name": "Risk compensation",
+      "description": "Risk compensation is a cognitive bias that occurs when individuals adjust their behavior in response to perceived changes in risk. Essentially, as people feel more protected or safer, they tend to take greater risks, potentially offsetting the intended safety benefits.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "risk-compensation",
+      "url": "https://cognition.vsxlabs.com/bias/risk-compensation"
+    },
+    {
+      "id": "rosy_retrospection",
+      "name": "Rosy retrospection",
+      "description": "Rosy retrospection is a cognitive bias that leads people to perceive past events as more favorable than they actually were. Individuals often remember the past with idealized positivity, overlooking negative aspects and enhancing positive ones. This bias influences how memories are recalled and interpreted, often painting a 'rosier' picture of the past than what the reality might have been.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "rosy-retrospection",
+      "url": "https://cognition.vsxlabs.com/bias/rosy-retrospection"
+    },
+    {
+      "id": "selective_perception",
+      "name": "Selective perception",
+      "description": "Selective perception is a cognitive bias that involves focusing on information that confirms existing beliefs while ignoring information that contradicts them. This phenomenon falls under the category of Information overload, where individuals are faced with vast amounts of data and selectively filter it, often unconsciously, leading to reinforcement of pre-existing notions.",
+      "category_id": "information_overload",
+      "category_name": "Information overload",
+      "slug": "selective-perception",
+      "url": "https://cognition.vsxlabs.com/bias/selective-perception"
+    },
+    {
+      "id": "self_consistency_bias",
+      "name": "Self-consistency bias",
+      "description": "Self-consistency bias is a cognitive bias where individuals mistakenly believe that their attitudes, beliefs, and behaviors have remained consistent over time. This bias can lead to distorted perceptions of one's past and future actions, often projecting current beliefs or emotional states back into the past and anticipated into the future. It fits into the broader category of 'Lack of meaning,' where individuals impose consistency to maintain a coherent self-image.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "self-consistency-bias",
+      "url": "https://cognition.vsxlabs.com/bias/self-consistency-bias"
+    },
+    {
+      "id": "self_relevance_effect",
+      "name": "Self-relevance effect",
+      "description": "The self-relevance effect, a cognitive bias, is the tendency for individuals to better remember information that relates to themselves than information that has less personal relevance. This bias fundamentally affects how we process and prioritize the vast amount of information we encounter daily, making personally relevant information particularly salient.",
+      "category_id": "information_overload",
+      "category_name": "Information overload",
+      "slug": "self-relevance-effect",
+      "url": "https://cognition.vsxlabs.com/bias/self-relevance-effect"
+    },
+    {
+      "id": "self_serving_bias",
+      "name": "Self-serving bias",
+      "description": "Self-serving bias is a common cognitive bias that refers to an individual's tendency to attribute their successes to internal or personal factors while blaming external factors for any failures. This bias is part of the broader category of the need for speed in cognitive processing and falls under doing what matters in self-assessment and perception.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "self-serving-bias",
+      "url": "https://cognition.vsxlabs.com/bias/self-serving-bias"
+    },
+    {
+      "id": "semmelweis_reflex",
+      "name": "Semmelweis reflex",
+      "description": "The Semmelweis reflex is a cognitive bias wherein people tend to reject new evidence or knowledge if it contradicts established norms or beliefs. Named after Ignaz Semmelweis, a 19th-century Hungarian physician who discovered that hand-washing could drastically reduce childbed fever incidence, the term describes the tendency to dismiss or undervalue findings that conflict with accepted paradigms.",
+      "category_id": "information_overload",
+      "category_name": "Information overload",
+      "slug": "semmelweis-reflex",
+      "url": "https://cognition.vsxlabs.com/bias/semmelweis-reflex"
+    },
+    {
+      "id": "serial_position_effect",
+      "name": "Serial position effect",
+      "description": "The Serial Position Effect is a cognitive bias that influences how people recall items from a list. This effect suggests that individuals tend to remember the first and last items in a series better than those in the middle. This phenomenon reveals key insights into human memory and information retention, providing a framework for understanding how we prioritize and recall data.",
+      "category_id": "what_to_remember",
+      "category_name": "What to remember",
+      "slug": "serial-position-effect",
+      "url": "https://cognition.vsxlabs.com/bias/serial-position-effect"
+    },
+    {
+      "id": "serial_recall_effect",
+      "name": "Serial recall effect",
+      "description": "The Serial Recall Effect is a cognitive bias involving the tendency to recall the first and last items in a series more readily than those in the middle. This cognitive bias is primarily observed when humans try to remember a sequence of information, such as a list of words, numbers, or events. It impacts how people remember and retrieve information, often preserving the beginning and the end of sequences better than the middle.",
+      "category_id": "what_to_remember",
+      "category_name": "What to remember",
+      "slug": "serial-recall-effect",
+      "url": "https://cognition.vsxlabs.com/bias/serial-recall-effect"
+    },
+    {
+      "id": "social_comparison_bias",
+      "name": "Social comparison bias",
+      "description": "Social comparison bias is a cognitive bias where individuals judge others based on perceived status or competency, often motivated by a desire to maintain their own status or autonomy. This bias is rooted in the innate human tendency to compare oneself to others as a means of self-assessment, often leading to distorted perceptions and unjustified judgments.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "social-comparison-bias",
+      "url": "https://cognition.vsxlabs.com/bias/social-comparison-bias"
+    },
+    {
+      "id": "social_desirability_bias",
+      "name": "Social desirability bias",
+      "description": "Social desirability bias is a cognitive bias where individuals tend to answer questions or behave in ways they perceive as being more socially acceptable, rather than being truthful or authentic. This often results in skewed data in surveys, interviews, and research, as people provide responses they believe will make them look favorable in the eyes of others.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "social-desirability-bias",
+      "url": "https://cognition.vsxlabs.com/bias/social-desirability-bias"
+    },
+    {
+      "id": "spacing_effect",
+      "name": "Spacing effect",
+      "description": "The Spacing Effect is a cognitive phenomenon where learning is more effective when study sessions are spaced out over time rather than when completed in immediate succession. This phenomenon highlights how distributed practice produces more robust long-term memory retention compared to massed practice (i.e., cramming), influencing both formal education and informal learning activities.",
+      "category_id": "what_to_remember",
+      "category_name": "What to remember",
+      "slug": "spacing-effect",
+      "url": "https://cognition.vsxlabs.com/bias/spacing-effect"
+    },
+    {
+      "id": "spotlight_effect",
+      "name": "Spotlight effect",
+      "description": "The Spotlight Effect is a cognitive bias where individuals overestimate the degree to which their actions and appearance are noticed by others. It is part of a broader category of biases related to a lack of meaning and belongs to the subgroup of knowing what others are thinking. The term refers to the mental 'spotlight' individuals feel that they believe highlights their flaws and mistakes in front of others.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "spotlight-effect",
+      "url": "https://cognition.vsxlabs.com/bias/spotlight-effect"
+    },
+    {
+      "id": "status_quo_bias",
+      "name": "Status quo bias",
+      "description": "Status quo bias is a cognitive bias that refers to the preference for the current state of affairs. Individuals exhibiting this bias favor decisions or policies that maintain things as they are, rejecting changes even when those changes might lead to better outcomes. This bias is often influenced by a need to preserve autonomy and maintain one's current status.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "status-quo-bias",
+      "url": "https://cognition.vsxlabs.com/bias/status-quo-bias"
+    },
+    {
+      "id": "stereotyping",
+      "name": "Stereotyping",
+      "description": "Stereotyping is a cognitive bias where generalized beliefs or assumptions are made about members of a particular group. This bias often arises from information gaps, leading individuals to substitute specific knowledge about a person with generalized group characteristics.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "stereotyping",
+      "url": "https://cognition.vsxlabs.com/bias/stereotyping"
+    },
+    {
+      "id": "subadditivity_effect",
+      "name": "Subadditivity effect",
+      "description": "The subadditivity effect is a cognitive bias where individuals tend to judge the probability of a whole as less than the sum of its parts. In essence, people often underestimate the total probability of an event when it is broken down into component parts. This effect is prominent within the realm of probabilistic reasoning, where human intuition struggles to accurately assess combined probabilities.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "subadditivity-effect",
+      "url": "https://cognition.vsxlabs.com/bias/subadditivity-effect"
+    },
+    {
+      "id": "subjective_validation",
+      "name": "Subjective validation",
+      "description": "Subjective validation, also known as the Forer effect, is a cognitive bias whereby people tend to perceive vague or general statements as highly accurate and applicable to themselves personally. This phenomenon explains why individuals often find personal meaning in ambiguous information, such as horoscopes or personality tests, which seem tailor-made for them but are, in reality, generalized.",
+      "category_id": "information_overload",
+      "category_name": "Information overload",
+      "slug": "subjective-validation",
+      "url": "https://cognition.vsxlabs.com/bias/subjective-validation"
+    },
+    {
+      "id": "suffix_effect",
+      "name": "Suffix effect",
+      "description": "The suffix effect is a cognitive bias that affects how information is remembered, particularly when it comes to lists and sequences. It refers to the phenomenon where the recall of the last items in a list is impaired when a distracting suffix is added immediately after the list. This effect highlights the intricacies of memory mechanisms, especially concerning auditory stimuli.",
+      "category_id": "what_to_remember",
+      "category_name": "What to remember",
+      "slug": "suffix-effect",
+      "url": "https://cognition.vsxlabs.com/bias/suffix-effect"
+    },
+    {
+      "id": "suggestibility",
+      "name": "Suggestibility",
+      "description": "Suggestibility is a cognitive bias where a person's memory or perception can be influenced by external information, leading to the incorporation of inaccurate details into their memories or beliefs. This bias often occurs when individuals are exposed to misleading information after an event, which can reinforce or alter their recollections.",
+      "category_id": "what_to_remember",
+      "category_name": "What to remember",
+      "slug": "suggestibility",
+      "url": "https://cognition.vsxlabs.com/bias/suggestibility"
+    },
+    {
+      "id": "sunk_cost_fallacy",
+      "name": "Sunk cost fallacy",
+      "description": "The sunk cost fallacy is a cognitive bias where individuals make decisions based on previously invested resources (time, money, effort) rather than the present and future value of their decision. This often leads to irrational decision-making as people continue to commit to a course of action due to the costs already incurred, which cannot be recovered.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "sunk-cost-fallacy",
+      "url": "https://cognition.vsxlabs.com/bias/sunk-cost-fallacy"
+    },
+    {
+      "id": "survivorship_bias",
+      "name": "Survivorship bias",
+      "description": "Survivorship bias is a cognitive bias that occurs when an analysis only considers the 'survivors' or successful entities of a group while overlooking the failures, thereby skewing the results and leading to erroneous conclusions. This bias stems from the human tendency to draw inferences based on incomplete data, largely due to the absence of information about non-survivors.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "survivorship-bias",
+      "url": "https://cognition.vsxlabs.com/bias/survivorship-bias"
+    },
+    {
+      "id": "telescoping_effect",
+      "name": "Telescoping effect",
+      "description": "The telescoping effect is a cognitive bias that affects how individuals perceive the timing of past or future events. This phenomenon leads people to either perceive recent events as farther away than they are or perceive distant events as more recent. It often results in distorted recollections of when certain events occurred.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "telescoping-effect",
+      "url": "https://cognition.vsxlabs.com/bias/telescoping-effect"
+    },
+    {
+      "id": "testing_effect",
+      "name": "Testing effect",
+      "description": "The testing effect is a cognitive phenomenon where long-term memory retention is improved through retrieval practice and self-testing. This effect suggests that the act of recalling information strengthens the memory trace more effectively than simply studying the material repeatedly.",
+      "category_id": "what_to_remember",
+      "category_name": "What to remember",
+      "slug": "testing-effect",
+      "url": "https://cognition.vsxlabs.com/bias/testing-effect"
+    },
+    {
+      "id": "third_person_effect",
+      "name": "Third-person effect",
+      "description": "The third-person effect is a cognitive bias where individuals believe that other people are more affected by media messages than they are themselves. This perception can lead people to overestimate the influence of media on others while underestimating its effect on themselves.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "third-person-effect",
+      "url": "https://cognition.vsxlabs.com/bias/third-person-effect"
+    },
+    {
+      "id": "time_saving_bias",
+      "name": "Time-saving bias",
+      "description": "Time-saving bias refers to a common cognitive distortion where individuals struggle to accurately assess the amount of time saved when using faster methods or processes. This misjudgment often leads people to overestimate the time saved by speeding up tasks that are already quick and underestimate the time saved by accelerating slower tasks.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "time-saving-bias",
+      "url": "https://cognition.vsxlabs.com/bias/time-saving-bias"
+    },
+    {
+      "id": "tip_of_the_tongue_phenomenon",
+      "name": "Tip of the tongue phenomenon",
+      "description": "The 'Tip of the Tongue' phenomenon is a cognitive bias where an individual is unable to retrieve a word or piece of information despite a strong feeling of being on the brink of recalling it. This occurs frequently in everyday conversations and can cause mild frustration.",
+      "category_id": "what_to_remember",
+      "category_name": "What to remember",
+      "slug": "tip-of-the-tongue-phenomenon",
+      "url": "https://cognition.vsxlabs.com/bias/tip-of-the-tongue-phenomenon"
+    },
+    {
+      "id": "trait_ascription_bias",
+      "name": "Trait ascription bias",
+      "description": "Trait ascription bias is a cognitive bias where individuals tend to perceive their own behavior as flexible and situationally influenced, while viewing others' behaviors as consistent and reflective of their inherent traits. This bias underscores a discrepancy in how we judge our own versus others' actions, often leading us to consider ourselves as adaptable and others as rigidly defined by their characteristics.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "trait-ascription-bias",
+      "url": "https://cognition.vsxlabs.com/bias/trait-ascription-bias"
+    },
+    {
+      "id": "ultimate_attribution_error",
+      "name": "Ultimate attribution error",
+      "description": "Ultimate attribution error is a cognitive bias that leads to the systematic attribution of behaviors of individuals or groups based on perceived inherent characteristics, especially in cases involving in-group versus out-group dynamics. This often results in attributing positive actions of in-group members to inherent traits and negative actions to situational factors, while interpreting out-group members' positive behaviors as situational and negative behaviors as inherent.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "ultimate-attribution-error",
+      "url": "https://cognition.vsxlabs.com/bias/ultimate-attribution-error"
+    },
+    {
+      "id": "unit_bias",
+      "name": "Unit bias",
+      "description": "Unit bias is a cognitive bias that describes the tendency for individuals to believe that a single unit of something is the appropriate and optimal amount to consume or utilize. This bias is noticeable when people prefer a complete unit over portions, regardless of the actual quantity required or desired.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "unit-bias",
+      "url": "https://cognition.vsxlabs.com/bias/unit-bias"
+    },
+    {
+      "id": "von_restorff_effect",
+      "name": "Von Restorff effect",
+      "description": "The Von Restorff effect, also known as the isolation effect, is a cognitive bias that predicts an item noticeably different from others will be more likely to be remembered. This concept hinges on the principle that unusual or distinctive features enhance memory recall within a list of otherwise homogenous items.",
+      "category_id": "information_overload",
+      "category_name": "Information overload",
+      "slug": "von-restorff-effect",
+      "url": "https://cognition.vsxlabs.com/bias/von-restorff-effect"
+    },
+    {
+      "id": "weberfechner_law",
+      "name": "WeberFechner law",
+      "description": "The Weber-Fechner law is a principle that attempts to explain the relationship between the physical magnitude of a stimulus and the perceived intensity of that stimulus, suggesting that the perceived change in a given stimulus is proportional to the initial intensity of that stimulus. It is named after Ernst Weber and Gustav Fechner, who pioneered early research in sensory perception.",
+      "category_id": "information_overload",
+      "category_name": "Information overload",
+      "slug": "weberfechner-law",
+      "url": "https://cognition.vsxlabs.com/bias/weberfechner-law"
+    },
+    {
+      "id": "well_traveled_road_effect",
+      "name": "Well-traveled road effect",
+      "description": "The Well-traveled road effect is a cognitive bias that causes people to underestimate the time it takes to travel routes they are familiar with. This phenomenon suggests that people perceive regularly traveled paths as shorter than they objectively are, due to an increase in perceived efficiency and ease of navigation.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "well-traveled-road-effect",
+      "url": "https://cognition.vsxlabs.com/bias/well-traveled-road-effect"
+    },
+    {
+      "id": "zero_sum_bias",
+      "name": "Zero sum bias",
+      "description": "Zero sum bias is a cognitive bias where individuals perceive a situation as having a fixed amount of resources or benefits, leading them to think that one person's gain is inherently another's loss. This misperception often overlooks the possibility of non-zero-sum scenarios where all parties can benefit.",
+      "category_id": "lack_of_meaning",
+      "category_name": "Lack of meaning",
+      "slug": "zero-sum-bias",
+      "url": "https://cognition.vsxlabs.com/bias/zero-sum-bias"
+    },
+    {
+      "id": "zero_risk_bias",
+      "name": "Zero-risk bias",
+      "description": "Zero-risk bias is a cognitive bias where individuals prefer to eliminate a small risk entirely over reducing a larger risk by a greater margin. This preference occurs even when the latter option is statistically safer or more advantageous. This bias reflects our affinity for certainty and the psychological comfort derived from completely eradicating a particular risk.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "zero-risk-bias",
+      "url": "https://cognition.vsxlabs.com/bias/zero-risk-bias"
+    }
+  ],
+  "statistics": {
+    "by_category": {
+      "what_to_remember": 23,
+      "need_for_speed": 44,
+      "information_overload": 29,
+      "lack_of_meaning": 36
+    },
+    "total_biases": 132,
+    "average_description_length": 245,
+    "top_keywords": [
+      "memory",
+      "decision",
+      "perception",
+      "belief",
+      "information",
+      "bias",
+      "cognitive",
+      "tendency",
+      "individuals",
+      "people"
+    ]
+  }
+}
