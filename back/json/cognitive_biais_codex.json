@@ -1,0 +1,1641 @@
+{
+  "metadata": {
+    "source": "The Cognitive Bias Codex - John Manoogian III",
+    "nombre_total_biais": 182,
+    "nombre_total_categories": 4,
+    "nombre_total_sous_categories": 20,
+    "date_extraction": "2025-11-26",
+    "date_mise_a_jour": "2025-12-04",
+    "version": "1.0"
+  },
+  "categories": [
+    {
+      "id": "trop_information",
+      "nom_fr": "Trop d'information",
+      "nom_en": "Too Much Information",
+      "couleur": "#098",
+      "sous_categories": [
+        {
+          "id": "memoire_amorcage",
+          "description_fr": "Nous nous rappelons les choses qui sont déjà amorcées dans notre mémoire ou qui sont souvent répétées",
+          "description_en": "We notice things already primed in memory or repeated often",
+          "biais": [
+            {
+              "nom_fr": "Heuristique de disponibilité",
+              "nom_en": "Availability heuristic",
+              "url": "https://en.wikipedia.org/wiki/Availability_heuristic",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais attentionnel",
+              "nom_en": "Attentional bias",
+              "url": "https://en.wikipedia.org/wiki/Attentional_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet de vérité illusoire",
+              "nom_en": "Illusory truth effect",
+              "url": "https://en.wikipedia.org/wiki/Illusory_truth_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet de simple exposition",
+              "nom_en": "Mere-exposure effect",
+              "url": "https://en.wikipedia.org/wiki/Mere-exposure_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet du contexte",
+              "nom_en": "Context effect",
+              "url": "https://en.wikipedia.org/wiki/Context_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Échec du rappel sans indice",
+              "nom_en": "Cue-dependent forgetting",
+              "url": "https://en.wikipedia.org/wiki/Cue-dependent_forgetting",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais mnésique lié à l'humeur",
+              "nom_en": "Mood-congruent memory bias",
+              "url": "https://en.wikipedia.org/wiki/Mood_congruence",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Illusion de fréquence / Phénomène de Baader-Meinhof",
+              "nom_en": "Frequency illusion / Baader-Meinhof Phenomenon",
+              "url": "https://en.wikipedia.org/wiki/Frequency_illusion",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Décalage empathique",
+              "nom_en": "Empathy gap",
+              "url": "https://en.wikipedia.org/wiki/Empathy_gap",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais d'omission",
+              "nom_en": "Omission bias",
+              "url": "https://en.wikipedia.org/wiki/Omission_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Oubli de la fréquence de base",
+              "nom_en": "Base rate fallacy",
+              "url": "https://en.wikipedia.org/wiki/Base_rate_fallacy",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            }
+          ]
+        },
+        {
+          "id": "elements_saillants",
+          "description_fr": "Les choses bizarres, drôles, visuellement frappantes ou anthropomorphiques sont plus saillantes que celles qui ne le sont pas",
+          "description_en": "Bizarre, funny, visually striking, or anthropomorphic things stick out more than non-bizarre or unfunny things",
+          "biais": [
+            {
+              "nom_fr": "Effet de bizarrerie",
+              "nom_en": "Bizarreness effect",
+              "url": "https://en.wikipedia.org/wiki/Bizarreness_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet d'humour",
+              "nom_en": "Humor effect",
+              "url": "https://en.wikipedia.org/wiki/List_of_cognitive_biases#Humor_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet von Restorff",
+              "nom_en": "Von Restorff effect",
+              "url": "https://en.wikipedia.org/wiki/Von_Restorff_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet de supériorité de l'image",
+              "nom_en": "Picture superiority effect",
+              "url": "https://en.wikipedia.org/wiki/Picture_superiority_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet de référence à soi",
+              "nom_en": "Self-relevance effect",
+              "url": "https://en.wikipedia.org/wiki/Self-reference_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais de négativité",
+              "nom_en": "Negativity bias",
+              "url": "https://en.wikipedia.org/wiki/Negativity_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            }
+          ]
+        },
+        {
+          "id": "changements",
+          "description_fr": "On remarque lorsque quelque chose a changé",
+          "description_en": "We notice when something has changed",
+          "biais": [
+            {
+              "nom_fr": "Ancrage",
+              "nom_en": "Anchoring",
+              "url": "https://en.wikipedia.org/wiki/Anchoring_(cognitive_bias)",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Conservatisme",
+              "nom_en": "Conservatism",
+              "url": "https://en.wikipedia.org/wiki/Conservatism_(belief_revision)",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet de contraste",
+              "nom_en": "Contrast effect",
+              "url": "https://en.wikipedia.org/wiki/Contrast_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais de distinction",
+              "nom_en": "Distinction bias",
+              "url": "https://en.wikipedia.org/wiki/Distinction_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet de focus",
+              "nom_en": "Focusing effect",
+              "url": "https://en.wikipedia.org/wiki/Focusing_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet de cadrage",
+              "nom_en": "Framing effect",
+              "url": "https://en.wikipedia.org/wiki/Framing_effect_(psychology)",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Illusion monétaire",
+              "nom_en": "Money illusion",
+              "url": "https://en.wikipedia.org/wiki/Money_illusion",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            }
+          ]
+        },
+        {
+          "id": "confirmation_croyances",
+          "description_fr": "Nous sommes attirés par les détails qui confirment nos propres croyances préexistantes",
+          "description_en": "We are drawn to details that confirm our own existing beliefs",
+          "biais": [
+            {
+              "nom_fr": "Biais de confirmation",
+              "nom_en": "Confirmation bias",
+              "url": "https://en.wikipedia.org/wiki/Confirmation_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais de congruence",
+              "nom_en": "Congruence bias",
+              "url": "https://en.wikipedia.org/wiki/Congruence_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Rationalisation post-achat",
+              "nom_en": "Post-purchase rationalization",
+              "url": "https://en.wikipedia.org/wiki/Choice-supportive_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais de soutien du choix",
+              "nom_en": "Choice-supportive bias",
+              "url": "https://en.wikipedia.org/wiki/Choice-supportive_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Perception sélective",
+              "nom_en": "Selective perception",
+              "url": "https://en.wikipedia.org/wiki/Selective_perception",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Attente de l'expérimentateur",
+              "nom_en": "Observer-expectancy effect",
+              "url": "https://en.wikipedia.org/wiki/Observer-expectancy_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais de l'expérimentateur",
+              "nom_en": "Experimenter's bias",
+              "url": "https://en.wikipedia.org/wiki/Observer-expectancy_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet de l'observateur",
+              "nom_en": "Observer effect",
+              "url": "https://en.wikipedia.org/wiki/Observer-expectancy_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais d'attente",
+              "nom_en": "Expectation bias",
+              "url": "https://en.wikipedia.org/wiki/Observer-expectancy_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet de l'autruche",
+              "nom_en": "Ostrich effect",
+              "url": "https://en.wikipedia.org/wiki/Ostrich_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Validation subjective",
+              "nom_en": "Subjective validation",
+              "url": "https://en.wikipedia.org/wiki/Subjective_validation",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet de l'influence continue",
+              "nom_en": "Continued influence effect",
+              "url": "https://en.wikipedia.org/wiki/Continued_influence_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Réflexe de Semmelweis",
+              "nom_en": "Semmelweis reflex",
+              "url": "https://en.wikipedia.org/wiki/Semmelweis_reflex",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            }
+          ]
+        },
+        {
+          "id": "defauts_autres",
+          "description_fr": "Nous remarquons les failles chez les autres plus facilement que chez nous-même",
+          "description_en": "We notice flaws in others more easily than we notice flaws in ourselves",
+          "biais": [
+            {
+              "nom_fr": "Biais de l'angle mort",
+              "nom_en": "Bias blind spot",
+              "url": "https://en.wikipedia.org/wiki/Bias_blind_spot",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Cynisme naïf",
+              "nom_en": "Naïve cynicism",
+              "url": "https://en.wikipedia.org/wiki/Na%C3%AFve_cynicism",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Réalisme naïf",
+              "nom_en": "Naïve realism",
+              "url": "https://en.wikipedia.org/wiki/Na%C3%AFve_realism_(psychology)",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pas_assez_sens",
+      "nom_fr": "Pas assez de sens",
+      "nom_en": "Not Enough Meaning",
+      "couleur": "#07A",
+      "sous_categories": [
+        {
+          "id": "patterns_histoires",
+          "description_fr": "Nous trouvons des histoires et des motifs même dans des données éparses",
+          "description_en": "We tend to find stories and patterns even when looking at sparse data",
+          "biais": [
+            {
+              "nom_fr": "Confabulation",
+              "nom_en": "Confabulation",
+              "url": "https://en.wikipedia.org/wiki/Confabulation",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Illusion des séries",
+              "nom_en": "Clustering illusion",
+              "url": "https://en.wikipedia.org/wiki/Clustering_illusion",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Insensibilité à la taille du groupe",
+              "nom_en": "Insensitivity to sample size",
+              "url": "https://en.wikipedia.org/wiki/Insensitivity_to_sample_size",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Négligence des probabilités",
+              "nom_en": "Neglect of probability",
+              "url": "https://en.wikipedia.org/wiki/Neglect_of_probability",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Erreur de la preuve anecdotique",
+              "nom_en": "Anecdotal fallacy",
+              "url": "https://en.wikipedia.org/wiki/Anecdotal_evidence",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Illusion de la validité",
+              "nom_en": "Illusion of validity",
+              "url": "https://en.wikipedia.org/wiki/Illusion_of_validity",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Erreur de l'homme masqué",
+              "nom_en": "Masked-man fallacy",
+              "url": "https://en.wikipedia.org/wiki/Masked-man_fallacy",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Illusion de la récence",
+              "nom_en": "Recency illusion",
+              "url": "https://en.wikipedia.org/wiki/Recency_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Erreur du parieur",
+              "nom_en": "Gambler's fallacy",
+              "url": "https://en.wikipedia.org/wiki/Gambler's_fallacy",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Erreur de la main chaude",
+              "nom_en": "Hot-hand fallacy",
+              "url": "https://en.wikipedia.org/wiki/Hot-hand_fallacy",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Corrélation illusoire",
+              "nom_en": "Illusory correlation",
+              "url": "https://en.wikipedia.org/wiki/Illusory_correlation",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Paréidolie",
+              "nom_en": "Pareidolia",
+              "url": "https://en.wikipedia.org/wiki/Pareidolia",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Anthropomorphisme",
+              "nom_en": "Anthropomorphism",
+              "url": "https://en.wikipedia.org/wiki/Anthropomorphism",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            }
+          ]
+        },
+        {
+          "id": "stereotypes_generalites",
+          "description_fr": "Nous remplissons les caractéristiques manquantes à partir de stéréotypes, de généralités et de nos a priori",
+          "description_en": "We fill in characteristics from stereotypes, generalities, and prior histories",
+          "biais": [
+            {
+              "nom_fr": "Erreur d'attribution de groupe",
+              "nom_en": "Group attribution error",
+              "url": "https://en.wikipedia.org/wiki/Group_attribution_error",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Erreur ultime d'attribution",
+              "nom_en": "Ultimate attribution error",
+              "url": "https://en.wikipedia.org/wiki/Ultimate_attribution_error",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Stéréotypage",
+              "nom_en": "Stereotyping",
+              "url": "https://en.wikipedia.org/wiki/Stereotype",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Essentialisme",
+              "nom_en": "Essentialism",
+              "url": "https://en.wikipedia.org/wiki/Essentialism",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Fixité fonctionnelle",
+              "nom_en": "Functional fixedness",
+              "url": "https://en.wikipedia.org/wiki/Functional_fixedness",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet d'hypocrisie morale",
+              "nom_en": "Moral credential effect",
+              "url": "https://en.wikipedia.org/wiki/Self-licensing",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Croyance en un monde juste",
+              "nom_en": "Just-world hypothesis",
+              "url": "https://en.wikipedia.org/wiki/Just-world_hypothesis",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Argument tiré d'un sophisme",
+              "nom_en": "Argument from fallacy",
+              "url": "https://en.wikipedia.org/wiki/Argument_from_fallacy",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais d'autorité",
+              "nom_en": "Authority bias",
+              "url": "https://en.wikipedia.org/wiki/Authority_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais d'automatisation",
+              "nom_en": "Automation bias",
+              "url": "https://en.wikipedia.org/wiki/Automation_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet de mode",
+              "nom_en": "Bandwagon effect",
+              "url": "https://en.wikipedia.org/wiki/Bandwagon_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet placebo",
+              "nom_en": "Placebo effect",
+              "url": "https://en.wikipedia.org/wiki/Placebo",
+              "type": "phenomene_psychologique",
+              "tags": [],
+              "reference": ""
+            }
+          ]
+        },
+        {
+          "id": "familiarite_affinite",
+          "description_fr": "Nous imaginons que les personnes que nous aimons ou que les choses avec lesquelles nous sommes familiers sont meilleures que les choses et les personnes qui ne le sont pas",
+          "description_en": "We imagine things and people we're familiar with or fond of as better",
+          "biais": [
+            {
+              "nom_fr": "Biais d'homogénéité d'exogroupe",
+              "nom_en": "Out-group homogeneity bias",
+              "url": "https://en.wikipedia.org/wiki/Out-group_homogeneity",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet inter-races",
+              "nom_en": "Cross-race effect",
+              "url": "https://en.wikipedia.org/wiki/Cross-race_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Favoritisme intragroupe",
+              "nom_en": "In-group favoritism",
+              "url": "https://en.wikipedia.org/wiki/In-group_favoritism",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet de halo",
+              "nom_en": "Halo effect",
+              "url": "https://en.wikipedia.org/wiki/Halo_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet pom-pom girl",
+              "nom_en": "Cheerleader effect",
+              "url": "https://en.wikipedia.org/wiki/Cheerleader_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet de positivité",
+              "nom_en": "Positivity effect",
+              "url": "https://en.wikipedia.org/wiki/Positivity_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Pas inventé ici",
+              "nom_en": "Not invented here",
+              "url": "https://en.wikipedia.org/wiki/Not_invented_here",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Dévaluation réactive",
+              "nom_en": "Reactive devaluation",
+              "url": "https://en.wikipedia.org/wiki/Reactive_devaluation",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet de la route familière",
+              "nom_en": "Well-traveled road effect",
+              "url": "https://en.wikipedia.org/wiki/Well_travelled_road_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            }
+          ]
+        },
+        {
+          "id": "simplification_probabilites",
+          "description_fr": "Nous simplifions les probabilités et les nombres pour les rendre plus faciles et abordables à notre pensée",
+          "description_en": "We simplify probabilities and numbers to make them easier to think about",
+          "biais": [
+            {
+              "nom_fr": "Comptabilité mentale",
+              "nom_en": "Mental accounting",
+              "url": "https://en.wikipedia.org/wiki/Mental_accounting",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Erreur d'appel à la probabilité",
+              "nom_en": "Appeal to probability fallacy",
+              "url": "https://en.wikipedia.org/wiki/Appeal_to_probability",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais de normalité",
+              "nom_en": "Normalcy bias",
+              "url": "https://en.wikipedia.org/wiki/Normalcy_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais de la somme nulle",
+              "nom_en": "Zero sum bias",
+              "url": "https://en.wikipedia.org/wiki/Zero-sum_thinking",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais du survivant",
+              "nom_en": "Survivorship bias",
+              "url": "https://en.wikipedia.org/wiki/Survivorship_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet de sous-additivité",
+              "nom_en": "Subadditivity effect",
+              "url": "https://en.wikipedia.org/wiki/Subadditivity_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet de dénomination",
+              "nom_en": "Denomination effect",
+              "url": "https://en.wikipedia.org/wiki/Denomination_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            }
+          ]
+        },
+        {
+          "id": "pensee_des_autres",
+          "description_fr": "Nous pensons que nous savons ce que les autres pensent",
+          "description_en": "We think we know what other people are thinking",
+          "biais": [
+            {
+              "nom_fr": "Illusion de transparence",
+              "nom_en": "Illusion of transparency",
+              "url": "https://en.wikipedia.org/wiki/Illusion_of_transparency",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Malédiction de la connaissance",
+              "nom_en": "Curse of knowledge",
+              "url": "https://en.wikipedia.org/wiki/Curse_of_knowledge",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet de projecteur",
+              "nom_en": "Spotlight effect",
+              "url": "https://en.wikipedia.org/wiki/Spotlight_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais des incitations extrinsèques",
+              "nom_en": "Extrinsic incentive error",
+              "url": "https://en.wikipedia.org/wiki/Extrinsic_incentives_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Illusion d'agence externe",
+              "nom_en": "Illusion of external agency",
+              "url": "https://en.wikipedia.org/wiki/Illusion_of_external_agency",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Illusion de connaissance asymétrique",
+              "nom_en": "Illusion of asymmetric insight",
+              "url": "https://en.wikipedia.org/wiki/Illusion_of_asymmetric_insight",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            }
+          ]
+        },
+        {
+          "id": "projection_etat_esprit",
+          "description_fr": "Nous projetons nos croyances et schémas de pensées actuels sur le passé et le futur",
+          "description_en": "We project our current mindset and assumptions onto the past and future",
+          "biais": [
+            {
+              "nom_fr": "Effet de télescopage",
+              "nom_en": "Telescoping effect",
+              "url": "https://en.wikipedia.org/wiki/Telescoping_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Rétrospective de la vie en rose",
+              "nom_en": "Rosy retrospection",
+              "url": "https://en.wikipedia.org/wiki/Rosy_retrospection",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais rétrospectif",
+              "nom_en": "Hindsight bias",
+              "url": "https://en.wikipedia.org/wiki/Hindsight_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais de résultat",
+              "nom_en": "Outcome bias",
+              "url": "https://en.wikipedia.org/wiki/Outcome_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Chance morale",
+              "nom_en": "Moral luck",
+              "url": "https://en.wikipedia.org/wiki/Moral_luck",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Déclinisme",
+              "nom_en": "Declinism",
+              "url": "https://en.wikipedia.org/wiki/Declinism",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais d'impact",
+              "nom_en": "Impact bias",
+              "url": "https://en.wikipedia.org/wiki/Impact_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais de pessimisme",
+              "nom_en": "Pessimism bias",
+              "url": "https://en.wikipedia.org/wiki/Optimism_bias#Pessimism_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais de planification",
+              "nom_en": "Planning fallacy",
+              "url": "https://en.wikipedia.org/wiki/Planning_fallacy",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais du gain de temps",
+              "nom_en": "Time-saving bias",
+              "url": "https://en.wikipedia.org/wiki/Time-saving_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais pro-innovation",
+              "nom_en": "Pro-innovation bias",
+              "url": "https://en.wikipedia.org/wiki/Pro-innovation_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais de projection",
+              "nom_en": "Projection bias",
+              "url": "https://en.wikipedia.org/wiki/Affective_forecasting#Projection_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais de retenue",
+              "nom_en": "Restraint bias",
+              "url": "https://en.wikipedia.org/wiki/Restraint_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais de cohérence avec soi",
+              "nom_en": "Self-consistency bias",
+              "url": "https://en.wikipedia.org/wiki/List_of_cognitive_biases#Consistency_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "besoin_agir_vite",
+      "nom_fr": "Le besoin d'agir vite",
+      "nom_en": "Need To Act Fast",
+      "couleur": "#490",
+      "sous_categories": [
+        {
+          "id": "confiance_impact",
+          "description_fr": "Pour pouvoir agir, nous devons avoir confiance en notre capacité à avoir un impact et sentir que ce que nous faisons est important",
+          "description_en": "To act, we must be confident we can make an impact and feel what we do is important",
+          "biais": [
+            {
+              "nom_fr": "Biais d'excès de confiance",
+              "nom_en": "Overconfidence effect",
+              "url": "https://en.wikipedia.org/wiki/Overconfidence_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Désirabilité sociale",
+              "nom_en": "Social desirability bias",
+              "url": "https://en.wikipedia.org/wiki/Social_desirability_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet 'troisième personne'",
+              "nom_en": "Third-person effect",
+              "url": "https://en.wikipedia.org/wiki/Third-person_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet de faux consensus",
+              "nom_en": "False consensus effect",
+              "url": "https://en.wikipedia.org/wiki/False_consensus_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet difficile-facile",
+              "nom_en": "Hard-easy effect",
+              "url": "https://en.wikipedia.org/wiki/Hard%E2%80%93easy_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet Lac Wobegon",
+              "nom_en": "Lake Wobegon effect",
+              "url": "https://en.wikipedia.org/wiki/Lake_Wobegon#The_Lake_Wobegon_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet Dunning-Kruger",
+              "nom_en": "Dunning-Kruger effect",
+              "url": "https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais égocentrique",
+              "nom_en": "Egocentric bias",
+              "url": "https://en.wikipedia.org/wiki/Egocentric_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais d'optimisme",
+              "nom_en": "Optimism bias",
+              "url": "https://en.wikipedia.org/wiki/Optimism_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet Forer",
+              "nom_en": "Forer effect",
+              "url": "https://en.wikipedia.org/wiki/Barnum_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet Barnum",
+              "nom_en": "Barnum effect",
+              "url": "https://en.wikipedia.org/wiki/Barnum_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais d'autocomplaisance",
+              "nom_en": "Self-serving bias",
+              "url": "https://en.wikipedia.org/wiki/Self-serving_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet acteur-observateur",
+              "nom_en": "Actor-observer bias",
+              "url": "https://en.wikipedia.org/wiki/Actor%E2%80%93observer_asymmetry#bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Illusion de contrôle",
+              "nom_en": "Illusion of control",
+              "url": "https://en.wikipedia.org/wiki/Illusion_of_control",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Supériorité illusoire",
+              "nom_en": "Illusory superiority",
+              "url": "https://en.wikipedia.org/wiki/Illusory_superiority",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Erreur fondamentale d'attribution",
+              "nom_en": "Fundamental attribution error",
+              "url": "https://en.wikipedia.org/wiki/Fundamental_attribution_error",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Hypothèse d'attribution défensive",
+              "nom_en": "Defensive attribution hypothesis",
+              "url": "https://en.wikipedia.org/wiki/Defensive_attribution_hypothesis",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais d'attribution des traits",
+              "nom_en": "Trait ascription bias",
+              "url": "https://en.wikipedia.org/wiki/Trait_ascription_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Justification de l'effort",
+              "nom_en": "Effort justification",
+              "url": "https://en.wikipedia.org/wiki/Effort_justification",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Compensation du risque",
+              "nom_en": "Risk compensation",
+              "url": "https://en.wikipedia.org/wiki/Risk_compensation",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet Peltzman",
+              "nom_en": "Peltzman effect",
+              "url": "https://en.wikipedia.org/wiki/Risk_compensation#Peltzman_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            }
+          ]
+        },
+        {
+          "id": "focus_immediat",
+          "description_fr": "Afin de rester concentré, nous favorisons ce qui nous est immédiat, proche ou autour de nous",
+          "description_en": "To stay focused, we favor the immediate, relatable thing in front of us",
+          "biais": [
+            {
+              "nom_fr": "Rabais hyperbolique",
+              "nom_en": "Hyperbolic discounting",
+              "url": "https://en.wikipedia.org/wiki/Hyperbolic_discounting",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Appel à la nouveauté",
+              "nom_en": "Appeal to novelty",
+              "url": "https://en.wikipedia.org/wiki/Appeal_to_novelty",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet de la victime identifiable",
+              "nom_en": "Identifiable victim effect",
+              "url": "https://en.wikipedia.org/wiki/Identifiable_victim_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            }
+          ]
+        },
+        {
+          "id": "investissement_temps_energie",
+          "description_fr": "Pour accomplir nos tâches, nous avons tendance à vouloir compléter celles dans lesquelles nous avons déjà investi du temps et de l'énergie",
+          "description_en": "To get things done, we tend to complete things we've invested time and energy in",
+          "biais": [
+            {
+              "nom_fr": "Biais des coûts irrécupérables",
+              "nom_en": "Sunk cost fallacy",
+              "url": "https://en.wikipedia.org/wiki/Sunk_cost#Loss_aversion_and_the_sunk_cost_fallacy",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Escalade irrationnelle",
+              "nom_en": "Irrational escalation",
+              "url": "https://en.wikipedia.org/wiki/Escalation_of_commitment",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Escalade d'engagement",
+              "nom_en": "Escalation of commitment",
+              "url": "https://en.wikipedia.org/wiki/Escalation_of_commitment",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet de génération d'information",
+              "nom_en": "Generation effect",
+              "url": "https://en.wikipedia.org/wiki/Generation_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Aversion à la perte",
+              "nom_en": "Loss aversion",
+              "url": "https://en.wikipedia.org/wiki/Loss_aversion",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet IKEA",
+              "nom_en": "IKEA effect",
+              "url": "https://en.wikipedia.org/wiki/IKEA_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais de la portion",
+              "nom_en": "Unit bias",
+              "url": "https://en.wikipedia.org/wiki/Unit_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais du risque zéro",
+              "nom_en": "Zero-risk bias",
+              "url": "https://en.wikipedia.org/wiki/Zero-risk_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet de disposition",
+              "nom_en": "Disposition effect",
+              "url": "https://en.wikipedia.org/wiki/Disposition_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet de pseudo-certitude",
+              "nom_en": "Pseudocertainty effect",
+              "url": "https://en.wikipedia.org/wiki/Pseudocertainty_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet de difficulté de traitement",
+              "nom_en": "Processing difficulty effect",
+              "url": "https://en.wikipedia.org/wiki/Processing_difficulty_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet de dotation",
+              "nom_en": "Endowment effect",
+              "url": "https://en.wikipedia.org/wiki/Endowment_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet boomerang",
+              "nom_en": "Backfire effect",
+              "url": "https://en.wikipedia.org/wiki/Backfire_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            }
+          ]
+        },
+        {
+          "id": "preservation_autonomie",
+          "description_fr": "Pour éviter de faire des erreurs, nous avons tendance à préserver notre autonomie et notre statut de groupe et à éviter les décisions irréversibles",
+          "description_en": "To avoid mistakes, we aim to preserve autonomy and group status, and avoid irreversible decisions",
+          "biais": [
+            {
+              "nom_fr": "Justification du système",
+              "nom_en": "System justification",
+              "url": "https://en.wikipedia.org/wiki/System_justification",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Psychologie inversée",
+              "nom_en": "Reverse psychology",
+              "url": "https://en.wikipedia.org/wiki/Reverse_psychology",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Réactance",
+              "nom_en": "Reactance",
+              "url": "https://en.wikipedia.org/wiki/Reactance_(psychology)",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet de dominance asymétrique",
+              "nom_en": "Decoy effect",
+              "url": "https://en.wikipedia.org/wiki/Decoy_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais de comparaison sociale",
+              "nom_en": "Social comparison effect",
+              "url": "https://en.wikipedia.org/wiki/Social_comparison_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais du statu quo",
+              "nom_en": "Status quo bias",
+              "url": "https://en.wikipedia.org/wiki/Status_quo_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            }
+          ]
+        },
+        {
+          "id": "preference_simplicite",
+          "description_fr": "Nous favorisons les options qui nous paraissent simples ou qui ont des informations plus complètes aux options plus complexes ou ambiguës",
+          "description_en": "We favor simple-looking options and complete information over complex, ambiguous options",
+          "biais": [
+            {
+              "nom_fr": "Effet d'ambiguïté",
+              "nom_en": "Ambiguity bias",
+              "url": "https://en.wikipedia.org/wiki/Ambiguity_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais d'information",
+              "nom_en": "Information bias",
+              "url": "https://en.wikipedia.org/wiki/Information_bias_(psychology)",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais de croyance",
+              "nom_en": "Belief bias",
+              "url": "https://en.wikipedia.org/wiki/Belief_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet 'ça rime donc c'est bon'",
+              "nom_en": "Rhyme-as-reason effect",
+              "url": "https://en.wikipedia.org/wiki/Rhyme-as-reason_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet abri à vélo",
+              "nom_en": "Bike-shedding effect",
+              "url": "https://en.wikipedia.org/wiki/Law_of_triviality",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Loi de futilité de Parkinson",
+              "nom_en": "Law of Triviality",
+              "url": "https://en.wikipedia.org/wiki/Law_of_triviality",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Erreur de conjonction",
+              "nom_en": "Conjunction fallacy",
+              "url": "https://en.wikipedia.org/wiki/Conjunction_fallacy",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet moins-c'est-mieux",
+              "nom_en": "Less-is-better effect",
+              "url": "https://en.wikipedia.org/wiki/Less-is-better_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quoi_se_rappeler",
+      "nom_fr": "Que devons-nous nous rappeler ?",
+      "nom_en": "What Should We Remember?",
+      "couleur": "#888",
+      "sous_categories": [
+        {
+          "id": "edition_renforcement_memoire",
+          "description_fr": "Nous modifions et renforçons certains souvenirs après les faits",
+          "description_en": "We edit and reinforce some memories after the fact",
+          "biais": [
+            {
+              "nom_fr": "Erreur d'attribution de la source",
+              "nom_en": "Misattribution of memory",
+              "url": "https://en.wikipedia.org/wiki/Misattribution_of_memory",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Confusion de la source",
+              "nom_en": "Source confusion",
+              "url": "https://en.wikipedia.org/wiki/Misattribution_of_memory#Source_confusion",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Cryptomnésie",
+              "nom_en": "Cryptomnesia",
+              "url": "https://en.wikipedia.org/wiki/Cryptomnesia",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Faux souvenir",
+              "nom_en": "False memory",
+              "url": "https://en.wikipedia.org/wiki/False_memory",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Suggestibilité",
+              "nom_en": "Suggestibility",
+              "url": "https://en.wikipedia.org/wiki/Suggestibility",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet d'espacement",
+              "nom_en": "Spacing effect",
+              "url": "https://en.wikipedia.org/wiki/Spacing_effect",
+              "type": "phenomene_memoire",
+              "tags": [],
+              "reference": ""
+            }
+          ]
+        },
+        {
+          "id": "generalisation",
+          "description_fr": "Nous écartons les spécificités et formons des généralités",
+          "description_en": "We discard specifics to form generalities",
+          "biais": [
+            {
+              "nom_fr": "Association implicite",
+              "nom_en": "Implicit association",
+              "url": "https://en.wikipedia.org/wiki/Implicit_stereotype",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Stéréotype implicite",
+              "nom_en": "Implicit stereotypes",
+              "url": "https://en.wikipedia.org/wiki/Implicit_stereotype",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Mémorisation stéréotypée",
+              "nom_en": "Stereotypical bias",
+              "url": "https://en.wikipedia.org/wiki/Implicit_stereotype",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Préjudice",
+              "nom_en": "Prejudice",
+              "url": "https://en.wikipedia.org/wiki/Prejudice",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Biais d'affaiblissement de l'affect",
+              "nom_en": "Fading affect bias",
+              "url": "https://en.wikipedia.org/wiki/Fading_affect_bias",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            }
+          ]
+        },
+        {
+          "id": "reduction_elements_cles",
+          "description_fr": "Nous réduisons les événements et listes à leurs éléments-clés",
+          "description_en": "We reduce events and lists to their key elements",
+          "biais": [
+            {
+              "nom_fr": "Règle pic-fin",
+              "nom_en": "Peak-end rule",
+              "url": "https://en.wikipedia.org/wiki/Peak%E2%80%93end_rule",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Nivellement et affinement",
+              "nom_en": "Leveling and sharpening",
+              "url": "https://en.wikipedia.org/wiki/Leveling_and_sharpening",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet de désinformation",
+              "nom_en": "Misinformation effect",
+              "url": "https://en.wikipedia.org/wiki/Misinformation_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet de position dans une série",
+              "nom_en": "Serial recall effect",
+              "url": "https://en.wikipedia.org/wiki/Recall_(memory)#Serial_recall",
+              "type": "phenomene_memoire",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet de la longueur de la liste",
+              "nom_en": "List-length effect",
+              "url": "https://en.wikipedia.org/wiki/Recall_(memory)#Serial_recall",
+              "type": "phenomene_memoire",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Négligence de la durée",
+              "nom_en": "Duration neglect",
+              "url": "https://en.wikipedia.org/wiki/Duration_neglect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet de la modalité",
+              "nom_en": "Modality effect",
+              "url": "https://en.wikipedia.org/wiki/Modality_effect",
+              "type": "phenomene_memoire",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Inhibition de la mémoire",
+              "nom_en": "Memory inhibition",
+              "url": "https://en.wikipedia.org/wiki/Memory_inhibition",
+              "type": "phenomene_memoire",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet de primauté",
+              "nom_en": "Primacy effect",
+              "url": "https://en.wikipedia.org/wiki/Serial-position_effect#Primacy_effect",
+              "type": "phenomene_memoire",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet de récence",
+              "nom_en": "Recency effect",
+              "url": "https://en.wikipedia.org/wiki/Serial-position_effect#Recency_effect",
+              "type": "phenomene_memoire",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Indiçage partiel",
+              "nom_en": "Part-set cueing effect",
+              "url": "https://en.wikipedia.org/wiki/Memory_inhibition#Part-set_cuing_effect",
+              "type": "phenomene_memoire",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet de position sérielle",
+              "nom_en": "Serial-position effect",
+              "url": "https://en.wikipedia.org/wiki/Serial-position_effect",
+              "type": "phenomene_memoire",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet du suffixe",
+              "nom_en": "Suffix effect",
+              "url": "https://en.wikipedia.org/wiki/List_of_cognitive_biases#Suffix_effect",
+              "type": "phenomene_memoire",
+              "tags": [],
+              "reference": ""
+            }
+          ]
+        },
+        {
+          "id": "stockage_differencie",
+          "description_fr": "Nous stockons les souvenirs différemment selon la façon dont nous avons vécu l'expérience",
+          "description_en": "We store memories differently based on how they were experienced",
+          "biais": [
+            {
+              "nom_fr": "Distraction",
+              "nom_en": "Absent-mindedness",
+              "url": "https://en.wikipedia.org/wiki/Absent-mindedness",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet test",
+              "nom_en": "Testing effect",
+              "url": "https://en.wikipedia.org/wiki/Testing_effect",
+              "type": "phenomene_memoire",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet au-suivant",
+              "nom_en": "Next-in-line effect",
+              "url": "https://en.wikipedia.org/wiki/Next-in-line_effect",
+              "type": "phenomene_memoire",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet Google",
+              "nom_en": "Google effect",
+              "url": "https://en.wikipedia.org/wiki/Google_effect",
+              "type": "biais_cognitif",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Mot sur le bout de la langue",
+              "nom_en": "Tip of the tongue phenomenon",
+              "url": "https://en.wikipedia.org/wiki/Tip_of_the_tongue",
+              "type": "phenomene_memoire",
+              "tags": [],
+              "reference": ""
+            },
+            {
+              "nom_fr": "Effet de profondeur du traitement",
+              "nom_en": "Levels-of-processing effect",
+              "url": "https://en.wikipedia.org/wiki/Levels-of-processing_effect",
+              "type": "phenomene_memoire",
+              "tags": [],
+              "reference": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
