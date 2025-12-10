@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "total_biases": 167,
+    "total_biases": 132,
     "categories_count": 4,
     "source": "Cognitive Bias Codex",
     "last_updated": "2024-01-15",
@@ -1536,27 +1536,5 @@
       "slug": "zero-risk-bias",
       "url": "https://cognition.vsxlabs.com/bias/zero-risk-bias"
     }
-  ],
-  "statistics": {
-    "by_category": {
-      "what_to_remember": 23,
-      "need_for_speed": 44,
-      "information_overload": 29,
-      "lack_of_meaning": 36
-    },
-    "total_biases": 132,
-    "average_description_length": 245,
-    "top_keywords": [
-      "memory",
-      "decision",
-      "perception",
-      "belief",
-      "information",
-      "bias",
-      "cognitive",
-      "tendency",
-      "individuals",
-      "people"
-    ]
-  }
+  ]
 }
