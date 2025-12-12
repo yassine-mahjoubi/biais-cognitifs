@@ -350,10 +350,10 @@
     },
     {
       "id": "delmore_effect",
-      "name": "Delmore effect",
-      "description": "The Delmore effect is a cognitive bias where people prefer simple, complete solutions over complex ones.",
+      "name": "Effet Delmore",
+      "description": "L'effet Delmore est la tendance à définir des objectifs plus articulés et explicites pour des domaines moins prioritaires, afin d'éviter l'anxiété liée aux objectifs vraiment importants. Cette diversion cognitive permet de réduire temporairement l'inconfort émotionnel en se concentrant sur des tâches moins intimidantes.",
       "category_id": "need_for_speed",
-      "category_name": "Need for speed",
+      "category_name": "Besoin de rapidité",
       "slug": "delmore-effect",
       "url": "https://cognition.vsxlabs.com/bias/delmore-effect"
     },
