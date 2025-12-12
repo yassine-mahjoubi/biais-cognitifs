@@ -22,7 +22,7 @@ onMounted(async () => {
       <template v-else>
         <p>{{ randomBias?.category_name }}</p>
         <h1 v-if="randomBias" class="text-center border-l-4 text-3xl">
-          biais aléatoire: {{ randomBias.name }} || {{ randomBias.category_name }}
+          biais aléatoire: {{ randomBias.name }}
         </h1>
         <BiasList :biases="biases" />
       </template>
