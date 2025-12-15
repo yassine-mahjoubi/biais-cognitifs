@@ -7,6 +7,6 @@ const props = defineProps<{
 </script>
 
 <template>
-  <h2>{{ bias.name }}</h2>
-  <p>{{ bias.description }}</p>
+  <h2 class="text-2xl">{{ bias.name }}</h2>
+  <p class="">{{ bias.description }}</p>
 </template>
