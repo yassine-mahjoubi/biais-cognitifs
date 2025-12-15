@@ -8,7 +8,7 @@ const props = defineProps<{
 
 <template>
   <ol class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 list-decimal">
-    <li v-for="bias in biases" :key="bias.id" :id="bias.id">
+    <li v-for="bias in biases" :key="bias.id" :id="bias.id" class="bg-green-950 text-white p-5">
       <BiasItem :bias="bias" />
     </li>
   </ol>
