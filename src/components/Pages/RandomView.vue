@@ -13,9 +13,12 @@ onMounted(async () => {
 })
 </script>
 <template>
-  <div>
-    <h1 v-if="randomBias" class="text-center border-l-4 text-3xl">
-      biais aléatoire: {{ randomBias.name }}
-    </h1>
-  </div>
+  <h1 v-if="randomBias" class="text-center text-3xl">biais aléatoire: {{ randomBias.name }}</h1>
+  <p>{{ randomBias?.description }}</p>
+  <button
+    @click="selectRandomBias"
+    class="bg-green-950 rounded-2xl border-b-gray-950 text-white p-2 cursor-pointer"
+  >
+    biais aléatoire
+  </button>
 </template>
