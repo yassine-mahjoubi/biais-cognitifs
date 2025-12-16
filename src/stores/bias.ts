@@ -1,9 +1,13 @@
 import { defineStore } from 'pinia'
 import { ref, shallowRef } from 'vue'
 import type { Bias } from '@/type/Bias'
-
 import { getApiResponse } from '../scripts/services'
 
+/**
+ * Génère un index aléatoire  pour accéder au tableau de biais
+ * @param data Tableau de biais
+ * @returns Index aléatoire entre 0 et data.length
+ */
 const getRandomIndex = (data: Bias[]): number => {
   const randomIndex = Math.floor(Math.random() * data.length)
   return randomIndex
@@ -15,7 +19,12 @@ export const useBiasStore = defineStore('bias', () => {
   const randomBias = ref<Bias | null | undefined>(undefined)
   const dataLoaded = ref<boolean>(false)
 
+  /**
+   * récupère le tableau de biais avec gestion de cache
+   * @returns tableau de biais
+   */
   const fetchBias = async () => {
+    //data already loaded
     if (dataLoaded.value) {
       return
     }
@@ -27,11 +36,15 @@ export const useBiasStore = defineStore('bias', () => {
         dataLoaded.value = true
       }
     } catch (error) {
-      console.log(error)
+      console.error('fetch api failed', error)
     } finally {
       loading.value = false
     }
   }
+
+  /**
+   * Sélectionne un biais de manière aléatoire parmi la liste chargée
+   */
   const selectRandomBias = () => {
     if (biases.value.length > 0) {
       randomBias.value = biases.value[getRandomIndex(biases.value)]
