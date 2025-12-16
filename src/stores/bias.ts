@@ -13,13 +13,18 @@ export const useBiasStore = defineStore('bias', () => {
   const biases = shallowRef<Bias[]>([])
   const loading = ref<boolean>(false)
   const randomBias = ref<Bias | null | undefined>(undefined)
+  const dataLoaded = ref<boolean>(false)
 
   const fetchBias = async () => {
+    if (dataLoaded.value) {
+      return
+    }
     try {
       loading.value = true
       const response = await getApiResponse()
-      if (response) {
+      if (response && response.list_biases.length > 0) {
         biases.value = response.list_biases
+        dataLoaded.value = true
       }
     } catch (error) {
       console.log(error)
