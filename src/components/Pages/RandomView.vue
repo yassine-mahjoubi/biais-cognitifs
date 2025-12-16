@@ -18,7 +18,5 @@ onMounted(async () => {
   <button
     @click="selectRandomBias"
     class="bg-green-950 rounded-2xl border-b-gray-950 text-white p-2 cursor-pointer"
-  >
-    biais aléatoire
-  </button>
+  ></button>
 </template>
