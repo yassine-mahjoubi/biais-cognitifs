@@ -1,10 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Menu from './components/Layout/Menu.vue'
+</script>
 <template>
-  <div class="min-h-screen bg-gray-100">
-    <nav>
-      <RouterLink to="/">Home |</RouterLink>
-      <RouterLink to="/liste">Liste de biais</RouterLink>
-    </nav>
+  <div class="min-h-screen bg-green-900">
+    <Menu />
     <main>
       <RouterView />
     </main>
