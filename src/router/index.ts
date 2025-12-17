@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import ListeView from '@/components/Pages/ListeView.vue'
-import RandomView from '@/components/Pages/RandomView.vue'
+import ListeView from '@/components/views/ListeView.vue'
+import RandomView from '@/components/views/RandomView.vue'
 
 const routes = [
   { path: '/', component: RandomView },

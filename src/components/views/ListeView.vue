@@ -14,7 +14,7 @@ onMounted(async () => {
 })
 </script>
 <template>
-  <div class="max-w-7xl mx-auto px-4 py-8">
+  <div class="mt-4 max-w-7xl mx-auto px-4 py-8">
     <p v-if="loading">Loading..</p>
     <template v-else>
       <BiasList :biases="biases" />

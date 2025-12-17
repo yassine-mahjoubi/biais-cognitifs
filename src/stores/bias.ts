@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia'
 import { ref, shallowRef } from 'vue'
 import type { Bias } from '@/type/Bias'
-import { getApiResponse } from '../scripts/services'
+import { getApiResponse } from '../services/services'
 
 /**
  * Génère un index aléatoire  pour accéder au tableau de biais
