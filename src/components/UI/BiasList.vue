@@ -7,7 +7,7 @@ defineProps<{
 </script>
 
 <template>
-  <ul class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 list-decimal">
+  <ul class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
     <li v-for="bias in biases" :key="bias.id" :id="bias.id">
       <BiasItem :bias="bias" />
     </li>
