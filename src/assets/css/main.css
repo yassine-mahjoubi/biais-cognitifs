@@ -1,1 +1,15 @@
 @import 'tailwindcss';
+
+@theme {
+  --color-heavy-metal-50: #f2f5f0;
+  --color-heavy-metal-100: #e2e9de;
+  --color-heavy-metal-200: #c9d5c1;
+  --color-heavy-metal-300: #a8bb9b;
+  --color-heavy-metal-400: #89a17a;
+  --color-heavy-metal-500: #6c855d;
+  --color-heavy-metal-600: #546848;
+  --color-heavy-metal-700: #42513a;
+  --color-heavy-metal-800: #374331;
+  --color-heavy-metal-900: #2e372a;
+  --color-heavy-metal-950: #181e15;
+}

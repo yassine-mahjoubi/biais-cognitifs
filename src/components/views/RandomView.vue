@@ -17,6 +17,8 @@ onMounted(async () => {
   <p>{{ randomBias?.description }}</p>
   <button
     @click="selectRandomBias"
-    class="bg-green-950 rounded-2xl border-b-gray-950 text-white p-2 cursor-pointer"
-  ></button>
+    class="bg-heavy-metal-700 rounded-2xl border-b-gray-950 text-white p-2 cursor-pointer"
+  >
+    random
+  </button>
 </template>
