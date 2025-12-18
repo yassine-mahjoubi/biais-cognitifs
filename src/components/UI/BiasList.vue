@@ -8,8 +8,8 @@ defineProps<{
 
 <template>
   <ul class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
-    <li v-for="bias in biases" :key="bias.id" :id="bias.id">
-      <BiasItem :bias="bias" />
+    <li v-for="(bias, index) in biases" :key="bias.id" :id="bias.id">
+      <BiasItem :bias="bias" :index="index" />
     </li>
   </ul>
 </template>
