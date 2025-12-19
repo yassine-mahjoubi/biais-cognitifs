@@ -4,6 +4,7 @@ import type { Bias } from '../../type/Bias'
 defineProps<{
   bias: Bias
   index: number
+  id: string
 }>()
 </script>
 
@@ -27,6 +28,8 @@ defineProps<{
     <p class="text-heavy-metal-100 leading-relaxed grow mb-4 relative z-10 line-clamp-3">
       {{ bias.description }}
     </p>
+    <RouterLink :to="{ name: 'BiasDetail', params: { id: bias.id } }"> lire la suite </RouterLink>
+
     <a
       :href="bias.url"
       target="_blank"
