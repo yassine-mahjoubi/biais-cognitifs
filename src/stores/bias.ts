@@ -51,5 +51,14 @@ export const useBiasStore = defineStore('bias', () => {
     }
   }
 
-  return { fetchBias, biases, loading, selectRandomBias, randomBias }
+  /**
+   *
+   * @param slug
+   * @returns
+   */
+  const getBiasBySlug = (slug: string) => {
+    return biases.value.find((bias) => slug === bias.slug)
+  }
+
+  return { fetchBias, biases, loading, selectRandomBias, randomBias, getBiasBySlug }
 })
