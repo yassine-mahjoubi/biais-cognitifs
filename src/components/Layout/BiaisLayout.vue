@@ -5,11 +5,9 @@
       <h1
         class="text-3xl md:text-4xl font-bold text-heavy-metal-900 mb-2 animate-fade-in tracking-tight"
       >
-        <!-- {{ randomBias.name }} -->
         <slot name="name"></slot>
       </h1>
       <p class="text-heavy-metal-800 text-lg leading-relaxed">
-        <!-- {{ randomBias.description }} -->
         <slot name="description"></slot>
       </p>
       <div>

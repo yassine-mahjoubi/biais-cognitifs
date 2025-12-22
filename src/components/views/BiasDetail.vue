@@ -20,7 +20,7 @@ onMounted(async () => {
 
 <template>
   <BiaisLayout>
-    <template #name>{{ selectedBias?.name }}tttt</template>
+    <template #name>{{ selectedBias?.name }}</template>
     <template #description>{{ selectedBias?.description }}</template>
     <template #action>
       <a
