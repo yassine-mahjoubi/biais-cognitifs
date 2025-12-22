@@ -52,9 +52,9 @@ export const useBiasStore = defineStore('bias', () => {
   }
 
   /**
-   *
+   * cherche un biais
    * @param slug
-   * @returns
+   * @returns les dats d'un biais troiuvé
    */
   const getBiasBySlug = (slug: string) => {
     return biases.value.find((bias) => slug === bias.slug)
