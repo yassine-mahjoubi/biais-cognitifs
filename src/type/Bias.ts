@@ -31,4 +31,6 @@ interface BiasListAndCategories {
   list_biases: Bias[]
   categories_biases: Category[]
 }
-export type { BiasListAndCategories, Bias, Category }
+type StyleView = 'Random' | 'Detail'
+
+export type { BiasListAndCategories, Bias, Category, StyleView }

@@ -2,6 +2,7 @@
 import { onMounted } from 'vue'
 import { storeToRefs } from 'pinia'
 import { useBiasStore } from '@/stores/bias'
+import BiaisLayout from '../Layout/BiaisLayout.vue'
 
 const store = useBiasStore()
 //storeToRefs keep recativity alive
@@ -13,24 +14,10 @@ onMounted(async () => {
 })
 </script>
 <template>
-  <div class="flex flex-col items-center justify-center p-8">
-    <div class="max-w-4xl w-full space-y-8">
-      <template v-if="randomBias">
-        <!-- Titre -->
-        <h1
-          class="text-3xl md:text-4xl font-bold text-heavy-metal-900 mb-2 animate-fade-in tracking-tight"
-        >
-          {{ randomBias.name }}
-        </h1>
-
-        <!-- Description -->
-
-        <p class="text-heavy-metal-800 text-lg leading-relaxed">
-          {{ randomBias.description }}
-        </p>
-      </template>
-
-      <!-- Bouton -->
+  <BiaisLayout>
+    <template #name>{{ randomBias?.name }}tttt</template>
+    <template #description>{{ randomBias?.description }}</template>
+    <template #action>
       <button
         @click="selectRandomBias"
         class="group w-full sm:w-auto px-10 py-4 bg-heavy-metal-700 cursor-pointer hover:bg-heavy-metal-800 text-white font-medium rounded-2xl shadow-md hover:shadow-lg mx-auto block"
@@ -52,22 +39,6 @@ onMounted(async () => {
           Biais aléatoire
         </span>
       </button>
-    </div>
-  </div>
+    </template>
+  </BiaisLayout>
 </template>
-<style scoped>
-@keyframes fade-in {
-  from {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.animate-fade-in {
-  animation: fade-in 0.5s ease-out;
-}
-</style>

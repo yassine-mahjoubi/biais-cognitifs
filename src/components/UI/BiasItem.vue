@@ -27,19 +27,12 @@ defineProps<{
     <p class="text-heavy-metal-100 leading-relaxed grow mb-4 relative z-10 line-clamp-3">
       {{ bias.description }}
     </p>
-    <RouterLink :to="{ name: 'bias-detail', params: { slug: bias.slug } }">
-      lire la suite
-    </RouterLink>
-
-    <a
-      :href="bias.url"
-      target="_blank"
-      title="Plus d'infos sur le biais sur Cognitive Labs - nouvelle fenêtre"
-      rel="noopener"
-      class="text-heavy-metal-200 hover:text-white font-medium inline-flex items-center gap-1 self-end group relative z-10"
+    <RouterLink
+      :to="{ name: 'bias-detail', params: { slug: bias.slug } }"
+      class="ext-heavy-metal-200 hover:text-white font-medium inline-flex items-center gap-1 self-end group relative z-10"
     >
-      Plus d'infos
+      lire la suite
       <i aria-hidden="true" class="group-hover:translate-x-1 transition-transform">→</i>
-    </a>
+    </RouterLink>
   </div>
 </template>
