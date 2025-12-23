@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "total_biases": 132,
+    "total_biases": 0,
     "categories_count": 4,
     "source": "Cognitive Bias Codex",
     "last_updated": "2024-01-15",
@@ -11,25 +11,25 @@
       "id": "what_to_remember",
       "name": "Ce qu’il faut retenir",
       "description": "Biais liés à l'encodage, au stockage et à la récupération de la mémoire",
-      "count": 23
+      "count": 0
     },
     {
       "id": "need_for_speed",
       "name": "Besoin de rapidité",
       "description": "Biais résultant de décisions rapides et de raccourcis cognitifs",
-      "count": 44
+      "count": 0
     },
     {
       "id": "information_overload",
       "name": "Surcharge d’informations",
       "description": "Biais liés au filtrage et au traitement d'une quantité excessive d'informations",
-      "count": 29
+      "count": 0
     },
     {
       "id": "lack_of_meaning",
       "name": "Manque de sens",
       "description": "Biais liés au comblement des lacunes et à la création de récits",
-      "count": 36
+      "count": 0
     }
   ],
   "biases": [
