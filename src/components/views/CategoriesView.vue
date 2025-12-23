@@ -3,7 +3,6 @@ import { onMounted } from 'vue'
 import { storeToRefs } from 'pinia'
 
 import { useBiasStore } from '@/stores/bias'
-
 const store = useBiasStore()
 //storeToRefs keep recativity alive
 const { loading, categories } = storeToRefs(store)
@@ -13,6 +12,7 @@ onMounted(async () => {
   await fetchBias()
 })
 </script>
+
 <template>
   <div v-if="loading">loading....</div>
   <div v-else class="mt-4 max-w-7xl mx-auto px-4 py-8">
@@ -30,16 +30,14 @@ onMounted(async () => {
           <p class="text-heavy-metal-700 leading-relaxed grow mb-4">
             {{ cat.description }}
           </p>
-          <a
-            href="/"
-            target="_blank"
-            title="Plus d'infos sur le biais sur Cognitive Labs - nouvelle fenêtre"
-            rel="noopener"
-            class="text-heavy-metal-600 hover:text-heavy-metal-800 font-medium inline-flex items-center gap-1 self-end group"
+
+          <RouterLink
+            :to="{ path: '/liste', query: { category: cat.id } }"
+            class="ext-heavy-metal-200 hover:text-white font-medium inline-flex items-center gap-1 self-end group relative z-10"
           >
             voir les {{ cat.count }} bias
             <i aria-hidden="true" class="group-hover:translate-x-1 transition-transform">→</i>
-          </a>
+          </RouterLink>
         </div>
       </li>
     </ul>
