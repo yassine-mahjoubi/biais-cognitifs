@@ -21,7 +21,6 @@ const BiasesFiltredByCategory = computed(() => {
   if (route.query.category) {
     const category = route.query.category as string
     filtered = filtredByCategory(category)
-
     return filtered
   }
 
