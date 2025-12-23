@@ -15,7 +15,7 @@ onMounted(async () => {
 </script>
 <template>
   <BiaisLayout>
-    <template #name>{{ randomBias?.name }}tttt</template>
+    <template #name>{{ randomBias?.name }}</template>
     <template #description>{{ randomBias?.description }}</template>
     <template #action>
       <button

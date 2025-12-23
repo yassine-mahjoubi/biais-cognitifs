@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 import { ref, shallowRef } from 'vue'
-import type { Bias } from '@/type/Bias'
+import type { Bias, Category } from '@/type/Bias'
 import { getApiResponse } from '../services/services'
 
 /**
@@ -15,6 +15,7 @@ const getRandomIndex = (data: Bias[]): number => {
 
 export const useBiasStore = defineStore('bias', () => {
   const biases = shallowRef<Bias[]>([])
+  const categories = shallowRef<Category[]>([])
   const loading = ref<boolean>(false)
   const randomBias = ref<Bias | null | undefined>(undefined)
   const dataLoaded = ref<boolean>(false)
@@ -33,6 +34,7 @@ export const useBiasStore = defineStore('bias', () => {
       const response = await getApiResponse()
       if (response && response.list_biases.length > 0) {
         biases.value = response.list_biases
+        categories.value = response.categories_biases
         dataLoaded.value = true
       }
     } catch (error) {
@@ -60,5 +62,24 @@ export const useBiasStore = defineStore('bias', () => {
     return biases.value.find((bias) => slug === bias.slug)
   }
 
-  return { fetchBias, biases, loading, selectRandomBias, randomBias, getBiasBySlug }
+  /**
+   * filtrer les bias par catégorie
+   * @param category
+   * @returns teableau de biais filtré par categorie_id
+   */
+  const filtredByCategory = (category: string) => {
+    const filteredBiases = biases.value.filter((bias) => category === bias.category_id)
+    return filteredBiases
+  }
+
+  return {
+    fetchBias,
+    biases,
+    categories,
+    loading,
+    selectRandomBias,
+    randomBias,
+    getBiasBySlug,
+    filtredByCategory,
+  }
 })
