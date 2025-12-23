@@ -32,5 +32,6 @@ interface BiasListAndCategories {
   categories_biases: Category[]
 }
 type StyleView = 'Random' | 'Detail'
+type Typesort = 'order' | 'category' | 'date'
 
-export type { BiasListAndCategories, Bias, Category, StyleView }
+export type { BiasListAndCategories, Bias, Category, StyleView, Typesort }
