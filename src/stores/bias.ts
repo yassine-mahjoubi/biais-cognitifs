@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 import { computed, ref, shallowRef } from 'vue'
-import type { Bias, Category, Typesort } from '@/type/Bias'
+import type { Bias, Category, Filter } from '@/type/Bias'
 import { getApiResponse } from '../services/services'
 
 /**
@@ -13,15 +13,13 @@ const getRandomIndex = (data: Bias[]): number => {
   return randomIndex
 }
 
-//type Typesort = 'order' | 'category' | 'date'
-
 export const useBiasStore = defineStore('bias', () => {
   const biases = shallowRef<Bias[]>([])
   const categories = shallowRef<Category[]>([])
   const loading = ref<boolean>(false)
   const randomBias = ref<Bias | null | undefined>(undefined)
   const dataLoaded = ref<boolean>(false)
-  const typesSort = ref<Typesort>('order')
+  const typesSort = ref<Filter>('order')
 
   /**
    * récupère le tableau de biais avec gestion de cache
@@ -57,9 +55,9 @@ export const useBiasStore = defineStore('bias', () => {
   }
 
   /**
-   * cherche un biais
+   * cherche un biais par slug
    * @param slug
-   * @returns les dats d'un biais troiuvé
+   * @returns les data d'un biais trouvé
    */
   const getBiasBySlug = (slug: string) => {
     return biases.value.find((bias) => slug === bias.slug)
@@ -81,6 +79,7 @@ export const useBiasStore = defineStore('bias', () => {
    * @returns
    */
   const sortedBiases = computed(() => {
+    console.log('from sotre: typesSort:', typesSort.value)
     const newSortedTable = [...biases.value]
     if (typesSort.value === 'category') {
       return newSortedTable.sort((a, b) => a.category_name.localeCompare(b.category_name))
