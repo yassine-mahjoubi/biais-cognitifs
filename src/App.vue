@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import Menu from './components/Layout/Menu.vue'
+import MenuNavigation from './components/Layout/MenuNavigation.vue'
 </script>
 <template>
   <div class="min-h-screen bg-heavy-metal-50">
-    <Menu />
+    <menu-navigation />
     <main>
       <RouterView />
     </main>
