@@ -79,7 +79,6 @@ export const useBiasStore = defineStore('bias', () => {
    * @returns
    */
   const sortedBiases = computed(() => {
-    console.log('from sotre: typesSort:', typesSort.value)
     const newSortedTable = [...biases.value]
     if (typesSort.value === 'category') {
       return newSortedTable.sort((a, b) => a.category_name.localeCompare(b.category_name))
