@@ -16,7 +16,7 @@ onMounted(async () => {
 })
 </script>
 <template>
-  <div class="mt-4 max-w-7xl mx-auto px-4 py-8">
+  <div class="max-w-7xl mx-auto px-4 py-8">
     <menu-filter />
     <p v-if="loading">Loading..</p>
     <template v-else>
