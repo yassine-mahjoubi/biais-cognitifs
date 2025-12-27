@@ -20,6 +20,8 @@ export const useBiasStore = defineStore('bias', () => {
   const randomBias = ref<Bias | null | undefined>(undefined)
   const dataLoaded = ref<boolean>(false)
   const typesSort = ref<Filter>('order')
+  const biasToFind = ref<string>('')
+  const resetSearchInput = ref<boolean>(false)
 
   /**
    * récupère le tableau de biais avec gestion de cache
@@ -73,18 +75,33 @@ export const useBiasStore = defineStore('bias', () => {
     return filteredBiases
   }
 
+  const updateSearchBias = (term: string) => {
+    biasToFind.value = term
+  }
+
+  const resetSearch = () => {
+    biasToFind.value = ''
+  }
+
   /**
    *
    * @param data
    * @returns
    */
-  const sortedBiases = computed(() => {
-    const newSortedTable = [...biases.value]
-    if (typesSort.value === 'category') {
-      return newSortedTable.sort((a, b) => a.category_name.localeCompare(b.category_name))
+  const filteredAndSortedBiases = computed(() => {
+    let biasesToDisplay = [...biases.value]
+
+    if (biasToFind.value) {
+      biasesToDisplay = biasesToDisplay.filter((bias) => {
+        return bias.name.toLocaleLowerCase().includes(biasToFind.value.toLocaleLowerCase())
+      })
     }
 
-    return newSortedTable.sort((a, b) => a.name.localeCompare(b.name))
+    if (typesSort.value === 'category') {
+      return biasesToDisplay.sort((a, b) => a.category_name.localeCompare(b.category_name))
+    }
+
+    return biasesToDisplay.sort((a, b) => a.name.localeCompare(b.name))
   })
 
   return {
@@ -96,7 +113,11 @@ export const useBiasStore = defineStore('bias', () => {
     randomBias,
     getBiasBySlug,
     filtredByCategory,
-    sortedBiases,
     typesSort,
+    biasToFind,
+    updateSearchBias,
+    filteredAndSortedBiases,
+    resetSearch,
+    resetSearchInput,
   }
 })

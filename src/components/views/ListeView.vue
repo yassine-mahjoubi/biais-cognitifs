@@ -8,7 +8,7 @@ import MenuFilter from '../UI/MenuFilter.vue'
 
 const store = useBiasStore()
 //storeToRefs keep recativity alive
-const { loading, sortedBiases } = storeToRefs(store)
+const { loading, filteredAndSortedBiases } = storeToRefs(store)
 const { fetchBias } = store
 
 onMounted(async () => {
@@ -20,7 +20,7 @@ onMounted(async () => {
     <menu-filter />
     <p v-if="loading">Loading..</p>
     <template v-else>
-      <BiasList :biases="sortedBiases" />
+      <BiasList :biases="filteredAndSortedBiases" />
     </template>
   </div>
 </template>
