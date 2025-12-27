@@ -1,0 +1,33 @@
+{
+  "common": {
+    "loading": "Chargement...",
+    "home": "Accueil",
+    "app_title": "Biais Cognitifs"
+  },
+  "nav": {
+    "main_menu": "Menu principal",
+    "bias_list": "Liste de biais",
+    "proposals": "Propositions",
+    "about": "À propos"
+  },
+  "filter": {
+    "sort_by": "Trier par :",
+    "aria_filter_selected": "Filtre {filter} sélectionné",
+    "reset_button": "Réinitialiser",
+    "aria_reset_list": "Réinitialiser la recherche et afficher la liste complète"
+  },
+  "search": {
+    "placeholder": "Chercher un biais...",
+    "aria_label": "Chercher un biais",
+    "aria_clear": "Effacer la recherche"
+  },
+  "buttons": {
+    "random_bias": "Afficher un biais aléatoire",
+    "read_more": "Lire la suite",
+    "external_link": "Voir plus d'infos sur le site externe"
+  },
+  "about_page": {
+    "title": "À propos de cette application",
+    "description": "Explorez le monde fascinant des biais cognitifs avec ce répertoire interactif. Recherchez, filtrez et découvrez des dizaines de schémas de pensée qui influencent nos décisions. Que vous soyez simplement curieux ou que vous souhaitiez affûter votre esprit critique, cette application est un outil pour mieux comprendre le fonctionnement de votre cerveau."
+  }
+}

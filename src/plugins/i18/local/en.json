@@ -1,0 +1,33 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "home": "Home",
+    "app_title": "Cognitive Biases"
+  },
+  "nav": {
+    "main_menu": "Main menu",
+    "bias_list": "List of biases",
+    "proposals": "Proposals",
+    "about": "About"
+  },
+  "filter": {
+    "sort_by": "Sort by:",
+    "aria_filter_selected": "Filter {filter} selected",
+    "reset_button": "Reset",
+    "aria_reset_list": "Reset search and show the full list"
+  },
+  "search": {
+    "placeholder": "Search for a bias...",
+    "aria_label": "Search for a bias",
+    "aria_clear": "Clear search"
+  },
+  "buttons": {
+    "random_bias": "Display a random bias",
+    "read_more": "Read more",
+    "external_link": "See more info on the external site"
+  },
+  "about_page": {
+    "title": "About This Application",
+    "description": "Explore the fascinating world of cognitive biases with this interactive directory. Search, filter, and discover dozens of thought patterns that influence our decisions. Whether you're just curious or want to sharpen your critical thinking, this application is a tool to better understand how your brain works."
+  }
+}

@@ -1,6 +1,8 @@
 <script lang="ts" setup>
-import { computed } from 'vue'
+import { useI18n } from 'vue-i18n'
+const { t } = useI18n()
 
+import { computed } from 'vue'
 import SearchBias from './SearchBias.vue'
 import { useBiasStore } from '@/stores/bias'
 import type { Filter } from '@/type/Bias'
@@ -56,7 +58,7 @@ const showReset = computed(() => biasToFind.value.length > 3)
           aria-label="reset input et afficher la liste complète"
           class="px-4 py-2 bg-heavy-metal-700 text-heavy-metal-300 border border-heavy-metal-600 rounded-md hover:bg-heavy-metal-600 hover:text-white transition-all duration-200 font-medium"
         >
-          Reset
+          {{ t('filter.reset_button') }}
         </button>
       </div>
     </div>
