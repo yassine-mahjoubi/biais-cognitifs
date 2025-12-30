@@ -6,20 +6,20 @@ import BiaisLayout from '../Layout/BiaisLayout.vue'
 
 const store = useBiasStore()
 //storeToRefs keep recativity alive
-const { randomBias } = storeToRefs(store)
-const { selectRandomBias, fetchBias } = store
+const { currentSelectedBias } = storeToRefs(store)
+const { selectedBiasID, fetchBias } = store
 onMounted(async () => {
   await fetchBias()
-  selectRandomBias()
+  selectedBiasID()
 })
 </script>
 <template>
   <BiaisLayout>
-    <template #name>{{ randomBias?.name }}</template>
-    <template #description>{{ randomBias?.description }}</template>
+    <template #name>{{ currentSelectedBias?.name }}</template>
+    <template #description>{{ currentSelectedBias?.description }}</template>
     <template #action>
       <button
-        @click="selectRandomBias"
+        @click="selectedBiasID"
         class="group w-full sm:w-auto px-10 py-4 bg-heavy-metal-700 cursor-pointer hover:bg-heavy-metal-800 text-white font-medium rounded-2xl shadow-md hover:shadow-lg mx-auto block"
       >
         <span class="flex items-center justify-center gap-3">
