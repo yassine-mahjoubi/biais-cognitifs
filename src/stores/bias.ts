@@ -1,7 +1,13 @@
 import { defineStore } from 'pinia'
-import { computed, ref, shallowRef } from 'vue'
+import { computed, ref, shallowRef, watch } from 'vue'
 import type { Bias, Category, Filter } from '@/type/Bias'
 import { getApiResponse } from '../services/services'
+import i18n from '@/plugins/i18'
+
+const newLocale = ref<string>(i18n.global.locale.value)
+const URL_API_FR = import.meta.env.VITE_API_URL_FR
+const URL_API_EN = import.meta.env.VITE_API_URL_EN
+const URL_API = ref<string>(URL_API_FR)
 
 /**
  * Génère un index aléatoire  pour accéder au tableau de biais
@@ -17,8 +23,8 @@ export const useBiasStore = defineStore('bias', () => {
   const biases = shallowRef<Bias[]>([])
   const categories = shallowRef<Category[]>([])
   const loading = ref<boolean>(false)
-  const randomBias = ref<Bias | null | undefined>(undefined)
-  const dataLoaded = ref<boolean>(false)
+  //const randomBias = ref<Bias | null | undefined>(undefined)
+
   const typesSort = ref<Filter>('order')
   const biasToFind = ref<string>('')
   const resetSearchInput = ref<boolean>(false)
@@ -29,16 +35,21 @@ export const useBiasStore = defineStore('bias', () => {
    */
   const fetchBias = async () => {
     //data already loaded
-    if (dataLoaded.value) {
-      return
+    // if (dataLoadedFR.value && dataLoadedEN.value) {
+    //   return
+    // }
+    if (newLocale.value === 'fr') {
+      URL_API.value = URL_API_FR
+    } else if (newLocale.value === 'en') {
+      URL_API.value = URL_API_EN
     }
     try {
       loading.value = true
-      const response = await getApiResponse()
+      const response = await getApiResponse(URL_API.value)
+
       if (response && response.list_biases.length > 0) {
         biases.value = response.list_biases
         categories.value = response.categories_biases
-        dataLoaded.value = true
       }
     } catch (error) {
       console.error('fetch api failed', error)
@@ -50,11 +61,23 @@ export const useBiasStore = defineStore('bias', () => {
   /**
    * Sélectionne un biais de manière aléatoire parmi la liste chargée
    */
-  const selectRandomBias = () => {
+  const randomBiasId = ref<string | undefined>(undefined)
+
+  const selectedBiasID = () => {
     if (biases.value.length > 0) {
-      randomBias.value = biases.value[getRandomIndex(biases.value)]
+      const selectedBias = biases.value[getRandomIndex(biases.value)]
+      randomBiasId.value = selectedBias?.id
     }
   }
+
+  /**
+   * find biais
+   * @param id
+   * @returns biais traduit
+   */
+  const currentSelectedBias = computed(() => {
+    return biases.value.find((biais) => biais.id === randomBiasId.value)
+  })
 
   /**
    * cherche un biais par slug
@@ -104,13 +127,19 @@ export const useBiasStore = defineStore('bias', () => {
     return biasesToDisplay.sort((a, b) => a.name.localeCompare(b.name))
   })
 
+  /**
+   * handle language and refetch data
+   */
+  watch(newLocale, async () => {
+    await fetchBias()
+  })
+
   return {
     fetchBias,
     biases,
     categories,
     loading,
-    selectRandomBias,
-    randomBias,
+    selectedBiasID,
     getBiasBySlug,
     filtredByCategory,
     typesSort,
@@ -119,5 +148,7 @@ export const useBiasStore = defineStore('bias', () => {
     filteredAndSortedBiases,
     resetSearch,
     resetSearchInput,
+    newLocale,
+    currentSelectedBias,
   }
 })
