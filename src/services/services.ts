@@ -1,4 +1,3 @@
-const URL_API = import.meta.env.VITE_API_URL_FR
 import type { BiasListAndCategories, Bias, Category } from '../type/Bias'
 
 /**
@@ -6,9 +5,9 @@ import type { BiasListAndCategories, Bias, Category } from '../type/Bias'
  * @returns Objet contenant list_biases et categories_biases, ou null en cas d'erreur
  */
 
-export const getApiResponse = async (): Promise<BiasListAndCategories | null> => {
+export const getApiResponse = async (url: string): Promise<BiasListAndCategories | null> => {
   try {
-    const response = await fetch(URL_API)
+    const response = await fetch(url)
     const result = await response.json()
     const list_biases: Bias[] = result.biases
     const categories_biases: Category[] = result.categories

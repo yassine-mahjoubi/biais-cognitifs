@@ -2,7 +2,10 @@
   "common": {
     "loading": "Loading...",
     "home": "Home",
-    "app_title": "Cognitive Biases"
+    "app_title": "Cognitive Biases",
+    "interface": {
+      "label": "choose language"
+    }
   },
   "nav": {
     "main_menu": "Main menu",

@@ -2,7 +2,10 @@
   "common": {
     "loading": "Chargement...",
     "home": "Accueil",
-    "app_title": "Biais Cognitifs"
+    "app_title": "Biais Cognitifs",
+    "interface": {
+      "label": "choisir une langue"
+    }
   },
   "nav": {
     "main_menu": "Menu principal",
