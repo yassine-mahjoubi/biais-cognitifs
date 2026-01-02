@@ -1,23 +1,26 @@
 {
   "common": {
     "loading": "Chargement...",
-    "home": "Accueil",
     "app_title": "Biais Cognitifs",
     "interface": {
       "label": "choisir une langue"
     }
   },
   "nav": {
-    "main_menu": "Menu principal",
+    "home": "Accueil",
     "bias_list": "Liste de biais",
     "proposals": "Propositions",
     "about": "À propos"
   },
   "filter": {
     "sort_by": "Trier par :",
-    "aria_filter_selected": "Filtre {filter} sélectionné",
+    "aria_filter_selected": "Filtre {filter} appliqué",
     "reset_button": "Réinitialiser",
-    "aria_reset_list": "Réinitialiser la recherche et afficher la liste complète"
+    "aria_reset_list": "Réinitialiser la recherche et afficher la liste complète",
+    "type": {
+      "order": "ordre",
+      "category": "catégorie"
+    }
   },
   "search": {
     "placeholder": "Chercher un biais...",
@@ -26,8 +29,10 @@
   },
   "buttons": {
     "random_bias": "Afficher un biais aléatoire",
-    "read_more": "Lire la suite",
-    "external_link": "Voir plus d'infos sur le site externe"
+    "read_more": "En savoir plus",
+    "read_more_accessible": "En savoir plus sur {biasName}",
+    "see_more": "Voir plus ",
+    "external_link": "Voir plus d'infos sur {biasName} - Nouvelle fenêtre"
   },
   "about_page": {
     "title": "À propos de cette application",

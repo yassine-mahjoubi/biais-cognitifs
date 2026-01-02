@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+import { useI18n } from 'vue-i18n'
+const { t } = useI18n()
 import type { Bias } from '../../type/Bias'
 
 defineProps<{
@@ -8,7 +10,7 @@ defineProps<{
 </script>
 
 <template>
-  <div
+  <article
     class="bg-linear-to-br from-heavy-metal-600 to-heavy-metal-800 text-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all relative h-full flex flex-col overflow-hidden"
   >
     <div
@@ -30,9 +32,10 @@ defineProps<{
     <RouterLink
       :to="{ name: 'bias-detail', params: { slug: bias.slug } }"
       class="ext-heavy-metal-200 hover:text-white font-medium inline-flex items-center gap-1 self-end group relative z-10"
+      :title="t('buttons.read_more_accessible', { biasName: bias.name })"
     >
-      lire la suite
+      {{ t('buttons.read_more') }}
       <i aria-hidden="true" class="group-hover:translate-x-1 transition-transform">→</i>
     </RouterLink>
-  </div>
+  </article>
 </template>

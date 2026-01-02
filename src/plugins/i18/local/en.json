@@ -1,14 +1,13 @@
 {
   "common": {
     "loading": "Loading...",
-    "home": "Home",
     "app_title": "Cognitive Biases",
     "interface": {
       "label": "choose language"
     }
   },
   "nav": {
-    "main_menu": "Main menu",
+    "home": "Home",
     "bias_list": "List of biases",
     "proposals": "Proposals",
     "about": "About"
@@ -17,7 +16,11 @@
     "sort_by": "Sort by:",
     "aria_filter_selected": "Filter {filter} selected",
     "reset_button": "Reset",
-    "aria_reset_list": "Reset search and show the full list"
+    "aria_reset_list": "Reset search and show the full list",
+    "type": {
+      "order": "order",
+      "category": "category"
+    }
   },
   "search": {
     "placeholder": "Search for a bias...",
@@ -26,8 +29,10 @@
   },
   "buttons": {
     "random_bias": "Display a random bias",
-    "read_more": "Read more",
-    "external_link": "See more info on the external site"
+    "read_more": "Read more about",
+    "read_more_accessible": "Read more about the {biasName}",
+    "see_more": "See more ",
+    "external_link": "See more info about {biasName} - New window"
   },
   "about_page": {
     "title": "About This Application",

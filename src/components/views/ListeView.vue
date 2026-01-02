@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+import { useI18n } from 'vue-i18n'
+const { t } = useI18n()
 import { onMounted } from 'vue'
 import { storeToRefs } from 'pinia'
 
@@ -18,7 +20,7 @@ onMounted(async () => {
 <template>
   <div class="max-w-7xl mx-auto px-4 py-8">
     <menu-filter />
-    <p v-if="loading">Loading..</p>
+    <p v-if="loading">{{ t('common.loading') }}</p>
     <template v-else>
       <BiasList :biases="filteredAndSortedBiases" />
     </template>

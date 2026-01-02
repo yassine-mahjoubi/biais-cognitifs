@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { useI18n } from 'vue-i18n'
+const { t } = useI18n()
 import { useBiasStore } from '@/stores/bias'
 import { storeToRefs } from 'pinia'
 
@@ -8,13 +10,14 @@ const { biasToFind } = storeToRefs(store)
 <template>
   <div class="relative w-full">
     <svg
+      aria-hidden="true"
       class="absolute left-3 top-1/2 transform -translate-y-1/2 text-heavy-metal-400 pointer-events-none"
-      width="18"
-      height="18"
+      width="24"
+      height="24"
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      stroke-width="2"
+      stroke-width="3"
     >
       <circle cx="11" cy="11" r="8"></circle>
       <path d="m21 21-4.35-4.35"></path>
@@ -24,8 +27,8 @@ const { biasToFind } = storeToRefs(store)
       type="search"
       name="search"
       id="search"
-      placeholder="chercher un bias..."
-      aria-label="chercher un biais"
+      :placeholder="t('search.placeholder')"
+      :aria-label="t('search.aria_label')"
       class="w-full pl-10 pr-10 py-2 bg-heavy-metal-700 text-white placeholder-heavy-metal-400 border border-heavy-metal-600 rounded-md focus:outline-none focus:ring-2 focus:ring-heavy-metal-500 focus:border-transparent transition-all duration-200"
     />
     <!-- Bouton clear (X) -->
@@ -34,9 +37,10 @@ const { biasToFind } = storeToRefs(store)
       @click="store.resetSearch()"
       type="button"
       class="absolute right-2 top-1/2 transform -translate-y-1/2 text-heavy-metal-400 hover:text-white transition-colors p-1 rounded focus:outline-none focus:ring-2 focus:ring-heavy-metal-500"
-      aria-label="Effacer la recherche"
+      :aria-label="t('search.aria_clear')"
     >
       <svg
+        aria-hidden="true"
         width="18"
         height="18"
         viewBox="0 0 24 24"
