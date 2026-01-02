@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+import { useI18n } from 'vue-i18n'
+const { t } = useI18n()
 import { ref, onMounted } from 'vue'
 import type { Bias } from '@/type/Bias'
 import { useBiasStore } from '@/stores/bias'
@@ -26,11 +28,11 @@ onMounted(async () => {
       <a
         :href="selectedBias?.url"
         target="_blank"
-        title="Plus d'infos sur le biais sur Cognitive Labs - nouvelle fenêtre"
+        :title="t('buttons.external_link', { biasName: selectedBias?.name })"
         rel="noopener"
         class="text-heavy-metal-900 hover:text-heavy-metal-800 font-medium inline-flex items-center gap-1 self-end group relative z-10"
       >
-        <span class="underline">Plus d'infos</span>
+        <span class="underline">{{ t('buttons.see_more') }}</span>
         <i aria-hidden="true" class="group-hover:translate-x-1 transition-transform">→</i>
       </a>
     </template>
