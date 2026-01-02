@@ -19,12 +19,11 @@ const handleLanguage = () => {
 
 <template>
   <div>
-    <label for="switchLanguage"> {{ t('common.interface.label') }}: </label>
     <select
       v-model="switcher"
       name="switchLanguage"
       id="switchLanguage"
-      aria-label="choisir la langue"
+      :aria-label="t('common.interface.label')"
       @change="handleLanguage"
     >
       <option

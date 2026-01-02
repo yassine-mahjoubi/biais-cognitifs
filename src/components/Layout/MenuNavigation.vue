@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { useI18n } from 'vue-i18n'
+const { t } = useI18n()
 import SwitchLanguage from '../UI/SwitchLanguage.vue'
 const navLinkClass = 'text-heavy-metal-300 hover:text-heavy-metal-50 transition-colors'
 const navLinkActiveClass = 'font-bold text-heavy-metal-50 border-b-2 border-heavy-metal-50 pb-1'
@@ -10,10 +12,10 @@ const navLinkActiveClass = 'font-bold text-heavy-metal-50 border-b-2 border-heav
   >
     <nav aria-label="Menu principal" role="navigation" class="flex gap-6">
       <RouterLink to="/" :class="navLinkClass" :active-class="navLinkActiveClass">
-        Home
+        {{ t('nav.home') }}
       </RouterLink>
       <RouterLink to="/liste" :class="navLinkClass" :active-class="navLinkActiveClass">
-        Liste de biais
+        {{ t('nav.bias_list') }}
       </RouterLink>
     </nav>
     <switch-language />
