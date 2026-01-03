@@ -33,5 +33,6 @@ interface BiasListAndCategories {
 }
 type StyleView = 'Random' | 'Detail'
 type Filter = 'order' | 'category' | 'date'
+type Language = 'fr' | 'en'
 
-export type { BiasListAndCategories, Bias, Category, StyleView, Filter }
+export type { BiasListAndCategories, Bias, Category, StyleView, Filter, Language }

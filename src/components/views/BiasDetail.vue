@@ -1,22 +1,21 @@
 <script lang="ts" setup>
 import { useI18n } from 'vue-i18n'
 const { t } = useI18n()
-import { ref, onMounted } from 'vue'
-import type { Bias } from '@/type/Bias'
+import { onMounted, computed } from 'vue'
 import { useBiasStore } from '@/stores/bias'
 import BiaisLayout from '../Layout/BiaisLayout.vue'
 
 const store = useBiasStore()
 const { fetchBias, getBiasBySlug } = store
-const selectedBias = ref<Bias | undefined>(undefined)
 
 const propos = defineProps<{
   slug: string
+  id: string
 }>()
+const selectedBias = computed(() => getBiasBySlug(propos.slug))
 
 onMounted(async () => {
   await fetchBias()
-  selectedBias.value = getBiasBySlug(propos.slug)
 })
 </script>
 

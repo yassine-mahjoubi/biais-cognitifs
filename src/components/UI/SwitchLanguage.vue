@@ -1,18 +1,19 @@
 <script lang="ts" setup>
 import { useI18n } from 'vue-i18n'
-const { t, availableLocales, locale } = useI18n()
-import { storeToRefs } from 'pinia'
+import { ref } from 'vue'
 
+import type { Language } from '@/type/Bias'
+
+import { storeToRefs } from 'pinia'
 import { useBiasStore } from '@/stores/bias'
 
+const { t, availableLocales } = useI18n()
 const store = useBiasStore()
 const { newLocale } = storeToRefs(store)
 
-import { ref } from 'vue'
-type Language = 'fr' | 'en'
-const switcher = ref<Language>('fr')
+const switcher = ref<Language>(newLocale.value)
 const handleLanguage = () => {
-  locale.value = switcher.value
+  //locale.value = switcher.value
   newLocale.value = switcher.value
 }
 </script>
@@ -20,6 +21,7 @@ const handleLanguage = () => {
 <template>
   <div>
     <select
+      class="uppercase"
       v-model="switcher"
       name="switchLanguage"
       id="switchLanguage"
