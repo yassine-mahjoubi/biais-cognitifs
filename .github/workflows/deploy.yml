@@ -41,7 +41,7 @@ jobs:
         #VITE_GEMINI_API_KEY: ${{ secrets.VITE_GEMINI_API_KEY }}
         #VITE_APP_NAME: 'biases'
         run: |
-          npm run build-only
+          npm run build-only && cp index.html 404.html
           echo "=== DEBUG: Built index.html ==="
           cat dist/index.html
           echo "=== END DEBUG ==="

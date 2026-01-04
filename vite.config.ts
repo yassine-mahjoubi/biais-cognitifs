@@ -6,9 +6,16 @@ import tailwindcss from '@tailwindcss/vite'
 import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 
+const defineBasePath = () => {
+  // Netlify définit cette variable lors du build, le chemin need to starts '/'
+  if (process.env.NETLIFY) return '/'
+  // sinon '/biais-cognitifs/ pour heberger sur githubPages
+  return 'biais-cognitifs'
+}
+
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/biais-cognitifs/',
+  base: defineBasePath(),
   plugins: [vue(), vueDevTools(), tailwindcss()],
   resolve: {
     alias: {
