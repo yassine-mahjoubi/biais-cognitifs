@@ -23,7 +23,7 @@ const getRandomIndex = (data: Bias[]): number => {
 export const useBiasStore = defineStore('bias', () => {
   const biases = shallowRef<Bias[]>([])
   const categories = shallowRef<Category[]>([])
-  const loading = ref<boolean>(false)
+  const loading = ref<boolean>(true)
 
   const typesSort = ref<Filter>('order')
   const biasToFind = ref<string>('')
@@ -70,7 +70,6 @@ export const useBiasStore = defineStore('bias', () => {
     const url = getUrlApiByLocale()
 
     try {
-      loading.value = true
       const response = await getApiResponse(url)
 
       if (response && response.list_biases.length > 0) {
@@ -165,9 +164,11 @@ export const useBiasStore = defineStore('bias', () => {
    * 3. Met à jour biases.value avec les données de la langue actuelle
    */
   watch(newLocale, async () => {
+    loading.value = true
     i18n.global.locale.value = newLocale.value
     await fetchBias()
     biases.value = biasesCached.value[newLocale.value]
+    loading.value = false
   })
 
   return {
