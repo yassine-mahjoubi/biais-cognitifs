@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "total_biases": 167,
+    "total_biases": 168,
     "categories_count": 4,
     "source": "Cognitive Bias Codex",
-    "last_updated": "2024-11-24",
+    "last_updated": "09-01-2026",
     "url_base": "https://cognition.vsxlabs.com"
   },
   "categories": [
     {
       "id": "what_to_remember",
-      "name": "Ce qu’il faut retenir",
+      "name": "Ce qu'il faut retenir",
       "description": "Biais liés à l'encodage, au stockage et à la récupération de la mémoire",
       "count": 26
     },
@@ -17,11 +17,11 @@
       "id": "need_for_speed",
       "name": "Besoin de rapidité",
       "description": "Biais résultant de décisions rapides et de raccourcis cognitifs",
-      "count": 46
+      "count": 47
     },
     {
       "id": "information_overload",
-      "name": "Surcharge d’informations",
+      "name": "Surcharge d'informations",
       "description": "Biais liés au filtrage et au traitement d'une quantité excessive d'informations",
       "count": 32
     },
@@ -38,13 +38,22 @@
       "name": "Étourderie",
       "description": "L'étourderie est un biais cognitif qui fait référence aux situations où un manque d'attention entraîne des oublis ou des trous de mémoire, ce qui affecte souvent la rétention et le rappel des informations. Ce phénomène est généralement classé sous 'Ce qu'il faut retenir', et est mieux compris par la manière dont les souvenirs peuvent être stockés différemment en fonction de l'expérience.",
       "category_id": "what_to_remember",
-      "category_name": "Ce qu’il faut retenir",
+      "category_name": "Ce qu'il faut retenir",
       "slug": "absent-mindedness",
       "url": "https://cognition.vsxlabs.com/bias/absent-mindedness"
     },
     {
+      "id": "action_bias",
+      "name": "Biais d'action",
+      "description": "Le biais d'action est la tendance à préférer l'action à l'inaction, même lorsqu'il n'y a aucune preuve que l'action mène à de meilleurs résultats. Les gens se sentent souvent obligés de 'faire quelque chose' plutôt que d'attendre, poussés par la conviction que l'action est généralement meilleure que l'inaction. Ce biais est particulièrement fort dans les situations de haute pression où l'inaction pourrait être perçue comme de la négligence.",
+      "category_id": "need_for_speed",
+      "category_name": "Besoin de rapidité",
+      "slug": "action-bias",
+      "url": "https://thedecisionlab.com/fr/biases/action-bias"
+    },
+    {
       "id": "ambiguity_bias",
-      "name": "Biais d’ambiguïté",
+      "name": "Biais d'ambiguïté",
       "description": "Le biais d'ambiguïté, également connu sous le nom d'effet d'ambiguïté, est un biais cognitif où les individus ont tendance à préférer les options avec des probabilités connues à celles où les probabilités sont inconnues ou ambiguës. Ce biais provient d'une inclination humaine envers la certitude et une aversion pour les risques inconnus.",
       "category_id": "need_for_speed",
       "category_name": "Besoin de rapidité",
@@ -56,7 +65,7 @@
       "name": "Ancrage",
       "description": "Le biais d'ancrage fait référence à la tendance humaine à se fier fortement à la première information rencontrée (l'ancre) lors de la prise de décision. Ce biais influence de manière disproportionnée les jugements et les processus de prise de décision en fonction de ce point d'ancrage initial.",
       "category_id": "information_overload",
-      "category_name": "Surcharge d’informations",
+      "category_name": "Surcharge d'informations",
       "slug": "anchoring",
       "url": "https://cognition.vsxlabs.com/bias/anchoring"
     },
@@ -81,7 +90,7 @@
     {
       "id": "appeal_to_novelty",
       "name": "Appel à la nouveauté",
-      "description": "L'appel à la nouveauté est un biais cognitif où une idée ou un produit est considéré comme supérieur simplement parce qu'il est nouveau ou moderne.",
+      "description": "L'appel à la nouveauté est un biais où l'on tend à préférer les idées ou produits nouveaux aux anciens, indépendamment de leur utilité ou valeur réelle.",
       "category_id": "need_for_speed",
       "category_name": "Besoin de rapidité",
       "slug": "appeal-to-novelty",
@@ -89,8 +98,8 @@
     },
     {
       "id": "appeal_to_probability_fallacy",
-      "name": "Sophisme d’appel à la probabilité",
-      "description": "Le sophisme d’appel à la probabilité est l'erreur de supposer qu'un événement est plus probable simplement parce qu'il est souhaitable ou attendu.",
+      "name": "Sophisme d'appel à la probabilité",
+      "description": "Le sophisme d'appel à la probabilité se produit lorsqu'on suppose que, parce que quelque chose pourrait arriver, cela arrivera certainement.",
       "category_id": "lack_of_meaning",
       "category_name": "Manque de sens",
       "slug": "appeal-to-probability-fallacy",
@@ -110,14 +119,14 @@
       "name": "Biais attentionnel",
       "description": "Le biais attentionnel est la tendance à accorder plus d'attention à certains stimuli plutôt qu'à d'autres, souvent en raison de leur pertinence émotionnelle ou de leur saillance. Cela peut influencer la perception et la prise de décision.",
       "category_id": "information_overload",
-      "category_name": "Surcharge d’informations",
+      "category_name": "Surcharge d'informations",
       "slug": "attentional-bias",
       "url": "https://cognition.vsxlabs.com/bias/attentional-bias"
     },
     {
       "id": "authority_bias",
-      "name": "Biais d’autorité",
-      "description": "Le biais d’autorité est la tendance à accorder plus de poids à l'opinion d'une autorité ou d'une figure perçue comme telle, même si cette opinion n'est pas nécessairement correcte.",
+      "name": "Biais d'autorité",
+      "description": "Le biais d'autorité est la tendance à accorder plus de poids à l'opinion d'une autorité ou d'une figure perçue comme telle, même si cette opinion n'est pas nécessairement correcte.",
       "category_id": "lack_of_meaning",
       "category_name": "Manque de sens",
       "slug": "authority-bias",
@@ -125,8 +134,8 @@
     },
     {
       "id": "automation_bias",
-      "name": "Biais d’automatisation",
-      "description": "Le biais d’automatisation est la tendance à trop se fier aux systèmes automatisés, en supposant qu'ils sont toujours corrects, même lorsqu'il y a des preuves du contraire.",
+      "name": "Biais d'automatisation",
+      "description": "Le biais d'automatisation est la tendance à trop se fier aux systèmes automatisés, en supposant qu'ils sont toujours corrects, même lorsqu'il y a des preuves du contraire.",
       "category_id": "lack_of_meaning",
       "category_name": "Manque de sens",
       "slug": "automation-bias",
@@ -137,7 +146,7 @@
       "name": "Heuristique de disponibilité",
       "description": "L'heuristique de disponibilité est un biais cognitif où les gens jugent la probabilité d'un événement en fonction de la facilité avec laquelle ils peuvent se rappeler des exemples similaires. Cela peut mener à des jugements erronés si les exemples faciles à rappeler ne sont pas représentatifs de la réalité.",
       "category_id": "information_overload",
-      "category_name": "Surcharge d’informations",
+      "category_name": "Surcharge d'informations",
       "slug": "availability-heuristic",
       "url": "https://cognition.vsxlabs.com/bias/availability-heuristic"
     },
@@ -173,7 +182,7 @@
       "name": "Sophisme de la fréquence de base",
       "description": "Le sophisme de la fréquence de base est l'erreur qui consiste à ignorer les informations statistiques générales (fréquence de base) en faveur d'informations spécifiques, souvent anecdotiques ou plus saillantes.",
       "category_id": "information_overload",
-      "category_name": "Surcharge d’informations",
+      "category_name": "Surcharge d'informations",
       "slug": "base-rate-fallacy",
       "url": "https://cognition.vsxlabs.com/bias/base-rate-fallacy"
     },
@@ -191,7 +200,7 @@
       "name": "Angle mort du biais",
       "description": "L'angle mort du biais est la tendance à reconnaître les biais chez les autres, tout en niant avoir les mêmes biais soi-même.",
       "category_id": "information_overload",
-      "category_name": "Surcharge d’informations",
+      "category_name": "Surcharge d'informations",
       "slug": "bias-blind-spot",
       "url": "https://cognition.vsxlabs.com/bias/bias-blind-spot"
     },
@@ -200,7 +209,7 @@
       "name": "Effet de bizarrerie",
       "description": "L'effet de bizarrerie est la tendance à mieux se souvenir des éléments bizarres ou inhabituels par rapport aux éléments communs.",
       "category_id": "information_overload",
-      "category_name": "Surcharge d’informations",
+      "category_name": "Surcharge d'informations",
       "slug": "bizarreness-effect",
       "url": "https://cognition.vsxlabs.com/bias/bizarreness-effect"
     },
@@ -218,7 +227,7 @@
       "name": "Biais de soutien aux choix",
       "description": "Le biais de soutien aux choix est la tendance à attribuer des caractéristiques positives aux options que l'on a choisies, tout en attribuant des caractéristiques négatives aux options non choisies.",
       "category_id": "information_overload",
-      "category_name": "Surcharge d’informations",
+      "category_name": "Surcharge d'informations",
       "slug": "choice-supportive-bias",
       "url": "https://cognition.vsxlabs.com/bias/choice-supportive-bias"
     },
@@ -234,7 +243,7 @@
     {
       "id": "confabulation",
       "name": "Fabulation",
-      "description": "La fabulation est un biais cognitif où les gens créent involontairement de fausses mémoires pour combler les lacunes de leur mémoire. Cela peut mener à des récits personnels inexacts.",
+      "description": "La fabulation est un biais cognitif où les gens créent involontairement de faux souvenirs pour combler les lacunes de leur mémoire. Cela peut mener à des récits personnels inexacts.",
       "category_id": "lack_of_meaning",
       "category_name": "Manque de sens",
       "slug": "confabulation",
@@ -245,7 +254,7 @@
       "name": "Biais de confirmation",
       "description": "Le biais de confirmation est la tendance à rechercher, interpréter et retenir les informations qui confirment nos croyances préexistantes, tout en ignorant ou en minimisant les informations qui les contredisent.",
       "category_id": "information_overload",
-      "category_name": "Surcharge d’informations",
+      "category_name": "Surcharge d'informations",
       "slug": "confirmation-bias",
       "url": "https://cognition.vsxlabs.com/bias/confirmation-bias"
     },
@@ -254,7 +263,7 @@
       "name": "Biais de congruence",
       "description": "Le biais de congruence est la tendance à tester des hypothèses de manière unilatérale, en cherchant uniquement des preuves qui les confirment, plutôt que des preuves qui pourraient les infirmer.",
       "category_id": "information_overload",
-      "category_name": "Surcharge d’informations",
+      "category_name": "Surcharge d'informations",
       "slug": "congruence-bias",
       "url": "https://cognition.vsxlabs.com/bias/congruence-bias"
     },
@@ -272,7 +281,7 @@
       "name": "Conservatisme",
       "description": "Le conservatisme est la tendance à maintenir ses croyances initiales même face à de nouvelles informations qui les contredisent.",
       "category_id": "information_overload",
-      "category_name": "Surcharge d’informations",
+      "category_name": "Surcharge d'informations",
       "slug": "conservatism",
       "url": "https://cognition.vsxlabs.com/bias/conservatism"
     },
@@ -281,16 +290,16 @@
       "name": "Effet de contexte",
       "description": "L'effet de contexte est la tendance à percevoir et à interpréter les informations différemment en fonction du contexte dans lequel elles sont présentées.",
       "category_id": "information_overload",
-      "category_name": "Surcharge d’informations",
+      "category_name": "Surcharge d'informations",
       "slug": "context-effect",
       "url": "https://cognition.vsxlabs.com/bias/context-effect"
     },
     {
       "id": "continued_influence_effect",
-      "name": "Effet d’influence continue",
-      "description": "L'effet d’influence continue est la tendance à continuer à être influencé par des informations même après qu'elles aient été discréditées ou retirées.",
+      "name": "Effet d'influence continue",
+      "description": "L'effet d'influence continue est la tendance à continuer à être influencé par des informations même après qu'elles aient été discréditées ou retirées.",
       "category_id": "information_overload",
-      "category_name": "Surcharge d’informations",
+      "category_name": "Surcharge d'informations",
       "slug": "continued-influence-effect",
       "url": "https://cognition.vsxlabs.com/bias/continued-influence-effect"
     },
@@ -308,13 +317,13 @@
       "name": "Cryptomnésie",
       "description": "La cryptomnésie est un biais cognitif où une personne croit avoir une nouvelle idée, alors qu'elle se souvient en réalité d'une idée rencontrée précédemment et oubliée.",
       "category_id": "what_to_remember",
-      "category_name": "Ce qu’il faut retenir",
+      "category_name": "Ce qu'il faut retenir",
       "slug": "cryptomnesia",
       "url": "https://cognition.vsxlabs.com/bias/cryptomnesia"
     },
     {
       "id": "curse_of_knowledge",
-      "name": "Malediction de la connaissance",
+      "name": "Malédiction de la connaissance",
       "description": "La malédiction de la connaissance est la difficulté qu'ont les individus à se mettre à la place de ceux qui ont moins de connaissances qu'eux, ce qui peut mener à des explications ou des attentes irréalistes.",
       "category_id": "lack_of_meaning",
       "category_name": "Manque de sens",
@@ -341,8 +350,8 @@
     },
     {
       "id": "defensive_attribution_hypothesis",
-      "name": "Hypothèse d’attribution défensive",
-      "description": "L'hypothèse d’attribution défensive est la tendance à attribuer les causes des événements négatifs à des facteurs externes pour protéger son estime de soi.",
+      "name": "Hypothèse d'attribution défensive",
+      "description": "L'hypothèse d'attribution défensive est la tendance à attribuer les causes des événements négatifs à des facteurs externes pour protéger son estime de soi.",
       "category_id": "need_for_speed",
       "category_name": "Besoin de rapidité",
       "slug": "defensive-attribution-hypothesis",
@@ -360,7 +369,7 @@
     {
       "id": "denomination_effect",
       "name": "Effet de dénomination",
-      "description": "L'effet de dénomination est la tendance à dépenser plus d'argent lorsque celui-ci est sous une forme moins tangible, comme des jetons ou des cartes de crédit, plutôt que de l'argent liquide.",
+      "description": "L'effet de dénomination est la tendance à dépenser plus facilement de l'argent lorsqu'il se présente en petites coupures (par exemple, cinq billets de 10 €) plutôt qu'en une seule grosse coupure (par exemple, un billet de 50 €).",
       "category_id": "lack_of_meaning",
       "category_name": "Manque de sens",
       "slug": "denomination-effect",
@@ -380,7 +389,7 @@
       "name": "Biais de distinction",
       "description": "Le biais de distinction est la tendance à accorder plus de valeur à une option lorsque celle-ci est évaluée séparément plutôt qu'en comparaison avec d'autres options.",
       "category_id": "information_overload",
-      "category_name": "Surcharge d’informations",
+      "category_name": "Surcharge d'informations",
       "slug": "distinction-bias",
       "url": "https://cognition.vsxlabs.com/bias/distinction-bias"
     },
@@ -398,14 +407,14 @@
       "name": "Négligence de la durée",
       "description": "La négligence de la durée est la tendance à ignorer la durée d'une expérience lors de l'évaluation de cette expérience, en se concentrant plutôt sur son intensité ou sa fin.",
       "category_id": "what_to_remember",
-      "category_name": "Ce qu’il faut retenir",
+      "category_name": "Ce qu'il faut retenir",
       "slug": "duration-neglect",
       "url": "https://cognition.vsxlabs.com/bias/duration-neglect"
     },
     {
       "id": "effort_justification",
-      "name": "Justification de l’effort",
-      "description": "La justification de l’effort est la tendance à accorder plus de valeur à quelque chose si cela a demandé beaucoup d'efforts pour l'obtenir.",
+      "name": "Justification de l'effort",
+      "description": "La justification de l'effort est la tendance à accorder plus de valeur à quelque chose si cela a demandé beaucoup d'efforts pour l'obtenir.",
       "category_id": "need_for_speed",
       "category_name": "Besoin de rapidité",
       "slug": "effort-justification",
@@ -414,7 +423,7 @@
     {
       "id": "egocentric_bias",
       "name": "Biais égocentrique",
-      "description": "Le biais égocentrique est la tendance à se souvenir du passé de manière auto-centrée, en exagérant son propre rôle dans les événements.",
+      "description": "Le biais égocentrique est la tendance à se souvenir du passé de manière autocentrée, en exagérant son propre rôle dans les événements.",
       "category_id": "need_for_speed",
       "category_name": "Besoin de rapidité",
       "slug": "egocentric-bias",
@@ -425,7 +434,7 @@
       "name": "Fossé empathique",
       "description": "Le fossé empathique est la difficulté à comprendre les états émotionnels ou les expériences des autres, surtout s'ils diffèrent des nôtres.",
       "category_id": "information_overload",
-      "category_name": "Surcharge d’informations",
+      "category_name": "Surcharge d'informations",
       "slug": "empathy-gap",
       "url": "https://cognition.vsxlabs.com/bias/empathy-gap"
     },
@@ -440,8 +449,8 @@
     },
     {
       "id": "escalation_of_commitment",
-      "name": "Escalade de l’engagement",
-      "description": "L'escalade de l’engagement est la tendance à persister dans une décision ou un comportement, même face à des preuves qu'il est inefficace ou nuisible.",
+      "name": "Escalade de l'engagement",
+      "description": "L'escalade de l'engagement est la tendance à persister dans une décision ou un comportement, même face à des preuves qu'il est inefficace ou nuisible.",
       "category_id": "need_for_speed",
       "category_name": "Besoin de rapidité",
       "slug": "escalation-of-commitment",
@@ -458,8 +467,8 @@
     },
     {
       "id": "extrinsic_incentive_error",
-      "name": "Erreur d’incitation extrinsèque",
-      "description": "L'erreur d’incitation extrinsèque est la tendance à sous-estimer l'impact négatif des récompenses externes sur la motivation intrinsèque.",
+      "name": "Erreur d'incitation extrinsèque",
+      "description": "L'erreur d'incitation extrinsèque est la tendance à surestimer l'influence des incitations externes (comme l'argent) sur le comportement des autres, tout en sous-évaluant leurs motivations intrinsèques (comme la satisfaction personnelle).",
       "category_id": "lack_of_meaning",
       "category_name": "Manque de sens",
       "slug": "extrinsic-incentive-error",
@@ -467,10 +476,10 @@
     },
     {
       "id": "fading_affect_bias",
-      "name": "Biais d’affaiblissement affectif",
-      "description": "Le biais d’affaiblissement affectif est la tendance à se souvenir des émotions négatives avec moins d'intensité que des émotions positives au fil du temps.",
+      "name": "Biais d'affaiblissement affectif",
+      "description": "Le biais d'affaiblissement affectif est la tendance à se souvenir des émotions négatives avec moins d'intensité que des émotions positives au fil du temps.",
       "category_id": "what_to_remember",
-      "category_name": "Ce qu’il faut retenir",
+      "category_name": "Ce qu'il faut retenir",
       "slug": "fading-affect-bias",
       "url": "https://cognition.vsxlabs.com/bias/fading-affect-bias"
     },
@@ -488,7 +497,7 @@
       "name": "Faux souvenir",
       "description": "Un faux souvenir est un biais cognitif où une personne se souvient d'événements qui ne se sont jamais produits ou se souvient d'événements différemment de ce qu'ils étaient réellement.",
       "category_id": "what_to_remember",
-      "category_name": "Ce qu’il faut retenir",
+      "category_name": "Ce qu'il faut retenir",
       "slug": "false-memory",
       "url": "https://cognition.vsxlabs.com/bias/false-memory"
     },
@@ -497,7 +506,7 @@
       "name": "Effet de cadrage",
       "description": "L'effet de cadrage est la tendance à réagir différemment à une information en fonction de la manière dont elle est présentée, plutôt qu'en fonction de son contenu réel.",
       "category_id": "information_overload",
-      "category_name": "Surcharge d’informations",
+      "category_name": "Surcharge d'informations",
       "slug": "framing-effect",
       "url": "https://cognition.vsxlabs.com/bias/framing-effect"
     },
@@ -506,7 +515,7 @@
       "name": "Illusion de fréquence",
       "description": "L'illusion de fréquence, ou biais de fréquence, est la tendance à remarquer quelque chose pour la première fois, puis à l'observer partout, conduisant à une surestimation de sa fréquence réelle.",
       "category_id": "information_overload",
-      "category_name": "Surcharge d’informations",
+      "category_name": "Surcharge d'informations",
       "slug": "frequency-illusion",
       "url": "https://cognition.vsxlabs.com/bias/frequency-illusion"
     },
@@ -521,8 +530,8 @@
     },
     {
       "id": "fundamental_attribution_error",
-      "name": "Erreur fondamentale d’attribution",
-      "description": "L'erreur fondamentale d’attribution est la tendance à surestimer les facteurs internes (comme la personnalité) et à sous-estimer les facteurs externes (comme la situation) pour expliquer le comportement des autres.",
+      "name": "Erreur fondamentale d'attribution",
+      "description": "L'erreur fondamentale d'attribution est la tendance à surestimer les facteurs internes (comme la personnalité) et à sous-estimer les facteurs externes (comme la situation) pour expliquer le comportement des autres.",
       "category_id": "need_for_speed",
       "category_name": "Besoin de rapidité",
       "slug": "fundamental-attribution-error",
@@ -551,14 +560,14 @@
       "name": "Effet Google",
       "description": "L'effet Google est la tendance à oublier les informations que l'on peut facilement retrouver en ligne, en comptant sur Internet comme une extension de la mémoire.",
       "category_id": "what_to_remember",
-      "category_name": "Ce qu’il faut retenir",
+      "category_name": "Ce qu'il faut retenir",
       "slug": "google-effect",
       "url": "https://cognition.vsxlabs.com/bias/google-effect"
     },
     {
       "id": "group_attribution_error",
-      "name": "Erreur d’attribution de groupe",
-      "description": "L'erreur d’attribution de groupe est la tendance à attribuer des caractéristiques stéréotypées à tous les membres d'un groupe, en ignorant les différences individuelles.",
+      "name": "Erreur d'attribution de groupe",
+      "description": "L'erreur d'attribution de groupe est la tendance à attribuer des caractéristiques stéréotypées à tous les membres d'un groupe, en ignorant les différences individuelles.",
       "category_id": "lack_of_meaning",
       "category_name": "Manque de sens",
       "slug": "group-attribution-error",
@@ -629,8 +638,8 @@
     },
     {
       "id": "illusion_of_asymmetric_insight",
-      "name": "Illusion d’asymétrie de perspicacité",
-      "description": "L'illusion d’asymétrie de perspicacité est la tendance à croire que l'on comprend les autres mieux qu'ils ne nous comprennent.",
+      "name": "Illusion d'asymétrie de perspicacité",
+      "description": "L'illusion d'asymétrie de perspicacité est la tendance à croire que l'on comprend les autres mieux qu'ils ne nous comprennent.",
       "category_id": "lack_of_meaning",
       "category_name": "Manque de sens",
       "slug": "illusion-of-asymmetric-insight",
@@ -647,8 +656,8 @@
     },
     {
       "id": "illusion_of_external_agency",
-      "name": "Illusion d’agence externe",
-      "description": "L'illusion d’agence externe est la tendance à attribuer des événements à des forces externes plutôt qu'à des causes naturelles ou aléatoires.",
+      "name": "Illusion d'agence externe",
+      "description": "L'illusion d'agence externe est la tendance à attribuer des événements à des forces externes plutôt qu'à des causes naturelles ou aléatoires.",
       "category_id": "lack_of_meaning",
       "category_name": "Manque de sens",
       "slug": "illusion-of-external-agency",
@@ -695,14 +704,14 @@
       "name": "Effet de vérité illusoire",
       "description": "L'effet de vérité illusoire est la tendance à croire que les informations sont vraies simplement parce qu'elles sont familières ou ont été répétées plusieurs fois.",
       "category_id": "information_overload",
-      "category_name": "Surcharge d’informations",
+      "category_name": "Surcharge d'informations",
       "slug": "illusory-truth-effect",
       "url": "https://cognition.vsxlabs.com/bias/illusory-truth-effect"
     },
     {
       "id": "impact_bias",
-      "name": "Biais d’impact",
-      "description": "Le biais d’impact est la tendance à surestimer l'intensité et la durée de ses futures réactions émotionnelles à des événements futurs.",
+      "name": "Biais d'impact",
+      "description": "Le biais d'impact est la tendance à surestimer l'intensité et la durée de ses futures réactions émotionnelles à des événements futurs.",
       "category_id": "lack_of_meaning",
       "category_name": "Manque de sens",
       "slug": "impact-bias",
@@ -713,7 +722,7 @@
       "name": "Associations implicites",
       "description": "Les associations implicites sont des biais inconscients qui influencent nos jugements et comportements envers certaines personnes ou groupes.",
       "category_id": "what_to_remember",
-      "category_name": "Ce qu’il faut retenir",
+      "category_name": "Ce qu'il faut retenir",
       "slug": "implicit-associations",
       "url": "https://cognition.vsxlabs.com/bias/implicit-associations"
     },
@@ -728,8 +737,8 @@
     },
     {
       "id": "information_bias",
-      "name": "Biais d’information",
-      "description": "Le biais d’information est la tendance à rechercher des informations même lorsque celles-ci n'ont pas d'impact sur l'action ou la décision.",
+      "name": "Biais d'information",
+      "description": "Le biais d'information est la tendance à rechercher des informations même lorsque celles-ci n'ont pas d'impact sur l'action ou la décision.",
       "category_id": "need_for_speed",
       "category_name": "Besoin de rapidité",
       "slug": "information-bias",
@@ -737,8 +746,8 @@
     },
     {
       "id": "insensitivity_to_sample_size",
-      "name": "Insensibilité à la taille de l’échantillon",
-      "description": "L'insensibilité à la taille de l’échantillon est la tendance à ignorer la taille de l'échantillon lors de l'évaluation de la fiabilité des informations.",
+      "name": "Insensibilité à la taille de l'échantillon",
+      "description": "L'insensibilité à la taille de l'échantillon est la tendance à ignorer la taille de l'échantillon lors de l'évaluation de la fiabilité des informations.",
       "category_id": "lack_of_meaning",
       "category_name": "Manque de sens",
       "slug": "insensitivity-to-sample-size",
@@ -773,8 +782,8 @@
     },
     {
       "id": "less_is_better_effect",
-      "name": "Effet moins c’est mieux",
-      "description": "L'effet moins c’est mieux est la tendance à préférer un ensemble plus petit de qualités supérieures à un ensemble plus grand de qualités inférieures, même si l'ensemble plus grand a une valeur totale supérieure.",
+      "name": "Effet moins c'est mieux",
+      "description": "L'effet moins c'est mieux est la tendance à préférer un ensemble plus petit de qualités supérieures à un ensemble plus grand de qualités inférieures, même si l'ensemble plus grand a une valeur totale supérieure.",
       "category_id": "need_for_speed",
       "category_name": "Besoin de rapidité",
       "slug": "less-is-better-effect",
@@ -785,7 +794,7 @@
       "name": "Nivellement et accentuation",
       "description": "Le nivellement et l'accentuation sont des processus par lesquels les souvenirs deviennent plus stéréotypés et moins précis avec le temps.",
       "category_id": "what_to_remember",
-      "category_name": "Ce qu’il faut retenir",
+      "category_name": "Ce qu'il faut retenir",
       "slug": "leveling-and-sharpening",
       "url": "https://cognition.vsxlabs.com/bias/leveling-and-sharpening"
     },
@@ -794,7 +803,7 @@
       "name": "Effet des niveaux de traitement",
       "description": "L'effet des niveaux de traitement est la tendance à mieux se souvenir des informations traitées de manière profonde et significative.",
       "category_id": "what_to_remember",
-      "category_name": "Ce qu’il faut retenir",
+      "category_name": "Ce qu'il faut retenir",
       "slug": "levels-of-processing-effect",
       "url": "https://cognition.vsxlabs.com/bias/levels-of-processing-effect"
     },
@@ -818,8 +827,8 @@
     },
     {
       "id": "masked_man_fallacy",
-      "name": "Sophisme de l’homme masqué",
-      "description": "Le sophisme de l’homme masqué est l'erreur de supposer que savoir quelque chose sur une partie d'une personne ou d'un objet permet de tout savoir sur elle ou lui.",
+      "name": "Sophisme de l'homme masqué",
+      "description": "Le sophisme de l'homme masqué est l'erreur de supposer que savoir quelque chose sur une partie d'une personne ou d'un objet permet de tout savoir sur elle ou lui.",
       "category_id": "lack_of_meaning",
       "category_name": "Manque de sens",
       "slug": "masked-man-fallacy",
@@ -830,7 +839,7 @@
       "name": "Inhibition de la mémoire",
       "description": "L'inhibition de la mémoire est le processus par lequel certains souvenirs interfèrent avec la récupération d'autres souvenirs. Ce phénomène peut affecter la précision de la mémoire et la capacité à se rappeler des informations, car certains souvenirs peuvent bloquer l'accès à d'autres.",
       "category_id": "what_to_remember",
-      "category_name": "Ce qu’il faut retenir",
+      "category_name": "Ce qu'il faut retenir",
       "slug": "memory-inhibition",
       "url": "https://cognition.vsxlabs.com/bias/memory-inhibition"
     },
@@ -846,18 +855,18 @@
     {
       "id": "mere_exposure_effect",
       "name": "Effet de simple exposition",
-      "description": "L'effet de simple exposition est un biais cognitif où les individus développent une préférence pour des choses simplement parce qu'ils y sont familiers. Ce biais peut influencer les choix et les préférences des personnes, car la familiarité peut créer un sentiment de confort et de sécurité.",
+      "description": "L'effet de simple exposition est un biais cognitif où les individus développent une préférence pour des choses simplement parce qu'elles leur sont familières. Ce biais peut influencer les choix et les préférences des personnes, car la familiarité peut créer un sentiment de confort et de sécurité.",
       "category_id": "information_overload",
-      "category_name": "Surcharge d’informations",
+      "category_name": "Surcharge d'informations",
       "slug": "mere-exposure-effect",
       "url": "https://cognition.vsxlabs.com/bias/mere-exposure-effect"
     },
     {
       "id": "misattribution_of_memory",
       "name": "Mauvaise attribution de la mémoire",
-      "description": "La mauvaise attribution de la mémoire est la tendance à attribuer un souvenir à une source incorrecte. Ce biais peut influencer la fiabilité des témoignages et des récits personnels, car les gens peuvent confondre l'origine des informations qu'ils se souviennent.",
+      "description": "La mauvaise attribution de la mémoire est la tendance à attribuer un souvenir à une source incorrecte. Ce biais peut influencer la fiabilité des témoignages et des récits personnels, car les gens peuvent confondre l'origine des informations dont ils se souviennent.",
       "category_id": "what_to_remember",
-      "category_name": "Ce qu’il faut retenir",
+      "category_name": "Ce qu'il faut retenir",
       "slug": "misattribution-of-memory",
       "url": "https://cognition.vsxlabs.com/bias/misattribution-of-memory"
     },
@@ -866,7 +875,7 @@
       "name": "Effet de désinformation",
       "description": "L'effet de désinformation est la tendance à incorporer des informations erronées dans ses souvenirs après avoir été exposé à ces informations.",
       "category_id": "what_to_remember",
-      "category_name": "Ce qu’il faut retenir",
+      "category_name": "Ce qu'il faut retenir",
       "slug": "misinformation-effect",
       "url": "https://cognition.vsxlabs.com/bias/misinformation-effect"
     },
@@ -875,7 +884,7 @@
       "name": "Effet de modalité",
       "description": "L'effet de modalité est la tendance à mieux se souvenir des informations présentées de manière auditive plutôt que visuelle dans certaines situations.",
       "category_id": "what_to_remember",
-      "category_name": "Ce qu’il faut retenir",
+      "category_name": "Ce qu'il faut retenir",
       "slug": "modality-effect",
       "url": "https://cognition.vsxlabs.com/bias/modality-effect"
     },
@@ -884,7 +893,7 @@
       "name": "Illusion monétaire",
       "description": "L'illusion monétaire est la tendance à évaluer la richesse ou les revenus en termes nominals plutôt qu'en termes réels (ajustés pour l'inflation).",
       "category_id": "information_overload",
-      "category_name": "Surcharge d’informations",
+      "category_name": "Surcharge d'informations",
       "slug": "money-illusion",
       "url": "https://cognition.vsxlabs.com/bias/money-illusion"
     },
@@ -920,7 +929,7 @@
       "name": "Cynisme naïf",
       "description": "Le cynisme naïf est la tendance à supposer que les autres agissent principalement par intérêt personnel, même en l'absence de preuves.",
       "category_id": "information_overload",
-      "category_name": "Surcharge d’informations",
+      "category_name": "Surcharge d'informations",
       "slug": "naive-cynicism",
       "url": "https://cognition.vsxlabs.com/bias/naive-cynicism"
     },
@@ -929,7 +938,7 @@
       "name": "Réalisme naïf",
       "description": "Le réalisme naïf est la tendance à croire que l'on perçoit le monde de manière objective et que ceux qui ne sont pas d'accord sont biaisés ou mal informés.",
       "category_id": "information_overload",
-      "category_name": "Surcharge d’informations",
+      "category_name": "Surcharge d'informations",
       "slug": "naive-realism",
       "url": "https://cognition.vsxlabs.com/bias/naive-realism"
     },
@@ -938,7 +947,7 @@
       "name": "Biais de négativité",
       "description": "Le biais de négativité est la tendance à accorder plus de poids et d'attention aux expériences négatives qu'aux expériences positives. Ce biais peut influencer la prise de décision, les souvenirs et les perceptions, car les événements négatifs ont souvent un impact émotionnel plus fort.",
       "category_id": "what_to_remember",
-      "category_name": "Ce qu’il faut retenir",
+      "category_name": "Ce qu'il faut retenir",
       "slug": "negativity-bias",
       "url": "https://cognition.vsxlabs.com/bias/negativity-bias"
     },
@@ -954,9 +963,9 @@
     {
       "id": "next_in_line_effect",
       "name": "Effet du prochain dans la file",
-      "description": "L'effet du prochain dans la file est la tendance à surestimer le temps qu'il faudra pour accomplir une tâche si on est le prochain dans une file d'attente.",
+      "description": "L'effet du prochain dans la file est un biais cognitif où les individus ont une capacité réduite à se souvenir des informations présentées juste avant leur tour de parler ou d'agir.",
       "category_id": "what_to_remember",
-      "category_name": "Ce qu’il faut retenir",
+      "category_name": "Ce qu'il faut retenir",
       "slug": "next-in-line-effect",
       "url": "https://cognition.vsxlabs.com/bias/next-in-line-effect"
     },
@@ -980,17 +989,17 @@
     },
     {
       "id": "observer_expectancy_effect",
-      "name": "Effet d’attente de l’observateur",
-      "description": "L'effet d’attente de l’observateur est la tendance des observateurs à influencer involontairement les résultats d'une étude en fonction de leurs attentes.",
+      "name": "Effet d'attente de l'observateur",
+      "description": "L'effet d'attente de l'observateur est la tendance des observateurs à influencer involontairement les résultats d'une étude en fonction de leurs attentes.",
       "category_id": "information_overload",
-      "category_name": "Surcharge d’informations",
+      "category_name": "Surcharge d'informations",
       "slug": "observer-expectancy-effect",
       "url": "https://cognition.vsxlabs.com/bias/observer-expectancy-effect"
     },
     {
       "id": "occams_razor",
-      "name": "Rasoir d’Ockham",
-      "description": "Le rasoir d’Ockham est le principe selon lequel, parmi plusieurs hypothèses, la plus simple est généralement la meilleure. Ce principe est utilisé pour guider la pensée critique et la résolution de problèmes, car il suggère que les explications les plus simples sont souvent les plus probables.",
+      "name": "Rasoir d'Ockham",
+      "description": "Le rasoir d'Ockham est le principe selon lequel, parmi plusieurs hypothèses, la plus simple est généralement la meilleure. Ce principe est utilisé pour guider la pensée critique et la résolution de problèmes, car il suggère que les explications les plus simples sont souvent les plus probables.",
       "category_id": "need_for_speed",
       "category_name": "Besoin de rapidité",
       "slug": "occams-razor",
@@ -998,17 +1007,17 @@
     },
     {
       "id": "omission_bias",
-      "name": "Biais d’omission",
-      "description": "Le biais d’omission est la tendance à préférer l'inaction à l'action, même si l'inaction entraîne des conséquences plus négatives. Ce biais peut influencer les décisions éthiques et morales, car les gens peuvent se sentir moins responsables des résultats négatifs s'ils n'ont pas agi.",
+      "name": "Biais d'omission",
+      "description": "Le biais d'omission est la tendance à préférer l'inaction à l'action, même si l'inaction entraîne des conséquences plus négatives. Ce biais peut influencer les décisions éthiques et morales, car les gens peuvent se sentir moins responsables des résultats négatifs s'ils n'ont pas agi.",
       "category_id": "information_overload",
-      "category_name": "Surcharge d’informations",
+      "category_name": "Surcharge d'informations",
       "slug": "omission-bias",
       "url": "https://cognition.vsxlabs.com/bias/omission-bias"
     },
     {
       "id": "optimism_bias",
-      "name": "Biais d’optimisme",
-      "description": "Le biais d’optimisme est la tendance à surestimer la probabilité d'expériences positives et à sous-estimer la probabilité d'expériences négatives. Ce biais peut influencer la prise de risque et la planification, car les gens ont tendance à croire que des résultats positifs sont plus probables qu'ils ne le sont réellement.",
+      "name": "Biais d'optimisme",
+      "description": "Le biais d'optimisme est la tendance à surestimer la probabilité d'expériences positives et à sous-estimer la probabilité d'expériences négatives. Ce biais peut influencer la prise de risque et la planification, car les gens ont tendance à croire que des résultats positifs sont plus probables qu'ils ne le sont réellement.",
       "category_id": "need_for_speed",
       "category_name": "Besoin de rapidité",
       "slug": "optimism-bias",
@@ -1017,16 +1026,16 @@
     {
       "id": "ostrich_effect",
       "name": "Effet autruche",
-      "description": "L'effet autruche est la tendance à ignorer des informations négatives ou des problèmes en espérant qu'ils disparaîtront. Ce biais peut entraîner une évitement des responsabilités et un manque de préparation face aux défis.",
+      "description": "L'effet autruche est la tendance à ignorer des informations négatives ou des problèmes en espérant qu'ils disparaîtront. Ce biais peut entraîner un évitement des responsabilités et un manque de préparation face aux défis.",
       "category_id": "information_overload",
-      "category_name": "Surcharge d’informations",
+      "category_name": "Surcharge d'informations",
       "slug": "ostrich-effect",
       "url": "https://cognition.vsxlabs.com/bias/ostrich-effect"
     },
     {
       "id": "out_group_homogeneity_bias",
-      "name": "Biais d’homogénéité de l’exogroupe",
-      "description": "Le biais d’homogénéité de l’exogroupe est la tendance à percevoir les membres des groupes extérieurs comme plus similaires entre eux que les membres de son propre groupe.",
+      "name": "Biais d'homogénéité de l'exogroupe",
+      "description": "Le biais d'homogénéité de l'exogroupe est la tendance à percevoir les membres des groupes extérieurs comme plus similaires entre eux que les membres de son propre groupe.",
       "category_id": "lack_of_meaning",
       "category_name": "Manque de sens",
       "slug": "out-group-homogeneity-bias",
@@ -1064,7 +1073,7 @@
       "name": "Règle du pic et de la fin",
       "description": "La règle du pic et de la fin est la tendance à juger une expérience principalement en fonction de son pic émotionnel et de sa fin, plutôt que de sa durée totale.",
       "category_id": "what_to_remember",
-      "category_name": "Ce qu’il faut retenir",
+      "category_name": "Ce qu'il faut retenir",
       "slug": "peak-end-rule",
       "url": "https://cognition.vsxlabs.com/bias/peak-end-rule"
     },
@@ -1079,10 +1088,10 @@
     },
     {
       "id": "picture_superiority_effect",
-      "name": "Effet de supériorité de l’image",
-      "description": "L'effet de supériorité de l’image est la tendance à mieux se souvenir des informations présentées sous forme d'images plutôt que sous forme de texte.",
+      "name": "Effet de supériorité de l'image",
+      "description": "L'effet de supériorité de l'image est la tendance à mieux se souvenir des informations présentées sous forme d'images plutôt que sous forme de texte.",
       "category_id": "information_overload",
-      "category_name": "Surcharge d’informations",
+      "category_name": "Surcharge d'informations",
       "slug": "picture-superiority-effect",
       "url": "https://cognition.vsxlabs.com/bias/picture-superiority-effect"
     },
@@ -1118,7 +1127,7 @@
       "name": "Rationalisation post-achat",
       "description": "La rationalisation post-achat est la tendance à justifier rétroactivement les décisions d'achat pour réduire la dissonance cognitive. Ce biais peut influencer la satisfaction des consommateurs et leur fidélité à une marque, car les gens cherchent à valider leurs choix.",
       "category_id": "information_overload",
-      "category_name": "Surcharge d’informations",
+      "category_name": "Surcharge d'informations",
       "slug": "post-purchase-rationalization",
       "url": "https://cognition.vsxlabs.com/bias/post-purchase-rationalization"
     },
@@ -1127,7 +1136,7 @@
       "name": "Préjugé",
       "description": "Un préjugé est une attitude négative ou un jugement préconçu envers une personne ou un groupe, souvent basé sur des stéréotypes.",
       "category_id": "what_to_remember",
-      "category_name": "Ce qu’il faut retenir",
+      "category_name": "Ce qu'il faut retenir",
       "slug": "prejudice",
       "url": "https://cognition.vsxlabs.com/bias/prejudice"
     },
@@ -1136,7 +1145,7 @@
       "name": "Effet de primauté",
       "description": "L'effet de primauté est la tendance à mieux se souvenir des premières informations rencontrées dans une série. Ce biais peut influencer les impressions et les jugements, car les premières informations ont souvent un impact plus fort sur la perception.",
       "category_id": "what_to_remember",
-      "category_name": "Ce qu’il faut retenir",
+      "category_name": "Ce qu'il faut retenir",
       "slug": "primacy-effect",
       "url": "https://cognition.vsxlabs.com/bias/primacy-effect"
     },
@@ -1190,7 +1199,7 @@
       "name": "Effet de récence",
       "description": "L'effet de récence est la tendance à mieux se souvenir des dernières informations rencontrées dans une série. Ce biais peut influencer les décisions et les jugements, car les informations récentes ont souvent un impact plus fort sur la mémoire.",
       "category_id": "what_to_remember",
-      "category_name": "Ce qu’il faut retenir",
+      "category_name": "Ce qu'il faut retenir",
       "slug": "recency-effect",
       "url": "https://cognition.vsxlabs.com/bias/recency-effect"
     },
@@ -1253,7 +1262,7 @@
       "name": "Perception sélective",
       "description": "La perception sélective est la tendance à interpréter les informations de manière à confirmer ses attentes ou ses croyances préexistantes.",
       "category_id": "information_overload",
-      "category_name": "Surcharge d’informations",
+      "category_name": "Surcharge d'informations",
       "slug": "selective-perception",
       "url": "https://cognition.vsxlabs.com/bias/selective-perception"
     },
@@ -1271,14 +1280,14 @@
       "name": "Effet de pertinence personnelle",
       "description": "L'effet de pertinence personnelle est la tendance à mieux se souvenir des informations qui sont pertinentes pour soi-même. Ce biais peut influencer l'apprentissage et la mémoire, car les gens retiennent mieux les informations qui ont une signification personnelle.",
       "category_id": "information_overload",
-      "category_name": "Surcharge d’informations",
+      "category_name": "Surcharge d'informations",
       "slug": "self-relevance-effect",
       "url": "https://cognition.vsxlabs.com/bias/self-relevance-effect"
     },
     {
       "id": "self_serving_bias",
-      "name": "Biais d’auto-complaisance",
-      "description": "Le biais d’auto-complaisance est la tendance à attribuer ses succès à des facteurs internes et ses échecs à des facteurs externes.",
+      "name": "Biais d'auto-complaisance",
+      "description": "Le biais d'auto-complaisance est la tendance à attribuer ses succès à des facteurs internes et ses échecs à des facteurs externes.",
       "category_id": "need_for_speed",
       "category_name": "Besoin de rapidité",
       "slug": "self-serving-bias",
@@ -1289,7 +1298,7 @@
       "name": "Réflexe de Semmelweis",
       "description": "Le réflexe de Semmelweis est la tendance à rejeter de nouvelles preuves ou connaissances parce qu'elles contredisent les normes, croyances ou paradigmes établis.",
       "category_id": "information_overload",
-      "category_name": "Surcharge d’informations",
+      "category_name": "Surcharge d'informations",
       "slug": "semmelweis-reflex",
       "url": "https://cognition.vsxlabs.com/bias/semmelweis-reflex"
     },
@@ -1298,7 +1307,7 @@
       "name": "Effet de position sérielle",
       "description": "L'effet de position sérielle est la tendance à mieux se souvenir des premiers et des derniers éléments d'une série. Ce biais peut influencer la mémoire et l'apprentissage, car les éléments en début et en fin de série sont souvent mieux retenus.",
       "category_id": "what_to_remember",
-      "category_name": "Ce qu’il faut retenir",
+      "category_name": "Ce qu'il faut retenir",
       "slug": "serial-position-effect",
       "url": "https://cognition.vsxlabs.com/bias/serial-position-effect"
     },
@@ -1307,7 +1316,7 @@
       "name": "Effet de rappel sériel",
       "description": "L'effet de rappel sériel est la tendance à mieux se souvenir des éléments dans l'ordre où ils ont été présentés.",
       "category_id": "what_to_remember",
-      "category_name": "Ce qu’il faut retenir",
+      "category_name": "Ce qu'il faut retenir",
       "slug": "serial-recall-effect",
       "url": "https://cognition.vsxlabs.com/bias/serial-recall-effect"
     },
@@ -1331,10 +1340,10 @@
     },
     {
       "id": "spacing_effect",
-      "name": "Effet d’espacement",
-      "description": "L'effet d’espacement est la tendance à mieux retenir les informations lorsqu'elles sont apprises sur une période prolongée plutôt que de manière groupée.",
+      "name": "Effet d'espacement",
+      "description": "L'effet d'espacement est la tendance à mieux retenir les informations lorsqu'elles sont apprises sur une période prolongée plutôt que de manière groupée.",
       "category_id": "what_to_remember",
-      "category_name": "Ce qu’il faut retenir",
+      "category_name": "Ce qu'il faut retenir",
       "slug": "spacing-effect",
       "url": "https://cognition.vsxlabs.com/bias/spacing-effect"
     },
@@ -1379,7 +1388,7 @@
       "name": "Validation subjective",
       "description": "La validation subjective est la tendance à percevoir une relation entre deux événements ou informations lorsque cette relation est personnellement significative, même en l'absence de lien objectif.",
       "category_id": "information_overload",
-      "category_name": "Surcharge d’informations",
+      "category_name": "Surcharge d'informations",
       "slug": "subjective-validation",
       "url": "https://cognition.vsxlabs.com/bias/subjective-validation"
     },
@@ -1388,7 +1397,7 @@
       "name": "Effet de suffixe",
       "description": "L'effet de suffixe est la tendance à moins bien se souvenir des derniers éléments d'une liste si un élément supplémentaire non pertinent est ajouté à la fin.",
       "category_id": "what_to_remember",
-      "category_name": "Ce qu’il faut retenir",
+      "category_name": "Ce qu'il faut retenir",
       "slug": "suffix-effect",
       "url": "https://cognition.vsxlabs.com/bias/suffix-effect"
     },
@@ -1397,7 +1406,7 @@
       "name": "Suggestibilité",
       "description": "La suggestibilité est la tendance à accepter et à agir sur les suggestions des autres, même si elles ne sont pas fondées sur des preuves solides.",
       "category_id": "what_to_remember",
-      "category_name": "Ce qu’il faut retenir",
+      "category_name": "Ce qu'il faut retenir",
       "slug": "suggestibility",
       "url": "https://cognition.vsxlabs.com/bias/suggestibility"
     },
@@ -1431,9 +1440,9 @@
     {
       "id": "testing_effect",
       "name": "Effet de test",
-      "description": "L'effet de test est la tendance à mieux retenir les informations si on est testé sur celles-ci plutôt que simplement exposées.",
+      "description": "L'effet de test est la tendance à mieux retenir les informations si on est testé sur celles-ci plutôt que par simple exposition.",
       "category_id": "what_to_remember",
-      "category_name": "Ce qu’il faut retenir",
+      "category_name": "Ce qu'il faut retenir",
       "slug": "testing-effect",
       "url": "https://cognition.vsxlabs.com/bias/testing-effect"
     },
@@ -1448,8 +1457,8 @@
     },
     {
       "id": "time_saving_bias",
-      "name": "Biais d’économie de temps",
-      "description": "Le biais d’économie de temps est la tendance à sous-estimer le temps nécessaire pour accomplir une tâche. Ce biais peut influencer la planification et la gestion du temps, car les gens peuvent mal évaluer la durée des activités.",
+      "name": "Biais d'économie de temps",
+      "description": "Le biais d'économie de temps est la tendance à sous-estimer le temps nécessaire pour accomplir une tâche. Ce biais peut influencer la planification et la gestion du temps, car les gens peuvent mal évaluer la durée des activités.",
       "category_id": "lack_of_meaning",
       "category_name": "Manque de sens",
       "slug": "time-saving-bias",
@@ -1460,14 +1469,14 @@
       "name": "Phénomène du mot sur le bout de la langue",
       "description": "Le phénomène du mot sur le bout de la langue est l'incapacité temporaire à retrouver un mot ou un nom bien connu, tout en ayant le sentiment de le connaître.",
       "category_id": "what_to_remember",
-      "category_name": "Ce qu’il faut retenir",
+      "category_name": "Ce qu'il faut retenir",
       "slug": "tip-of-the-tongue-phenomenon",
       "url": "https://cognition.vsxlabs.com/bias/tip-of-the-tongue-phenomenon"
     },
     {
       "id": "trait_ascription_bias",
-      "name": "Biais d’attribution de traits",
-      "description": "Le biais d’attribution de traits est la tendance à attribuer des traits de personnalité aux autres en se basant sur des comportements limités ou des stéréotypes.",
+      "name": "Biais d'attribution de traits",
+      "description": "Le biais d'attribution de traits est la tendance à attribuer des traits de personnalité aux autres en se basant sur des comportements limités ou des stéréotypes.",
       "category_id": "need_for_speed",
       "category_name": "Besoin de rapidité",
       "slug": "trait-ascription-bias",
@@ -1475,8 +1484,8 @@
     },
     {
       "id": "ultimate_attribution_error",
-      "name": "Erreur d’attribution ultime",
-      "description": "L'erreur d’attribution ultime est la tendance à attribuer des comportements négatifs des membres d'un groupe extérieur à des traits de caractère intrinsèques.",
+      "name": "Erreur d'attribution ultime",
+      "description": "L'erreur d'attribution ultime est la tendance à attribuer des comportements négatifs des membres d'un groupe extérieur à des traits de caractère intrinsèques.",
       "category_id": "lack_of_meaning",
       "category_name": "Manque de sens",
       "slug": "ultimate-attribution-error",
@@ -1484,8 +1493,8 @@
     },
     {
       "id": "unit_bias",
-      "name": "Biais de l’unité",
-      "description": "Le biais de l’unité est la tendance à préférer une unité complète (comme un objet entier) plutôt que des parties fractionnées, même si la quantité totale est la même.",
+      "name": "Biais de l'unité",
+      "description": "Le biais de l'unité est la tendance à préférer une unité complète (comme un objet entier) plutôt que des parties fractionnées, même si la quantité totale est la même.",
       "category_id": "need_for_speed",
       "category_name": "Besoin de rapidité",
       "slug": "unit-bias",
@@ -1496,7 +1505,7 @@
       "name": "Effet Von Restorff",
       "description": "L'effet Von Restorff est la tendance à mieux se souvenir des éléments distincts ou saillants dans une série d'éléments similaires.",
       "category_id": "information_overload",
-      "category_name": "Surcharge d’informations",
+      "category_name": "Surcharge d'informations",
       "slug": "von-restorff-effect",
       "url": "https://cognition.vsxlabs.com/bias/von-restorff-effect"
     },
@@ -1505,7 +1514,7 @@
       "name": "Loi de Weber-Fechner",
       "description": "La loi de Weber-Fechner décrit la relation entre l'intensité physique d'un stimulus et la perception de cette intensité, suggérant que la perception est logarithmique.",
       "category_id": "information_overload",
-      "category_name": "Surcharge d’informations",
+      "category_name": "Surcharge d'informations",
       "slug": "weberfechner-law",
       "url": "https://cognition.vsxlabs.com/bias/weberfechner-law"
     },
