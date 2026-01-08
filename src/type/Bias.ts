@@ -32,7 +32,7 @@ interface BiasListAndCategories {
   categories_biases: Category[]
 }
 type StyleView = 'Random' | 'Detail'
-type Filter = 'order' | 'category' | 'date'
+type Filter = 'order' | 'category' | 'date' | 'effect'
 type Language = 'fr' | 'en'
 
 export type { BiasListAndCategories, Bias, Category, StyleView, Filter, Language }
