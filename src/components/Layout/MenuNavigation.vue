@@ -17,6 +17,9 @@ const navLinkActiveClass = 'font-bold text-heavy-metal-50 border-b-2 border-heav
       <RouterLink to="/liste" :class="navLinkClass" :active-class="navLinkActiveClass">
         {{ t('nav.bias_list') }}
       </RouterLink>
+      <RouterLink to="/about" :class="navLinkClass" :active-class="navLinkActiveClass">
+        {{ t('nav.about') }}
+      </RouterLink>
     </nav>
     <switch-language />
   </div>
