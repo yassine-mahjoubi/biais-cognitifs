@@ -19,7 +19,8 @@
     "aria_reset_list": "Reset search and show the full list",
     "type": {
       "order": "order",
-      "category": "category"
+      "category": "category",
+      "effect": "effect"
     }
   },
   "search": {
