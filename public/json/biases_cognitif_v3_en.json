@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "total_biases": 132,
+    "total_biases": 168,
     "categories_count": 4,
     "source": "Cognitive Bias Codex",
-    "last_updated": "2024-01-15",
+    "last_updated": "09-01-2026",
     "url_base": "https://cognition.vsxlabs.com"
   },
   "categories": [
@@ -11,25 +11,25 @@
       "id": "what_to_remember",
       "name": "What to remember",
       "description": "Biases related to memory encoding, storage and retrieval",
-      "count": 23
+      "count": 26
     },
     {
       "id": "need_for_speed",
       "name": "Need for speed",
       "description": "Biases from quick decisions and cognitive shortcuts",
-      "count": 44
+      "count": 47
     },
     {
       "id": "information_overload",
       "name": "Information overload",
       "description": "Biases from filtering and processing too much information",
-      "count": 29
+      "count": 32
     },
     {
       "id": "lack_of_meaning",
       "name": "Lack of meaning",
       "description": "Biases from filling gaps and creating stories",
-      "count": 36
+      "count": 63
     }
   ],
   "biases": [
@@ -41,6 +41,15 @@
       "category_name": "What to remember",
       "slug": "absent-mindedness",
       "url": "https://cognition.vsxlabs.com/bias/absent-mindedness"
+    },
+    {
+      "id": "action_bias",
+      "name": "Action bias",
+      "description": "Action bias is the tendency to prefer action over inaction, even when there's no evidence that taking action leads to better outcomes. People often feel compelled to 'do something' rather than wait, driven by the belief that action is generally better than inaction. This bias is particularly strong in high-pressure situations where inaction might be perceived as negligence.",
+      "category_id": "need_for_speed",
+      "category_name": "Need for speed",
+      "slug": "action-bias",
+      "url": "https://thedecisionlab.com/biases/action-bias"
     },
     {
       "id": "ambiguity_bias",
@@ -81,7 +90,7 @@
     {
       "id": "appeal_to_novelty",
       "name": "Appeal to novelty",
-      "description": "The appeal to novelty is a cognitive bias where people tend to prefer newer ideas, technologies, or products over older ones, regardless of their actual utility or value. It operates under the assumption that because something is new, it is inherently better or more desirable than the old. This bias is often involved in marketing and innovation-driven fields, where the promise of something being the 'latest and greatest' can heavily influence consumer behavior and decision making.",
+      "description": "The appeal to novelty is a cognitive bias where people tend to prefer newer ideas, technologies, or products over older ones, regardless of their actual utility or value. It operates under the assumption that because something is new, it is inherently better or more desirable than the old. This bias is often involved in marketing and innovation-driven fields, where the promise of something being the 'latest and greatest' can heavily influence consumer behavior and decision-making.",
       "category_id": "need_for_speed",
       "category_name": "Need for speed",
       "slug": "appeal-to-novelty",
@@ -684,7 +693,7 @@
     {
       "id": "illusory_superiority",
       "name": "Illusory superiority",
-      "description": "Illusory superiority, often referred to as the above-average effect, is a cognitive bias whereby individuals overestimate their own qualities and abilities relative to others. This phenomena leads people to believe they are better than average in various domains, including intelligence, performance, and other competencies.",
+      "description": "Illusory superiority, often referred to as the above-average effect, is a cognitive bias whereby individuals overestimate their own qualities and abilities relative to others. This phenomenon leads people to believe they are better than average in various domains, including intelligence, performance, and other competencies.",
       "category_id": "need_for_speed",
       "category_name": "Need for speed",
       "slug": "illusory-superiority",
@@ -846,7 +855,7 @@
     {
       "id": "mere_exposure_effect",
       "name": "Mere exposure effect",
-      "description": "The mere exposure effect is a psychological phenomenon where people tend to develop a preference for things they are repeatedly exposed to. This cognitive bias suggests that familiarity with something can lead to affection, even if it was initially neutral or disinterested.",
+      "description": "The mere exposure effect is a psychological phenomenon where people tend to develop a preference for things they are repeatedly exposed to. This cognitive bias suggests that familiarity with something can lead to affection, even if one was initially neutral or disinterested in it.",
       "category_id": "information_overload",
       "category_name": "Information overload",
       "slug": "mere-exposure-effect",
@@ -908,7 +917,7 @@
     },
     {
       "id": "murphys_law",
-      "name": "Murphys Law",
+      "name": "Murphy's Law",
       "description": "Murphy's Law is a popular adage that states, 'Anything that can go wrong, will go wrong.' Although initially considered just a humorous observation about life, it reveals cognitive biases in how humans perceive and interpret unlikely and unfavorable events.",
       "category_id": "lack_of_meaning",
       "category_name": "Lack of meaning",
@@ -989,7 +998,7 @@
     },
     {
       "id": "occams_razor",
-      "name": "Occams razor",
+      "name": "Occam's razor",
       "description": "Occam's Razor is a cognitive bias and philosophical principle that suggests that, among competing hypotheses that predict equally well, the one with the fewest assumptions should be selected. It promotes simplicity in decision-making and problem-solving, suggesting that simpler ideas with less complexity are often more likely to be correct.",
       "category_id": "need_for_speed",
       "category_name": "Need for speed",
@@ -1494,7 +1503,7 @@
     {
       "id": "von_restorff_effect",
       "name": "Von Restorff effect",
-      "description": "The Von Restorff effect, also known as the isolation effect, is a cognitive bias that predicts an item noticeably different from others will be more likely to be remembered. This concept hinges on the principle that unusual or distinctive features enhance memory recall within a list of otherwise homogenous items.",
+      "description": "The Von Restorff effect, also known as the isolation effect, is a cognitive bias that predicts an item noticeably different from others will be more likely to be remembered. This concept hinges on the principle that unusual or distinctive features enhance memory recall within a list of otherwise homogeneous items.",
       "category_id": "information_overload",
       "category_name": "Information overload",
       "slug": "von-restorff-effect",
@@ -1502,7 +1511,7 @@
     },
     {
       "id": "weberfechner_law",
-      "name": "WeberFechner law",
+      "name": "Weber-Fechner law",
       "description": "The Weber-Fechner law is a principle that attempts to explain the relationship between the physical magnitude of a stimulus and the perceived intensity of that stimulus, suggesting that the perceived change in a given stimulus is proportional to the initial intensity of that stimulus. It is named after Ernst Weber and Gustav Fechner, who pioneered early research in sensory perception.",
       "category_id": "information_overload",
       "category_name": "Information overload",
