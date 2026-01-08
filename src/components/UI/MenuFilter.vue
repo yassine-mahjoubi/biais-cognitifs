@@ -10,7 +10,7 @@ import { storeToRefs } from 'pinia'
 
 const store = useBiasStore()
 const { typesSort, biasToFind } = storeToRefs(store)
-const filters = <Filter[]>['order', 'category']
+const filters = <Filter[]>['order', 'category', 'effect']
 
 const updateFilter = (filter: Filter) => (typesSort.value = filter)
 

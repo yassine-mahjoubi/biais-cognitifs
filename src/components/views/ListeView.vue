@@ -14,8 +14,7 @@ const { fetchBias } = store
 onMounted(async () => {
   setTimeout(async () => {
     await fetchBias()
-    console.log('loading: ', loading.value)
-  }, 2000)
+  }, 1000)
 })
 </script>
 <template>

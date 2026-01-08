@@ -9,6 +9,7 @@ const URL_API_FR = import.meta.env.VITE_API_URL_FR
 const URL_API_EN = import.meta.env.VITE_API_URL_EN
 const URL_API = ref<string>(URL_API_FR)
 const randomBiasId = ref<string | undefined>(undefined)
+const EFFECT_KEYWORDS = { en: 'effect', fr: 'effet' }
 
 /**
  * Génère un index aléatoire pour accéder au tableau de biais
@@ -152,6 +153,13 @@ export const useBiasStore = defineStore('bias', () => {
 
     if (typesSort.value === 'category') {
       return biasesToDisplay.sort((a, b) => a.category_name.localeCompare(b.category_name))
+    }
+
+    if (typesSort.value === 'effect') {
+      biasesToDisplay = biasesToDisplay.filter((bias) => {
+        //return bias.name.toLocaleLowerCase().includes(newLocale.value === 'en' ? 'effect' : 'effet')
+        return bias.name.toLocaleLowerCase().includes(EFFECT_KEYWORDS[newLocale.value])
+      })
     }
 
     return biasesToDisplay.sort((a, b) => a.name.localeCompare(b.name))

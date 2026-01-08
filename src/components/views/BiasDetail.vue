@@ -10,7 +10,6 @@ const { fetchBias, getBiasBySlug } = store
 
 const propos = defineProps<{
   slug: string
-  id: string
 }>()
 const selectedBias = computed(() => getBiasBySlug(propos.slug))
 
