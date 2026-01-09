@@ -38,5 +38,9 @@
   "about_page": {
     "title": "À propos de cette application",
     "description": "Explorez le monde fascinant des biais cognitifs avec ce répertoire interactif. Recherchez, filtrez et découvrez des dizaines de schémas de pensée qui influencent nos décisions. Que vous soyez simplement curieux ou que vous souhaitiez affûter votre esprit critique, cette application est un outil pour mieux comprendre le fonctionnement de votre cerveau."
+  },
+  "footer": {
+    "made": "Fait avec",
+    "external_link": " {link} - Nouvelle fenêtre"
   }
 }

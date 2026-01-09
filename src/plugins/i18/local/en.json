@@ -38,5 +38,9 @@
   "about_page": {
     "title": "About This Application",
     "description": "Explore the fascinating world of cognitive biases with this interactive directory. Search, filter, and discover dozens of thought patterns that influence our decisions. Whether you're just curious or want to sharpen your critical thinking, this application is a tool to better understand how your brain works."
+  },
+  "footer": {
+    "made": "Made with",
+    "external_link": " {link} - New window"
   }
 }

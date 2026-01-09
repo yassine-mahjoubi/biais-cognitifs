@@ -21,6 +21,7 @@ const navLinkActiveClass = 'font-bold text-heavy-metal-50 border-b-2 border-heav
         {{ t('nav.about') }}
       </RouterLink>
     </nav>
+
     <switch-language />
   </div>
 </template>
