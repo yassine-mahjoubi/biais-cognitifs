@@ -8,7 +8,7 @@ const store = useBiasStore()
 const { biasToFind } = storeToRefs(store)
 </script>
 <template>
-  <div class="relative w-full">
+  <div class="relative w-full" role="search">
     <svg
       aria-hidden="true"
       class="absolute left-3 top-1/2 transform -translate-y-1/2 text-heavy-metal-400 pointer-events-none"
@@ -31,7 +31,6 @@ const { biasToFind } = storeToRefs(store)
       :aria-label="t('search.aria_label')"
       class="w-full pl-10 pr-10 py-2 bg-heavy-metal-700 text-white placeholder-heavy-metal-400 border border-heavy-metal-600 rounded-md focus:outline-none focus:ring-2 focus:ring-heavy-metal-500 focus:border-transparent transition-all duration-200"
     />
-    <!-- Bouton clear (X) -->
     <button
       v-if="biasToFind"
       @click="store.resetSearch()"
