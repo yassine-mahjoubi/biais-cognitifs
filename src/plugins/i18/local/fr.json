@@ -34,8 +34,8 @@
     "read_more_accessible": "En savoir plus sur {biasName}",
     "see_more": "Voir plus ",
     "external_link": "Voir plus d'infos sur {biasName} - Nouvelle fenêtre",
-    "next": "Suivant",
-    "previous": "Précédent"
+    "next": "Page suivante",
+    "previous": "Page précédente"
   },
   "about_page": {
     "title": "À propos de cette application",
