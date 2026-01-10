@@ -11,42 +11,58 @@ const propos = defineProps<{
   biases: Bias[]
   loading: boolean
 }>()
-const itemsByPage = ref<number>(0)
+const totalPages = computed(() => Math.ceil(propos.biases.length / 10))
+const currentPage = ref<number>(1)
+const paginateBy = 10
 const nextPage = () => {
-  itemsByPage.value += 10
+  currentPage.value++
 }
 const previousPage = () => {
-  itemsByPage.value -= 10
+  currentPage.value--
 }
-const displayedBiases = computed(() => {
-  return propos.biases.slice(itemsByPage.value, itemsByPage.value + 10)
+const displayedPages = computed(() => {
+  const start = (currentPage.value - 1) * paginateBy
+  const end = start + paginateBy
+  return propos.biases.slice(start, end)
 })
 </script>
 <template>
-  <section aria-label="paginaation">
-    <ul class="mb-5 flex justify-between flex-row-reverse">
+  total pages: {{ totalPages }}
+  <nav aria-label="paginaation" aria-labelledby="pagination">
+    <h2 class="sr-only" id="pagination">pagination</h2>
+    <ul class="mb-5 flex justify-center">
       <li>
-        <button
-          v-if="itemsByPage < biases.length - 10"
-          @click="nextPage()"
-          class="bg-heavy-metal-950 text-heavy-metal-200 rounded-2xl cursor-pointer px-4 py-2 inline-flex items-center gap-1 group"
-        >
-          <span> {{ t('buttons.next') }} </span>
-          <i aria-hidden="true" class="group-hover:translate-x-1 transition-transform">→</i>
-        </button>
-      </li>
-      <li>
-        <button
-          v-if="itemsByPage > 0"
+        <a
+          v-if="currentPage > 1"
           @click="previousPage()"
           class="bg-heavy-metal-950 text-heavy-metal-200 rounded-2xl cursor-pointer px-4 py-2 inline-flex group"
         >
           <i aria-hidden="true" class="group-hover:-translate-x-1 transition-transform">←</i>
           <span> {{ t('buttons.previous') }} </span>
-        </button>
+        </a>
+      </li>
+      <li v-for="page in totalPages" :key="`id-${page}`">
+        <a
+          href=""
+          :aria-current="currentPage === page ? 'page' : undefined"
+          class="bg-amber-700 text-shadow-heavy-metal-300 border cursor-pointer"
+          :class="currentPage === page ? 'bg-black text-white' : ''"
+          >{{ page }}
+        </a>
+      </li>
+
+      <li>
+        <a
+          v-if="currentPage < totalPages"
+          @click="nextPage()"
+          class="bg-heavy-metal-950 text-heavy-metal-200 rounded-2xl cursor-pointer px-4 py-2 inline-flex items-center gap-1 group"
+        >
+          <span> {{ t('buttons.next') }} </span>
+          <i aria-hidden="true" class="group-hover:translate-x-1 transition-transform">→</i>
+        </a>
       </li>
     </ul>
-  </section>
+  </nav>
   <ul class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
     <template v-if="loading">
       <div v-for="n in 10" :key="`skeleton-${n}`">
@@ -54,8 +70,8 @@ const displayedBiases = computed(() => {
       </div>
     </template>
     <template v-else>
-      <li v-for="(bias, index) in displayedBiases" :key="bias.id" :id="bias.id">
-        <BiasItem :bias="bias" :index="index + itemsByPage" />
+      <li v-for="(bias, index) in displayedPages" :key="bias.id" :id="bias.id">
+        <BiasItem :bias="bias" :index="index + (currentPage - 1) * paginateBy" />
       </li>
     </template>
   </ul>
