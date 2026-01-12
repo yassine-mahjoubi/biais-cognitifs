@@ -1,6 +1,16 @@
 <script lang="ts" setup>
 import { useI18n } from 'vue-i18n'
 const { t } = useI18n()
+import { useHead } from '@unhead/vue'
+useHead({
+  title: t('seo.home.title'),
+  meta: [
+    {
+      name: 'description',
+      content: t('seo.home.description'),
+    },
+  ],
+})
 
 import { onMounted } from 'vue'
 import { storeToRefs } from 'pinia'

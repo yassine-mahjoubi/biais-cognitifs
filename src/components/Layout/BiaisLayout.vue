@@ -13,6 +13,19 @@
       <div>
         <slot name="action"></slot>
       </div>
+      <!-- Section optionnelle : s'affiche seulement si les slots sont fournis -->
+      <div v-if="$slots.optionalTitle || $slots.optionalText" class="mt-8">
+        <h2
+          v-if="$slots.optionalTitle"
+          class="text-2xl md:text-3xl font-bold text-heavy-metal-900 mb-2 animate-fade-in tracking-tight"
+        >
+          <slot name="optionalTitle"></slot>
+        </h2>
+
+        <div v-if="$slots.optionalText" class="text-heavy-metal-800 text-lg leading-relaxed">
+          <slot name="optionalText"></slot>
+        </div>
+      </div>
     </div>
   </div>
 </template>

@@ -9,7 +9,6 @@
   "nav": {
     "home": "Accueil",
     "bias_list": "Liste de biais",
-    "proposals": "Propositions",
     "about": "À propos"
   },
   "filter": {
@@ -38,11 +37,41 @@
     "previous": "Page précédente"
   },
   "about_page": {
-    "title": "À propos de cette application",
-    "description": "Explorez le monde fascinant des biais cognitifs avec ce répertoire interactif. Recherchez, filtrez et découvrez des dizaines de schémas de pensée qui influencent nos décisions. Que vous soyez simplement curieux ou que vous souhaitiez affûter votre esprit critique, cette application est un outil pour mieux comprendre le fonctionnement de votre cerveau."
+    "title": "À propos de ce projet",
+    "description": "Ce projet est né d'une curiosité personnelle pour le monde fascinant des biais cognitifs. Mon objectif était de créer un moyen simple et accessible pour permettre à chacun de découvrir et de comprendre ces raccourcis de la pensée. Le contenu se base en grande partie sur l'excellent travail du site cognition.vsxlabs.com ; les données ont été aspirées (scraping), transformées en API, puis traduites via une combinaison d'outils open-source et d'IA comme Gemini.\n\nIl est important de noter que la classification et la définition des biais peuvent varier d'une source à l'autre. Ce projet s'inspire de plusieurs références remarquables qui façonnent notre compréhension actuelle. Au fil du temps, les données de l'application seront mises à jour et enrichies en s'appuyant sur des travaux comme ceux de The Decision Lab, Catalog of Bias, cognition.vsxlabs.com, et le célèbre Codex des Biais Cognitifs. Ces sites ont été une source d'inspiration majeure pour la création de cet outil.",
+    "inspiration_sources": {
+      "title": "Sources et Inspiration",
+      "links": [
+        { "name": "Vsxlabs", "url": "https://cognition.vsxlabs.com/biases" },
+        { "name": "Biais Psychologiques", "url": "https://biais-psychologiques.com/biais/" },
+        { "name": "Catalogue des biais", "url": "https://catalogofbias.org/biases/" },
+        { "name": "KeepSimple", "url": "https://keepsimple.io/uxcore" },
+        {
+          "name": "Le Codex des Biais Cognitifs (Image)",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/The_Cognitive_Bias_Codex_(French)_-_John_Manoogian_III_(jm3).svg"
+        },
+        { "name": "Biais Cognitif", "url": "https://biais-cognitif.com/" },
+        { "name": "The Decision Lab", "url": "https://thedecisionlab.com/fr/biases-index" },
+        { "name": "ShortCogs", "url": "https://www.shortcogs.com/" }
+      ]
+    }
   },
   "footer": {
     "made": "Fait avec",
     "external_link": " {link} - Nouvelle fenêtre"
+  },
+  "seo": {
+    "home": {
+      "title": "Biais Cognitifs : L'Annuaire Complet pour Mieux Penser",
+      "description": "Découvrez une liste de biais cognitifs, comprenez comment ils façonnent vos décisions et apprenez à penser plus clairement. Commencez votre voyage dans la psychologie de l'esprit humain."
+    },
+    "bias_list": {
+      "title": "Liste Complète des Biais Cognitifs | Recherche et Filtres",
+      "description": "Parcourez, recherchez et filtrez un annuaire complet de biais cognitifs. Chaque biais est expliqué simplement pour vous aider à les identifier dans votre vie quotidienne."
+    },
+    "about": {
+      "title": "À Propos | L'Histoire de l'Annuaire des Biais Cognitifs",
+      "description": "Apprenez-en plus sur le projet Biais Cognitifs. Découvrez ses origines, les sources d'inspiration et l'objectif derrière cette initiative pour rendre la psychologie plus accessible."
+    }
   }
 }

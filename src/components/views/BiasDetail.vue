@@ -1,6 +1,8 @@
 <script lang="ts" setup>
 import { useI18n } from 'vue-i18n'
 const { t } = useI18n()
+import { useHead } from '@unhead/vue'
+
 import { onMounted, computed } from 'vue'
 import { useBiasStore } from '@/stores/bias'
 import BiaisLayout from '../Layout/BiaisLayout.vue'
@@ -13,6 +15,15 @@ const propos = defineProps<{
 }>()
 const selectedBias = computed(() => getBiasBySlug(propos.slug))
 
+useHead(() => ({
+  title: selectedBias.value?.name,
+  meta: [
+    {
+      name: 'description',
+      content: selectedBias.value?.description,
+    },
+  ],
+}))
 onMounted(async () => {
   await fetchBias()
 })

@@ -1,7 +1,19 @@
 <script lang="ts" setup>
 import { useI18n } from 'vue-i18n'
-const { t } = useI18n()
+const { t, tm } = useI18n()
+
+import { useHead } from '@unhead/vue'
+useHead({
+  title: t('seo.about.title'),
+  meta: [
+    {
+      name: 'description',
+      content: t('seo.about.description'),
+    },
+  ],
+})
 import BiaisLayout from '../Layout/BiaisLayout.vue'
+const links = tm('about_page.inspiration_sources.links')
 </script>
 
 <template>
@@ -11,6 +23,22 @@ import BiaisLayout from '../Layout/BiaisLayout.vue'
     </template>
     <template #description>
       <p>{{ t('about_page.description') }}</p>
+    </template>
+    <!-- Partie optionnelle -->
+    <template #optionalTitle>{{ t('about_page.inspiration_sources.title') }}</template>
+    <template #optionalText>
+      <ul class="list-disc">
+        <li v-for="link in links" :key="link">
+          {{ link.name }}:
+          <a
+            :href="link.url"
+            target="_blank"
+            class="underline text-heavy-metal-900"
+            :title="t('footer.external_link', { link: link.name })"
+            >{{ link.url }}</a
+          >
+        </li>
+      </ul>
     </template>
   </BiaisLayout>
 </template>
