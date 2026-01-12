@@ -1,7 +1,18 @@
 <script lang="ts" setup>
+import { useI18n } from 'vue-i18n'
+const { t } = useI18n()
+import { useHead } from '@unhead/vue'
+useHead({
+  title: t('seo.bias_list.title'),
+  meta: [
+    {
+      name: 'description',
+      content: t('seo.bias_list.description'),
+    },
+  ],
+})
 import { onMounted } from 'vue'
 import { storeToRefs } from 'pinia'
-
 import { useBiasStore } from '@/stores/bias'
 import BiasList from '@/components/UI/BiasList.vue'
 import MenuFilter from '../UI/MenuFilter.vue'

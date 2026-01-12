@@ -9,7 +9,6 @@
   "nav": {
     "home": "Home",
     "bias_list": "List of biases",
-    "proposals": "Proposals",
     "about": "About"
   },
   "filter": {
@@ -38,11 +37,41 @@
     "previous": "Previous page"
   },
   "about_page": {
-    "title": "About This Application",
-    "description": "Explore the fascinating world of cognitive biases with this interactive directory. Search, filter, and discover dozens of thought patterns that influence our decisions. Whether you're just curious or want to sharpen your critical thinking, this application is a tool to better understand how your brain works."
+    "title": "About This project",
+    "description": "This project stems from a personal curiosity about the fascinating world of cognitive biases. My goal was to create a simple and accessible way for people to discover and understand these mental shortcuts. The content is largely based on the excellent work found at cognition.vsxlabs.com, which was scraped, transformed into an API, and then translated using a combination of open-source tools and AI like Gemini.\n\nIt's important to note that the classification and definition of biases can vary from one source to another. This project is inspired by several remarkable references that shape our current understanding. Over time, the application's data will be updated and enriched, drawing from works like those from The Decision Lab, Catalog of Bias, cognition.vsxlabs.com, and the famous Cognitive Bias Codex. These sites have been a major source of inspiration for creating this tool.",
+    "inspiration_sources": {
+      "title": "Sources & Inspiration",
+      "links": [
+        { "name": "Vsxlabs", "url": "https://cognition.vsxlabs.com/biases" },
+        { "name": "Biais Psychologiques", "url": "https://biais-psychologiques.com/biais/" },
+        { "name": "Catalog of Bias", "url": "https://catalogofbias.org/biases/" },
+        { "name": "KeepSimple", "url": "https://keepsimple.io/uxcore" },
+        {
+          "name": "The Cognitive Bias Codex (Image)",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/The_Cognitive_Bias_Codex_(French)_-_John_Manoogian_III_(jm3).svg"
+        },
+        { "name": "Biais Cognitif", "url": "https://biais-cognitif.com/" },
+        { "name": "The Decision Lab", "url": "https://thedecisionlab.com/fr/biases-index" },
+        { "name": "ShortCogs", "url": "https://www.shortcogs.com/" }
+      ]
+    }
   },
   "footer": {
     "made": "Made with",
     "external_link": " {link} - New window"
+  },
+  "seo": {
+    "home": {
+      "title": "Cognitive Biases: The Complete Directory for Better Thinking",
+      "description": "Discover a comprehensive list of cognitive biases, understand how they shape your decisions, and learn to think more clearly. Start your journey into the psychology of the human mind."
+    },
+    "bias_list": {
+      "title": "Complete List of Cognitive Biases | Search and Filter",
+      "description": "Browse, search, and filter through a complete directory of cognitive biases. Each bias is explained simply to help you identify them in your daily life."
+    },
+    "about": {
+      "title": "About This Project | The Story of the Cognitive Biases Directory",
+      "description": "Learn more about the Cognitive Biases project. Discover its origins, the sources of inspiration, and the goal behind this initiative to make psychology more accessible."
+    }
   }
 }
