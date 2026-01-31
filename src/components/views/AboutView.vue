@@ -33,7 +33,7 @@ const links = tm('about_page.inspiration_sources.links')
           <a
             :href="link.url"
             target="_blank"
-            class="underline text-heavy-metal-900"
+            class="underline text-heavy-metal-900 max-md:wrap-break-word"
             :title="t('footer.external_link', { link: link.name })"
             >{{ link.url }}</a
           >
