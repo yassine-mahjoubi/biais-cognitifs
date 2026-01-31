@@ -1,28 +1,29 @@
 # Biais Cognitifs - L'Explorateur
 
-Une application web simple et élégante pour découvrir et comprendre les biais cognitifs qui influencent notre pensée au quotidien.
+Une PWA installable et fonctionnelle hors ligne pour découvrir et comprendre les biais cognitifs qui influencent notre pensée au quotidien. (Français et Anglais)
 
 ## 🎯 Le Concept
 
-Le but de ce projet est de vulgariser la notion de biais cognitif. Chaque jour, nous sommes sujets à des dizaines de biais sans même nous en rendre compte. Cette application permet d'en explorer un au hasard, de lire une description claire et concise, et d'approfondir le sujet grâce à un lien direct vers la source (Wikipedia).
+Le but de ce projet est de vulgariser la notion de biais cognitif. Chaque jour, nous sommes sujets à des dizaines de biais sans même nous en rendre compte. Cette application permet d'en explorer un au hasard, de lire une description claire et concise, et d'approfondir le sujet grâce à un lien direct vers la source (cognition.vsxlabs.com).
 
 ## ✨ Fonctionnalités
 
+- **Installable** sur votre appareil (mobile/desktop)
+- **Fonctionne hors ligne** après la première visite
 - **Génération Aléatoire** : Découvrez un nouveau biais cognitif à chaque visite.
 - **Description Simple** : Comprenez l'essentiel du biais en quelques phrases.
-- **Lien d'Approfondissement** : Un lien direct vers la page Wikipedia pour ceux qui veulent en savoir plus.
+- **Lien d'Approfondissement** : Un lien direct vers la page source en anglais pour ceux qui veulent en savoir plus.
 - **Interface Épurée** : Une expérience utilisateur sans distraction, conçue avec Tailwind CSS.
 - **Responsive** : Parfaitement consultable sur mobile, tablette et ordinateur.
 
 ## 🛠️ Technologies Utilisées
 
-Ce projet est construit avec un stack moderne et performant :
+Ce projet est construit avec un stack moderne:
 
 - **Frontend** : [Vue 3](https://vuejs.org/) (utilisant la Composition API)
 - **Langage** : [TypeScript](https://www.typescriptlang.org/)
 - **Styling** : [Tailwind CSS](https://tailwindcss.com/)
 - **Backend & Données** : [Supabase](https://supabase.io/) (pour l'API et la base de données des biais)
-- **Assistance au Développement** : [Gemini AI](https://gemini.google.com/)
 
 ## 🚀 Démarrage Rapide
 
