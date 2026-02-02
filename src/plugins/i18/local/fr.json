@@ -3,7 +3,11 @@
     "loading": "Chargement...",
     "app_title": "Biais Cognitifs",
     "interface": {
-      "label": "choisir une langue"
+      "label": "choisir une langue",
+      "mobile_menu": {
+        "open": "ouvrir le menu",
+        "close": "fermer le menu"
+      }
     }
   },
   "nav": {

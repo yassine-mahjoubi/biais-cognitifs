@@ -3,7 +3,11 @@
     "loading": "Loading...",
     "app_title": "Cognitive Biases",
     "interface": {
-      "label": "choose language"
+      "label": "choose language",
+      "mobile_menu": {
+        "open": "open menu",
+        "close": "close menu"
+      }
     }
   },
   "nav": {
