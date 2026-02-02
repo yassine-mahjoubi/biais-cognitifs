@@ -28,9 +28,9 @@ const titleFilterCTA = (filter: Filter) => {
 
 <template>
   <div class="bg-linear-to-r from-heavy-metal-800 to-heavy-metal-900 rounded-lg shadow-lg p-3 mb-4">
-    <div class="flex flex-wrap gap-3 items-center">
+    <div class="flex flex-col md:flex-row gap-3 items-center">
       <!-- Section Filtres -->
-      <div class="flex gap-2 items-center">
+      <div class="flex flex-col md:flex-row gap-2 w-full md:w-auto">
         <span class="text-heavy-metal-400 text-sm font-medium mr-1">{{ t('filter.sort_by') }}</span>
 
         <button
@@ -53,11 +53,9 @@ const titleFilterCTA = (filter: Filter) => {
         </button>
       </div>
       <!-- Séparateur visuel -->
-      <div aria-hidden="true" class="hidden sm:block h-8 w-px bg-heavy-metal-600"></div>
+      <div aria-hidden="true" class="hidden md:block h-8 w-px bg-heavy-metal-600"></div>
       <!-- Section Recherche -->
-      <div class="flex-1 min-w-[200px]">
-        <SearchBias />
-      </div>
+      <SearchBias />
       <div>
         <button
           v-if="showReset"

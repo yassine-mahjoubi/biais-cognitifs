@@ -1,6 +1,6 @@
 <script lang="ts"></script>
 <template>
-  <div class="flex flex-col items-center justify-center p-8">
+  <div class="flex flex-col items-center p-8">
     <div class="max-w-4xl w-full space-y-8">
       <h1
         class="text-3xl md:text-4xl font-bold text-heavy-metal-900 mb-2 animate-fade-in tracking-tight"

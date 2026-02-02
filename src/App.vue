@@ -14,7 +14,7 @@ useHead({
 <template>
   <div class="min-h-screen bg-heavy-metal-50 flex flex-col">
     <menu-navigation />
-    <main class="flex-1">
+    <main class="flex-1 justify-center items-center">
       <RouterView />
     </main>
     <FooterInfos />

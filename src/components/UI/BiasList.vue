@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { ref, computed } from 'vue'
+import { ref, computed, watch } from 'vue'
 
 import type { Bias } from '../../type/Bias'
 import BiasItem from './BiasItem.vue'
@@ -18,15 +18,22 @@ const displayedPages = computed(() => {
   return props.biases.slice(start, end)
 })
 
-const handleCurrentPage = (page: number) => (currentPage.value = page)
+const handleCurrentPage = (page: number) => {
+  currentPage.value = page
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth',
+  })
+}
+//force pour la recherche
+watch(
+  () => props.biases.length,
+  () => {
+    currentPage.value = 1
+  },
+)
 </script>
 <template>
-  <NavPagination
-    :biases="biases"
-    :paginate-by="paginateBy"
-    :current-page="currentPage"
-    @current-page="handleCurrentPage"
-  />
   <ul class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
     <template v-if="loading">
       <div v-for="n in paginateBy" :key="`skeleton-${n}`">
@@ -39,4 +46,10 @@ const handleCurrentPage = (page: number) => (currentPage.value = page)
       </li>
     </template>
   </ul>
+  <NavPagination
+    :biases="biases"
+    :paginate-by="paginateBy"
+    :current-page="currentPage"
+    @current-page="handleCurrentPage"
+  />
 </template>
