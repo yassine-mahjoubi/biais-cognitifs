@@ -25,7 +25,11 @@ export default defineConfig({
       manifest: {
         name: 'Biais Cognitifs | My Biais',
         short_name: 'My Biais',
-        theme_color: '#ffffff',
+        theme_color: '#2e372a',
+        background_color: '#fff',
+        start_url: '/',
+        display_override: ['window-controls-overlay', 'minimal-ui'],
+        display: 'standalone',
         icons: [
           {
             src: 'icons/android-launchericon-48-48.png',
