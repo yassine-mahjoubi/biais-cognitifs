@@ -155,11 +155,17 @@ export const useBiasStore = defineStore('bias', () => {
       return biasesToDisplay.sort((a, b) => a.category_name.localeCompare(b.category_name))
     }
 
-    if (typesSort.value === 'effect') {
-      biasesToDisplay = biasesToDisplay.filter((bias) => {
-        //return bias.name.toLocaleLowerCase().includes(newLocale.value === 'en' ? 'effect' : 'effet')
-        return bias.name.toLocaleLowerCase().includes(EFFECT_KEYWORDS[newLocale.value])
-      })
+    // if (typesSort.value === 'effect') {
+    //   biasesToDisplay = biasesToDisplay.filter((bias) => {
+    //     //return bias.name.toLocaleLowerCase().includes(newLocale.value === 'en' ? 'effect' : 'effet')
+    //     return bias.name.toLocaleLowerCase().includes(EFFECT_KEYWORDS[newLocale.value])
+    //   })
+    // }
+
+    const category = categories.value.map((cat) => cat.id)
+
+    if (category.includes(typesSort.value)) {
+      return biasesToDisplay.filter((categ) => categ.category_id === typesSort.value)
     }
 
     return biasesToDisplay.sort((a, b) => a.name.localeCompare(b.name))
