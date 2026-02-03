@@ -21,9 +21,13 @@
     "reset_button": "Réinitialiser",
     "aria_reset_list": "Réinitialiser la recherche et afficher la liste complète",
     "type": {
-      "order": "ordre",
+      "order": "Az",
       "category": "catégorie",
-      "effect": "effet"
+      "effect": "effet",
+      "need_for_speed": "Besoin de rapidité",
+      "what_to_remember": "Ce qu'il faut retenir",
+      "information_overload": "Surcharge d'informations",
+      "lack_of_meaning": "Manque de sens"
     }
   },
   "search": {

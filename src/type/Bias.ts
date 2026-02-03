@@ -8,7 +8,7 @@ interface Bias {
   url: string
 }
 interface Category {
-  id: string
+  id: Filter
   name: string
   description: string
   count: number
@@ -32,7 +32,14 @@ interface BiasListAndCategories {
   categories_biases: Category[]
 }
 type StyleView = 'Random' | 'Detail'
-type Filter = 'order' | 'category' | 'date' | 'effect'
+type Filter =
+  | 'order'
+  | 'category'
+  | 'date'
+  | 'need_for_speed'
+  | 'what_to_remember'
+  | 'information_overload'
+  | 'lack_of_meaning'
 type Language = 'fr' | 'en'
 
 export type { BiasListAndCategories, Bias, Category, StyleView, Filter, Language }
