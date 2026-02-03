@@ -1,8 +1,8 @@
 <script lang="ts" setup>
 import { useI18n } from 'vue-i18n'
 const { t, tm } = useI18n()
-
 import { useHead } from '@unhead/vue'
+import BiaisLayout from '../Layout/BiaisLayout.vue'
 useHead({
   title: t('seo.about.title'),
   meta: [
@@ -12,11 +12,11 @@ useHead({
     },
   ],
 })
-import BiaisLayout from '../Layout/BiaisLayout.vue'
 const links = tm('about_page.inspiration_sources.links')
 </script>
 
 <template>
+  <Meu2 />
   <BiaisLayout>
     <template #name>
       <h1>{{ t('about_page.title') }}</h1>

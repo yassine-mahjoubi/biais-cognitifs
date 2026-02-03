@@ -21,9 +21,13 @@
     "reset_button": "Reset",
     "aria_reset_list": "Reset search and show the full list",
     "type": {
-      "order": "order",
+      "order": "Az",
       "category": "category",
-      "effect": "effect"
+      "effect": "effect",
+      "need_for_speed": "Need for speed",
+      "what_to_remember": "What to remember",
+      "information_overload": "Information overload",
+      "lack_of_meaning": "lack of meaning"
     }
   },
   "search": {
