@@ -1,11 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import ListeView from '@/components/views/ListeView.vue'
-import RandomView from '@/components/views/RandomView.vue'
-import BiasDetail from '@/components/views/BiasDetail.vue'
-import AboutView from '@/components/views/AboutView.vue'
+import ListeView from '../components/views/ListeView.vue'
+import RandomView from '../components/views/RandomView.vue'
+import BiasDetail from '../components/views/BiasDetail.vue'
+import AboutView from '../components/views/AboutView.vue'
 
-const routes = [
+export const routes = [
   { path: '/', component: RandomView },
   { path: '/liste', component: ListeView },
   { path: '/about', component: AboutView },

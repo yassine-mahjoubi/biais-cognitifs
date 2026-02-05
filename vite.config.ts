@@ -6,19 +6,38 @@ import tailwindcss from '@tailwindcss/vite'
 import vue from '@vitejs/plugin-vue'
 import { VitePWA } from 'vite-plugin-pwa'
 import vueDevTools from 'vite-plugin-vue-devtools'
+import Sitemap from 'vite-plugin-sitemap'
 
+import biases from './public/json/biases_cognitif_v3_fr.json'
 const defineBasePath = () => {
   // Netlify définit cette variable lors du build, le chemin need to starts '/'
   if (process.env.NETLIFY) return '/'
   // sinon '/biais-cognitifs/ pour heberger sur githubPages
-  return 'biais-cognitifs'
+  return 'biais-cognitifs/'
 }
+const slugs = biases.biases.map((bias) => defineBasePath() + bias.slug)
+
+const defineHostUrl = () => {
+  if (process.env.NETLIFY) return 'https://yassine-mahjoubi-biais-cognitifs.netlify.app/'
+  return 'https://yassine-mahjoubi.github.io/biais-cognitifs/'
+}
+
+const allRoutes = [
+  defineBasePath(),
+  defineBasePath() + 'liste',
+  defineBasePath() + 'about',
+  ...slugs,
+]
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: defineBasePath(),
+  base: defineBasePath() || '/',
   plugins: [
     vue(),
+    Sitemap({
+      hostname: defineHostUrl() || 'http://localhost',
+      dynamicRoutes: allRoutes,
+    }),
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', '**/*.json'],
