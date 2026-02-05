@@ -9,7 +9,7 @@ const URL_API_FR = import.meta.env.VITE_API_URL_FR
 const URL_API_EN = import.meta.env.VITE_API_URL_EN
 const URL_API = ref<string>(URL_API_FR)
 const randomBiasId = ref<string | undefined>(undefined)
-const EFFECT_KEYWORDS = { en: 'effect', fr: 'effet' }
+//const EFFECT_KEYWORDS = { en: 'effect', fr: 'effet' }
 
 /**
  * Génère un index aléatoire pour accéder au tableau de biais
@@ -28,7 +28,6 @@ export const useBiasStore = defineStore('bias', () => {
 
   const typesSort = ref<Filter>('order')
   const biasToFind = ref<string>('')
-  const resetSearchInput = ref<boolean>(false)
 
   /**
    * Cache des biais par langue pour éviter de refaire des appels API
@@ -151,9 +150,9 @@ export const useBiasStore = defineStore('bias', () => {
       })
     }
 
-    if (typesSort.value === 'category') {
-      return biasesToDisplay.sort((a, b) => a.category_name.localeCompare(b.category_name))
-    }
+    // if (typesSort.value === 'category') {
+    //   return biasesToDisplay.sort((a, b) => a.category_name.localeCompare(b.category_name))
+    // }
 
     // if (typesSort.value === 'effect') {
     //   biasesToDisplay = biasesToDisplay.filter((bias) => {
@@ -198,7 +197,6 @@ export const useBiasStore = defineStore('bias', () => {
     updateSearchBias,
     filteredAndSortedBiases,
     resetSearch,
-    resetSearchInput,
     newLocale,
     currentSelectedBias,
   }

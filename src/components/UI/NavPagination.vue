@@ -26,7 +26,12 @@ const goToPage = (page: number) => {
 </script>
 
 <template>
-  <nav aria-label="pagianation" role="navigation" class="mb-5 flex justify-between mt-5">
+  <nav
+    aria-label="pagianation"
+    role="navigation"
+    class="mb-5 flex justify-between mt-5"
+    v-if="totalPages > 1"
+  >
     <button
       @click="previousPage()"
       :aria-disabled="props.currentPage <= 1"

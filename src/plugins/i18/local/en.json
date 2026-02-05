@@ -33,7 +33,8 @@
   "search": {
     "placeholder": "Search for a bias...",
     "aria_label": "Search for a bias",
-    "aria_clear": "Clear search"
+    "aria_clear": "Clear search",
+    "message": "No bias found.. "
   },
   "buttons": {
     "random_bias": "Display a random bias",

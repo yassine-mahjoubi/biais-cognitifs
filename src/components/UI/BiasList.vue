@@ -1,10 +1,11 @@
 <script lang="ts" setup>
+import { useI18n } from 'vue-i18n'
 import { ref, computed, watch } from 'vue'
-
 import type { Bias } from '../../type/Bias'
 import BiasItem from './BiasItem.vue'
 import SkeletonCard from './SkeletonCard.vue'
 import NavPagination from './NavPagination.vue'
+const { t } = useI18n()
 
 const props = defineProps<{
   biases: Bias[]
@@ -34,6 +35,9 @@ watch(
 )
 </script>
 <template>
+  <p v-if="biases.length === 0" role="status" class="text-2xl text-amber-950 text-center">
+    {{ t('search.message') }}
+  </p>
   <ul class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
     <template v-if="loading">
       <div v-for="n in paginateBy" :key="`skeleton-${n}`">
@@ -47,6 +51,7 @@ watch(
     </template>
   </ul>
   <NavPagination
+    v-if="biases.length > 0"
     :biases="biases"
     :paginate-by="paginateBy"
     :current-page="currentPage"
