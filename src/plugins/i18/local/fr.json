@@ -33,7 +33,8 @@
   "search": {
     "placeholder": "Chercher un biais...",
     "aria_label": "Chercher un biais",
-    "aria_clear": "Effacer la recherche"
+    "aria_clear": "Effacer la recherche",
+    "message": "Aucun biais trouvé.. "
   },
   "buttons": {
     "random_bias": "Afficher un biais aléatoire",
