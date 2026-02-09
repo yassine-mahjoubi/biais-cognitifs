@@ -13,7 +13,8 @@
   "nav": {
     "home": "Accueil",
     "bias_list": "Liste de biais",
-    "about": "À propos"
+    "about": "À propos",
+    "history": "Retour à la liste de biais"
   },
   "filter": {
     "sort_by": "Trier par :",
@@ -37,7 +38,7 @@
     "message": "Aucun biais trouvé.. "
   },
   "buttons": {
-    "random_bias": "Afficher un biais aléatoire",
+    "random_bias": "Découvrir un autre biais",
     "read_more": "En savoir plus",
     "read_more_accessible": "En savoir plus sur {biasName}",
     "see_more": "Voir plus ",
@@ -64,6 +65,10 @@
         { "name": "ShortCogs", "url": "https://www.shortcogs.com/" }
       ]
     }
+  },
+  "home_page": {
+    "title": "Biais cognitifs",
+    "description": "Les biais cognitifs font référence aux erreurs identifiables et répertoriables qui se retrouvent dans notre jugement, et ce de façon prévisible et systématique. Ces erreurs se produisent lorsque les gens doivent interpréter et gérer l’information provenant du monde qui les entoure. Personne n’y est complètement à l'abri et certains contextes et facteurs y sont particulièrement propices."
   },
   "footer": {
     "made": "Fait avec",

@@ -29,7 +29,7 @@ const goToPage = (page: number) => {
   <nav
     aria-label="pagianation"
     role="navigation"
-    class="mb-5 flex justify-between mt-5"
+    class="mb-5 flex justify-between mt-5 flex-wrap items-center"
     v-if="totalPages > 1"
   >
     <button

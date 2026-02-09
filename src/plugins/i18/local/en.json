@@ -13,7 +13,8 @@
   "nav": {
     "home": "Home",
     "bias_list": "List of biases",
-    "about": "About"
+    "about": "About",
+    "history": "Back to biases list"
   },
   "filter": {
     "sort_by": "Sort by:",
@@ -37,7 +38,7 @@
     "message": "No bias found.. "
   },
   "buttons": {
-    "random_bias": "Display a random bias",
+    "random_bias": "Discover another bias",
     "read_more": "Read more about",
     "read_more_accessible": "Read more about the {biasName}",
     "see_more": "See more ",
@@ -65,6 +66,11 @@
       ]
     }
   },
+  "home_page": {
+    "title": "Cognitive Biases",
+    "description": "Cognitive biases refer to the identifiable and catalogable errors that are found in our judgment, in a predictable and systematic way. These errors occur when people have to interpret and manage information from the world around them. No one is completely immune to them, and certain contexts and factors are particularly conducive to them."
+  },
+
   "footer": {
     "made": "Made with",
     "external_link": " {link} - New window"
