@@ -29,19 +29,23 @@ const goToPage = (page: number) => {
   <nav
     aria-label="pagianation"
     role="navigation"
-    class="mb-5 flex justify-between mt-5"
+    class="mb-5 flex justify-between mt-5 flex-wrap items-center"
     v-if="totalPages > 1"
   >
     <button
       @click="previousPage()"
       :aria-disabled="props.currentPage <= 1"
       :disabled="props.currentPage <= 1"
-      class="aria-disabled:cursor-not-allowed aria-disabled:bg-transparent aria-disabled:text-heavy-metal-800 aria-disabled:shadow-none px-3 py-2 bg-heavy-metal-700 cursor-pointer hover:bg-heavy-metal-800 text-white font-medium rounded-2xl shadow-md hover:shadow-lg"
+      class="inline-flex items-center aria-disabled:cursor-not-allowed aria-disabled:bg-transparent aria-disabled:text-heavy-metal-800 aria-disabled:shadow-none px-2 py-1 bg-heavy-metal-700 cursor-pointer hover:bg-heavy-metal-800 text-white font-medium rounded-2xl shadow-md hover:shadow-lg"
     >
-      <i aria-hidden="true" class="group-hover:-translate-x-1 transition-transform">←</i>
-      {{ t('buttons.previous') }}
+      <i
+        aria-hidden="true"
+        class="group-hover:-translate-x-1 transition-transform hidden md:inline-block"
+        >←</i
+      >
+      <span>{{ t('buttons.previous') }}</span>
     </button>
-    <ul class="flex gap-2">
+    <ul class="gap-2 hidden md:flex">
       <li v-for="page in totalPages" :key="`id-${page}`">
         <a
           :href="`?page=${page}`"
@@ -54,6 +58,7 @@ const goToPage = (page: number) => {
         </a>
       </li>
     </ul>
+    <p class="sr-only md:hidden" aria-live="polite">page : {{ currentPage + '/' + totalPages }}</p>
 
     <button
       @click="nextPage()"
@@ -61,8 +66,12 @@ const goToPage = (page: number) => {
       :aria-disabled="props.currentPage >= totalPages"
       :disabled="props.currentPage >= totalPages"
     >
-      {{ t('buttons.next') }}
-      <i aria-hidden="true" class="group-hover:translate-x-1 transition-transform">→</i>
+      <span>{{ t('buttons.next') }}</span>
+      <i
+        aria-hidden="true"
+        class="group-hover:translate-x-1 transition-transform hidden md:inline-block"
+        >→</i
+      >
     </button>
   </nav>
 </template>

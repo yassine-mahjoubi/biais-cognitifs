@@ -23,6 +23,7 @@ const { t } = useI18n()
       <ul class="flex justify-center gap-3 items-center">
         <li>
           <a
+            class="no-icon"
             href="https://github.com/yassine-mahjoubi/biais-cognitifs"
             target="_blank"
             :title="'GIthub ' + t('footer.external_link')"
@@ -38,6 +39,7 @@ const { t } = useI18n()
         </li>
         <li>
           <a
+            class="no-icon"
             href="https://www.linkedin.com/in/yassine-mahjoubi/"
             target="_blank"
             :title="'Linkedin ' + t('footer.external_link')"

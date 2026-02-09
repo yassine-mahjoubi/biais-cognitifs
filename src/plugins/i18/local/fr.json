@@ -13,7 +13,8 @@
   "nav": {
     "home": "Accueil",
     "bias_list": "Liste de biais",
-    "about": "À propos"
+    "about": "À propos",
+    "history": "Retour à la liste de biais"
   },
   "filter": {
     "sort_by": "Trier par :",
@@ -22,8 +23,8 @@
     "aria_reset_list": "Réinitialiser la recherche et afficher la liste complète",
     "type": {
       "order": "Az",
-      "category": "catégorie",
-      "effect": "effet",
+      "category": "Catégorie",
+      "effect": "Effet",
       "need_for_speed": "Besoin de rapidité",
       "what_to_remember": "Ce qu'il faut retenir",
       "information_overload": "Surcharge d'informations",
@@ -37,17 +38,18 @@
     "message": "Aucun biais trouvé.. "
   },
   "buttons": {
-    "random_bias": "Afficher un biais aléatoire",
+    "random_bias": "Découvrir un autre biais",
     "read_more": "En savoir plus",
     "read_more_accessible": "En savoir plus sur {biasName}",
     "see_more": "Voir plus ",
     "external_link": "Voir plus d'infos sur {biasName} - Nouvelle fenêtre",
     "next": "Page suivante",
-    "previous": "Page précédente"
+    "previous": "Page précédente",
+    "back": "Retour"
   },
   "about_page": {
     "title": "À propos de ce projet",
-    "description": "Ce projet est né d'une curiosité personnelle pour le monde fascinant des biais cognitifs. Mon objectif était de créer un moyen simple et accessible pour permettre à chacun de découvrir et de comprendre ces raccourcis de la pensée. Le contenu se base en grande partie sur l'excellent travail du site cognition.vsxlabs.com ; les données ont été aspirées (scraping), transformées en API, puis traduites via une combinaison d'outils open-source et d'IA comme Gemini.\n\nIl est important de noter que la classification et la définition des biais peuvent varier d'une source à l'autre. Ce projet s'inspire de plusieurs références remarquables qui façonnent notre compréhension actuelle. Au fil du temps, les données de l'application seront mises à jour et enrichies en s'appuyant sur des travaux comme ceux de The Decision Lab, Catalog of Bias, cognition.vsxlabs.com, et le célèbre Codex des Biais Cognitifs. Ces sites ont été une source d'inspiration majeure pour la création de cet outil.",
+    "description": "Ce projet est né d'une curiosité personnelle pour le monde fascinant des biais cognitifs. Mon objectif était de créer un moyen simple et accessible pour permettre à chacun de découvrir et de comprendre ces raccourcis de la pensée. Le contenu se base en grande partie sur l'excellent travail du site cognition.vsxlabs.com ; les données ont été aspirées (scraping), transformées en API, puis traduites via une combinaison d'outils open-source et d'IA comme Gemini.\n\nIl est important de noter que la classification et la définition des biais peuvent varier d'une source à l'autre. Ce projet s'inspire de plusieurs références. Au fil du temps, les données de l'application seront mises à jour et enrichies au fur et à mesure.",
     "inspiration_sources": {
       "title": "Sources et Inspiration",
       "links": [
@@ -64,6 +66,10 @@
         { "name": "ShortCogs", "url": "https://www.shortcogs.com/" }
       ]
     }
+  },
+  "home_page": {
+    "title": "Biais cognitifs",
+    "description": "Les biais cognitifs font référence aux erreurs identifiables et répertoriables qui se retrouvent dans notre jugement, et ce de façon prévisible et systématique. Ces erreurs se produisent lorsque les gens doivent interpréter et gérer l’information provenant du monde qui les entoure. Personne n’y est complètement à l'abri et certains contextes et facteurs y sont particulièrement propices."
   },
   "footer": {
     "made": "Fait avec",
