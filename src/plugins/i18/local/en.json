@@ -23,7 +23,7 @@
     "aria_reset_list": "Reset search and show the full list",
     "type": {
       "order": "Az",
-      "category": "category",
+      "category": "Category",
       "effect": "effect",
       "need_for_speed": "Need for speed",
       "what_to_remember": "What to remember",
@@ -44,7 +44,8 @@
     "see_more": "See more ",
     "external_link": "See more info about {biasName} - New window",
     "next": "Next page",
-    "previous": "Previous page"
+    "previous": "Previous page",
+    "back": "Back"
   },
   "about_page": {
     "title": "About This project",

@@ -42,7 +42,6 @@ onMounted(async () => {
         class="text-heavy-metal-900 hover:text-heavy-metal-800 font-medium inline-flex items-center gap-1 self-end group relative z-10"
       >
         <span class="underline">{{ t('buttons.see_more') }}</span>
-        <i aria-hidden="true" class="group-hover:translate-x-1 transition-transform">→</i>
       </a>
     </template>
   </BiaisLayout>

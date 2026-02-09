@@ -3,8 +3,12 @@
     "total_biases": 168,
     "categories_count": 4,
     "source": "Cognitive Bias Codex",
-    "last_updated": "09-01-2026",
-    "url_base": "https://cognition.vsxlabs.com"
+    "last_updated": "09-02-2026",
+    "url_base": "https://cognition.vsxlabs.com",
+    "author": {
+      "name": "Yassine M",
+      "git": "https://github.com/yassine-mahjoubi/"
+    }
   },
   "categories": [
     {

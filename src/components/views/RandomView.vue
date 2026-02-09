@@ -30,7 +30,7 @@ onMounted(async () => {
 <template>
   <bias-intro />
   <section aria-live="polite">
-    <BiaisLayout>
+    <BiaisLayout class="rounded-xl p-6 ring-1 ring-gray-950/10 dark:ring-white/10">
       <template #name>{{ currentSelectedBias?.name }}</template>
       <template #description>{{ currentSelectedBias?.description }}</template>
       <template #action>
@@ -40,6 +40,7 @@ onMounted(async () => {
         >
           <span class="flex items-center justify-center gap-3">
             <svg
+              aria-hidden="true"
               class="w-5 h-5 group-hover:rotate-180 transition-transform duration-500"
               fill="none"
               stroke="currentColor"
