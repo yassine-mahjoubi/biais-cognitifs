@@ -12,7 +12,7 @@ import { storeToRefs } from 'pinia'
 const store = useBiasStore()
 
 const { typesSort, biasToFind, categories } = storeToRefs(store)
-const filters = <Filter[]>['order']
+//const filters = <Filter[]>['order']
 const filterCategory = computed(() => categories.value.map((cat) => cat.id))
 const updateFilter = (filter: Filter) => {
   typesSort.value = filter
@@ -57,53 +57,9 @@ const titleFilterCTA = (filter: Filter) => {
     </div>
 
     <!-- Contenu principal responsive -->
+
     <div class="p-4 lg:p-5">
       <div class="flex flex-col lg:flex-row lg:items-center gap-3 lg:gap-4">
-        <!-- Section Tri (un seul bloc, styles adaptatifs) -->
-        <div
-          class="bg-heavy-metal-900 lg:bg-transparent rounded-lg lg:rounded-none p-4 lg:p-0 lg:flex lg:items-center lg:gap-2 lg:shrink-0"
-        >
-          <!-- Label adaptatif (h3 mobile, span desktop) -->
-          <div
-            class="text-heavy-metal-300 lg:text-heavy-metal-400 text-sm lg:text-xs font-semibold lg:font-semibold mb-3 lg:mb-0 flex items-center gap-2 lg:uppercase lg:tracking-wide"
-          >
-            <svg class="w-4 h-4 lg:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M3 4h13M3 8h9m-9 4h6m4 0l4-4m0 0l4 4m-4-4v12"
-              />
-            </svg>
-            {{ t('filter.sort_by') }}<span class="hidden lg:inline">:</span>
-          </div>
-
-          <!-- Boutons de tri -->
-          <div
-            class="flex flex-wrap lg:inline-flex lg:rounded-lg lg:bg-heavy-metal-950 lg:p-1 gap-2 lg:gap-0"
-          >
-            <button
-              v-for="filter in filters"
-              :key="filter"
-              @click="updateFilter(filter)"
-              :class="[
-                'px-4 py-2 lg:px-3 lg:py-1.5 rounded-lg lg:rounded-md text-sm lg:text-xs font-medium transition-all',
-                typesSort === filter
-                  ? 'bg-heavy-metal-600 text-white shadow-md lg:shadow-sm cursor-not-allowed'
-                  : 'bg-heavy-metal-700 lg:bg-transparent text-heavy-metal-300 lg:text-heavy-metal-400 hover:bg-heavy-metal-600 lg:hover:bg-heavy-metal-700 hover:text-white border border-heavy-metal-600 lg:border-0',
-              ]"
-              :disabled="typesSort === filter"
-              :aria-pressed="typesSort === filter"
-              :title="titleFilterCTA(filter)"
-            >
-              {{ t(`filter.type.${filter}`) }}
-            </button>
-          </div>
-        </div>
-
-        <!-- Divider -->
-        <div class="hidden lg:block w-px h-8 bg-heavy-metal-700"></div>
-
         <!-- Section Catégories (un seul bloc, styles adaptatifs) -->
         <div
           class="bg-heavy-metal-900 lg:bg-transparent rounded-lg lg:rounded-none p-4 lg:p-0 lg:flex lg:items-center lg:gap-2 lg:shrink-0"
@@ -133,7 +89,7 @@ const titleFilterCTA = (filter: Filter) => {
                 'px-3 py-1.5 rounded-full text-xs font-medium transition-all whitespace-nowrap',
                 typesSort === filter
                   ? 'bg-heavy-metal-600 text-white shadow-sm cursor-not-allowed ring-2 ring-heavy-metal-500 ring-offset-2 ring-offset-heavy-metal-900 lg:ring-0 lg:ring-offset-0 lg:border-2 lg:border-heavy-metal-500'
-                  : 'bg-heavy-metal-700 text-heavy-metal-300 hover:bg-heavy-metal-600 hover:text-white',
+                  : 'bg-heavy-metal-700 text-heavy-metal-300 hover:bg-heavy-metal-600 hover:text-white cursor-pointer',
               ]"
               :disabled="typesSort === filter"
               :aria-pressed="typesSort === filter"
@@ -145,7 +101,7 @@ const titleFilterCTA = (filter: Filter) => {
         </div>
 
         <!-- Divider -->
-        <br class="hidden lg:block w-px h-8 bg-heavy-metal-700" />
+        <div class="hidden lg:block w-px h-8 bg-heavy-metal-700"></div>
 
         <!-- Search desktop -->
         <div class="hidden lg:flex gap-2 flex-1">

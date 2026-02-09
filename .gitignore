@@ -35,3 +35,6 @@ dev-dist
 
 # Vitest
 __screenshots__/
+
+# Local Netlify folder
+.netlify

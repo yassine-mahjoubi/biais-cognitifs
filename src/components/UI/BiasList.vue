@@ -35,7 +35,11 @@ watch(
 )
 </script>
 <template>
-  <p v-if="biases.length === 0" role="status" class="text-2xl text-amber-950 text-center">
+  <p
+    v-if="biases.length === 0 && !loading"
+    role="status"
+    class="text-2xl text-amber-700 text-center animate-fade-in"
+  >
     {{ t('search.message') }}
   </p>
   <ul class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
